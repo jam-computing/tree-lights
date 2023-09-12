@@ -22,7 +22,6 @@ A container for code and ideas for tree lightshow
 # Python libraries
 
 + Opencv
-+ Pillow
 + Neopixel
 
 # Algorithm
