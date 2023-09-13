@@ -26,7 +26,7 @@ A container for code and ideas for tree lightshow
 
 # Algorithm
 
-+ Use image manipulation to pinpoint each light - max of a moving weighted average - look at convolutions ( somone translate pls )
++ Use image manipulation to pinpoint each light - max of a moving weighted average
 + Rotate tree 90 degrees then repeat
 + Tree should have central axis in centre of image
 
@@ -37,10 +37,11 @@ A container for code and ideas for tree lightshow
 + Optimal light density - A lighting calc can be found [here](https://www.countryliving.com/uk/homes-interiors/interiors/a38498712/christmas-tree-lights-baubles-calculator/), but most websites recommend **100 lights per 2ft of tree**
 + A couple minutes of preset animations - show stopper - maybe use external non-tree lights?? -> people talk about tree -> more people see tree -> ooga booga
 + Obnoxious Carol Of the Bells
-+ Get someone from maths to come up with coool mathematical function to use on tree?
++ Get someone from maths to come up with cool mathematical function to use on tree?
 + Use precomputed animations?
 
 # Extras
 
 + **_API!!!!_**
 + GUI client where you can create animations or switch on off invididual lights
++ Scratch
