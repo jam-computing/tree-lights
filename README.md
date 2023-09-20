@@ -36,9 +36,10 @@ A container for code and ideas for tree lightshow
 + Probably need a high light density - Matt Parker had a 6-7 ft tree with **500** LEDs
 + Curved surface area of a cone = **πr²l**
 + Optimal light density - A lighting calc can be found [here](https://www.countryliving.com/uk/homes-interiors/interiors/a38498712/christmas-tree-lights-baubles-calculator/), but most websites recommend **100 lights per 2ft of tree**
-+ A couple minutes of preset animations - show stopper - maybe use external non-tree lights?? - people talk about tree - more people see tree - ooga booga
++ A couple minutes of preset animations - show stopper - maybe use external non-tree lights?? - people talk about tree - more people see tree - ooga booga 0 bish bash bosh
 + Obnoxious Carol Of the Bells
 + Get someone from maths to come up with cool mathematical function to use on tree?
++   Matthew/Josh could maybe?
 + Use precomputed animations?
 
 # Extras
