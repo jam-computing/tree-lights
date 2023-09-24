@@ -13,9 +13,11 @@ def main():
     cv2.imshow('Greyed', greyscale_image)
     cv2.waitKey(1000)
 
-    blurs = 20
+    blurs = 1
+    kernel_size = (20, 20)
+    blurred_image = greyscale_image
     for i in range(blurs):
-        blurred_image = cv2.GaussianBlur(greyscale_image, (9, 9), cv2.BORDER_DEFAULT)
+        blurred_image = cv2.blur(greyscale_image, kernel_size)
     cv2.imshow('Blurred', blurred_image)
     cv2.waitKey(1000)
 

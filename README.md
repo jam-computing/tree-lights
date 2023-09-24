@@ -30,6 +30,7 @@ A container for code and ideas for tree lightshow
 + Gaussian blurr followed by cv.minMaxLoc()
 + Rotate tree 90 degrees then repeat
 + Tree should have central axis in centre of image
++ This should be done in a dark room to ensure accuracy
 
 # Light Show
 
