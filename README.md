@@ -1,13 +1,15 @@
 # <b> Tree Lights </b>
 A container for code and ideas for tree lightshow
 
-## Prototype Shopping List
+## Prototype Equipment
 
 + Breadboard
-+ Breadboard wires
++ Breadboard male to male jumper wires
 + Lights
 + Diode
 + PSU
++ Female PSU adapter
++ Mr Martins old tree
 
 ## Shopping List
 
