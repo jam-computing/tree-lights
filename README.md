@@ -31,7 +31,7 @@ A container for code and ideas for tree lightshow
 ## Python libraries
 
 + Opencv - To pinpoint the tree lights
-+ Neopixel - To manipulate the tree lights
++ Adafriut - Neopixel - To manipulate the tree lights
 
 ## Algorithm
 
@@ -44,9 +44,13 @@ A container for code and ideas for tree lightshow
 ## Electronics
 
 + [Video of how to wire the pi](https://www.youtube.com/watch?v=KJupt2LIjp4) 
-+ Wiring the pi with a chip
++ The video uses the following method. Wiring with only a female adapter and jumper wires
+
+<img src="https://www.sdiplight.com/wp-content/uploads/2020/04/Raspberry-PI-WS2812b-External-Power-supply-wiring-diagram.jpg" width="200">
 
 <br>
+
++ Wiring the pi with a chip
 
 <img src="https://www.sdiplight.com/wp-content/uploads/2020/04/Raspberry-PI-74AHCT125-WS2812-wiring-diagram.jpg" width="200">
 
@@ -62,6 +66,11 @@ A container for code and ideas for tree lightshow
 + Wiring multiple strips
 
 <img src="https://i.stack.imgur.com/S5S34.png" width="2000"/>
+
+</br>
+
++ Indian guys who sound like they know what they are doing can be found [here](https://www.youtube.com/watch?v=1OB2-H-jiJM), and [here](https://www.youtube.com/watch?v=nnapNHn-Ge0)
++ A high ampage power supply will be required for daisy chaining the LEDs or each set of 50 can be provided with its own power supply
 
 ## Light Show
 
