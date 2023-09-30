@@ -87,5 +87,6 @@ A container for code and ideas for tree lightshow
 ## Extras
 
 + API - C# compatible to allow GCSE and A Level IT people to work with the tree
++ The [TreeLang](https://github.com/juleswhi/TreeLang) progamming language
 + GUI client where you can create animations or switch on off invididual lights
 + Scratch type tree programming to showcase at open day
