@@ -12,6 +12,29 @@ A container for code and ideas for tree lightshow
 + [Breadboard](https://www.amazon.co.uk/400-Point-Solderless-PCB-Breadboard/dp/B013EW663K/ref=mp_s_a_1_43?crid=2ESSX2HVB93TW&keywords=bread+boards+electronics+kit&qid=1694374436&sprefix=breadboard+electronics+kit%2Caps%2C130&sr=8-43) <br>
 + Wires and diode - tech dept / robotics
 
+# ITL
+
+The programming language for the scripting of the tree will be done in [ITL](https://github.com/juleswhi/itl).
+
+ITL is a simple, interpreted programming language, with native implementation to access the Tree's ws
+
+# Raspberry Pi
+
+The plan for the RPi is as follows:
++ Python Websocket AND flask Webserver on the pi
++ The websocket will take in 300 - 500 coordinates, cooresponding colours, a name, and an optional terminator.
++ If the websocket takes in a request specified above, then it will wait until the terminator, and store the sequence in a file, called the name.
++ Then the webserver will display all the files in a directory, and display them, along with an option to play
++ the python server will also interact wiht the tree directly, allowing it to modify the colours of each individual light.
+
+The RPi Py server should also have functionality for a direct, immediate connection, E.G for the GUI.
+## GUI Client
+
+The GUI Client will be built in Unity, and will involve a 3D model of a tree, ( built in Blender ). 
+
+Where the user clicks on the tree, that will light up the corresponding light on the tree.
+
+?( Allow user to create animations in the GUI )
 
 # Lighting
 
