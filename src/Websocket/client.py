@@ -1,14 +1,19 @@
 import asyncio
 import websockets
 
-async def send_and_receive_messages():
-    async with websockets.connect("ws://192.168.1.2:8765") as websocket:
-        while True:
-            user_input = input("Enter a message (or 'exit' to quit): ")
-            if user_input == 'exit':
-                break  # Exit the loop if the user enters 'exit'
-            await websocket.send(user_input)
-            response = await websocket.recv()
-            print("Server says:", response)
+async def send_coords(file_string, server_uri):
+    async with websockets.connect(server_uri) as websocket:
+        try:
+                    await websocket.send(file_string)
+                    print(f"Sent: {file_string}")
+        except Exception as e:
+            print(f"Error: {e}")
 
-asyncio.get_event_loop().run_until_complete(send_and_receive_messages())
+
+file_name = "coords.txt"
+server_uri = "ws://192.168.1.2:8765"  # Replace with the actual WebSocket server address
+filecontents = ""
+with open(file_name, 'r') as file:
+    filecontents = (''.join(file)).strip().replace("\n", "")[2:]
+
+asyncio.run(send_coords(filecontents, server_uri))
