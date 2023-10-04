@@ -5,6 +5,7 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <RootNamespace>Tree_Scanner</RootNamespace>
     <Nullable>enable</Nullable>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
