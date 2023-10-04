@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree-Scanner", "Tree-Scanner\Tree-Scanner.csproj", "{04517D66-E4CB-4D0F-92E6-765BEC54E4A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeClientAPI", "TreeClientAPI\TreeClientAPI.csproj", "{3173EC24-5EF7-45D8-B2AD-D90B5FAA1156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeServer", "TreeServer\TreeServer.csproj", "{3DD016C3-8A97-44ED-9BB4-99AA962CD8BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{04517D66-E4CB-4D0F-92E6-765BEC54E4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04517D66-E4CB-4D0F-92E6-765BEC54E4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04517D66-E4CB-4D0F-92E6-765BEC54E4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3173EC24-5EF7-45D8-B2AD-D90B5FAA1156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3173EC24-5EF7-45D8-B2AD-D90B5FAA1156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3173EC24-5EF7-45D8-B2AD-D90B5FAA1156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3173EC24-5EF7-45D8-B2AD-D90B5FAA1156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD016C3-8A97-44ED-9BB4-99AA962CD8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD016C3-8A97-44ED-9BB4-99AA962CD8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD016C3-8A97-44ED-9BB4-99AA962CD8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD016C3-8A97-44ED-9BB4-99AA962CD8BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
