@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJG4Pw1HQfWgkOiRtcwzPr14NAklqK8mmK3F/L/okfL/LvtLvcFTIrAXFk+QHtYyy5/7CTyIFXhPWOUyWxxYpQ==",
+  "dgSpecHash": "KUk+xGa2CVUT7zPX/zLkheqz7ld9hidb0vxRbVwmbBtQYhwHftDiYBPBLubqqTtlZBGZeGlZLwgEkRFn+huvHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
+  "projectFilePath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elliot alderson\\.nuget\\packages\\emgu.cv\\4.8.0.5324\\emgu.cv.4.8.0.5324.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\emgu.cv.runtime.windows\\4.8.0.5324\\emgu.cv.runtime.windows.4.8.0.5324.nupkg.sha512",
