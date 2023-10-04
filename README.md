@@ -4,7 +4,7 @@ A container for code and ideas for tree lightshow
 + [Power Adapter](https://www.amazon.co.uk/dp/B07RHM5KCW/ref=sspa_dk_detail_3?pd_rd_i=B07RHM5KCW&pd_rd_w=4sFHv&content-id=amzn1.sym.67430c1d-696a-45e1-be6b-972213775cc6&pf_rd_p=67430c1d-696a-45e1-be6b-972213775cc6&pf_rd_r=EJCAPMQP2K8M846SX8FJ&pd_rd_wg=Mq5ME&pd_rd_r=cf8fdd5f-cd97-4af6-a0bd-76511c525399&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy&th=1) - Ordered
 + [Power Supply](https://www.amazon.co.uk/Multibao-3000mA-Adapter-Charger-Replacement-Black/dp/B0BGGV97KT/ref=sr_1_5?crid=Q3UE5ME2786B&keywords=5V+3A+power+adapter&qid=1695894357&sprefix=5v+3a+power+adapter%2Caps%2C136&sr=8-5) - Ordered
 + [Lights](https://www.wish.com/search/ws2812b%20leds/product/5b8d1471ba9a7328dcf75c68?source=search&position=71) - Ordered
-+ Male to male breadboard wires?
++ Male to male breadboard wires? 🌈
 + Mr Martin's <b> REAL </b> tree<br>
 
 # ITL
