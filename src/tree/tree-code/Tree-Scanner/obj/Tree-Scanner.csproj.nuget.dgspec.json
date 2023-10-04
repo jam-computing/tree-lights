@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jcoul\\Documents\\GitHub\\Tree-Lights\\Tree-Scanner\\Tree-Scanner\\Tree-Scanner.csproj": {}
+    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jcoul\\Documents\\GitHub\\Tree-Lights\\Tree-Scanner\\Tree-Scanner\\Tree-Scanner.csproj": {
+    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jcoul\\Documents\\GitHub\\Tree-Lights\\Tree-Scanner\\Tree-Scanner\\Tree-Scanner.csproj",
+        "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
         "projectName": "Tree-Scanner",
-        "projectPath": "C:\\Users\\jcoul\\Documents\\GitHub\\Tree-Lights\\Tree-Scanner\\Tree-Scanner\\Tree-Scanner.csproj",
-        "packagesPath": "C:\\Users\\jcoul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jcoul\\Documents\\GitHub\\Tree-Lights\\Tree-Scanner\\Tree-Scanner\\obj\\",
+        "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
+        "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jcoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -60,6 +59,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -68,7 +85,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
         }
       }
     }
