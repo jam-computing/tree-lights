@@ -1,24 +1,13 @@
 # <b> Tree Lights </b>
 A container for code and ideas for tree lightshow
 
-## Prototype Equipment
-
-+ Breadboard
-+ Breadboard male to male jumper wires
-+ Lights
-+ Diode
-+ PSU
-+ Female PSU adapter
-+ Mr Martins old tree
-
 ## Shopping List
 
-+ [Tree 5ft](https://www.amazon.co.uk/Artificial-Christmas-Realistic-Natural-Branches/dp/B0BDMZ4JWT/ref=sr_1_9?c=ts&keywords=Christmas%2BTrees&qid=1694347371&s=kitchen&sr=1-9&ts_id=3028703031&th=1), [Tree 4ft](https://www.amazon.co.uk/Ureprism-Artificial-Christmas-Decoration-assembly/dp/B0BG2KWLPZ/ref=sr_1_4?keywords=4ft%2Bchristmas%2Btree%2Bpre%2Bdecorated&qid=1694348804&sr=8-4&th=1), Mr Martin's <b> REAL </b> tree<br>
-+ [Lights on Amazon](https://www.amazon.co.uk/BTF-LIGHTING-Transparent-Individually-Addressable-Waterproof/dp/B0B64ZY3W5/ref=sr_1_4?crid=2CRNP2FBN84HS&keywords=lights+individually+addressable&qid=1694348440&s=kitchen&sprefix=lights+individually+adressabl%2Ckitchen%2C83&sr=1-4), [Lights on Wish](https://www.wish.com/search/ws2812b%20leds/product/5b8d1471ba9a7328dcf75c68?source=search&position=71) <br>
-+ [PSU](https://www.amazon.co.uk/Gonine-Adapter-100-240V-Converter-Speakers-Black/dp/B09WXSG546/ref=sr_1_3?crid=1O7PSQ0NQ1WFJ&keywords=psu+5v+15w&qid=1694359761&sprefix=psu+5v+15w%2Caps%2C74&sr=8-3) <br>
-+ PSU female adapter
-+ [Breadboard](https://www.amazon.co.uk/400-Point-Solderless-PCB-Breadboard/dp/B013EW663K/ref=mp_s_a_1_43?crid=2ESSX2HVB93TW&keywords=bread+boards+electronics+kit&qid=1694374436&sprefix=breadboard+electronics+kit%2Caps%2C130&sr=8-43) <br>
-+ Wires and diode - tech dept / robotics
++ [Power Adapter](https://www.amazon.co.uk/dp/B07RHM5KCW/ref=sspa_dk_detail_3?pd_rd_i=B07RHM5KCW&pd_rd_w=4sFHv&content-id=amzn1.sym.67430c1d-696a-45e1-be6b-972213775cc6&pf_rd_p=67430c1d-696a-45e1-be6b-972213775cc6&pf_rd_r=EJCAPMQP2K8M846SX8FJ&pd_rd_wg=Mq5ME&pd_rd_r=cf8fdd5f-cd97-4af6-a0bd-76511c525399&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy&th=1)
++ [Power Supply](https://www.amazon.co.uk/Multibao-3000mA-Adapter-Charger-Replacement-Black/dp/B0BGGV97KT/ref=sr_1_5?crid=Q3UE5ME2786B&keywords=5V+3A+power+adapter&qid=1695894357&sprefix=5v+3a+power+adapter%2Caps%2C136&sr=8-5)
++ [Lights](https://www.wish.com/search/ws2812b%20leds/product/5b8d1471ba9a7328dcf75c68?source=search&position=71)
++ Male to male breadboard wires?
++ Mr Martin's <b> REAL </b> tree<br>
 
 # ITL
 
@@ -43,7 +32,7 @@ The GUI Client will be built in Unity, and will involve a 3D model of a tree, ( 
 
 Where the user clicks on the tree, that will light up the corresponding light on the tree.
 
-?( Allow user to create animations in the GUI )
+( Allow user to create animations in the GUI?)
 
 
 ## Lighting
@@ -113,6 +102,5 @@ Where the user clicks on the tree, that will light up the corresponding light on
 ## Extras
 
 + API - C# compatible to allow GCSE and A Level IT people to work with the tree
-+ The [TreeLang](https://github.com/juleswhi/TreeLang) progamming language
 + GUI client where you can create animations or switch on off invididual lights
 + Scratch type tree programming to showcase at open day
