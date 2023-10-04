@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Tree-Scanner/1.0.0": {
         "dependencies": {
+          "Emgu.CV.Bitmap": "4.8.0.5324",
           "Emgu.CV.runtime.windows": "4.8.0.5324"
         },
         "runtime": {
@@ -23,6 +24,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Emgu.CV.dll": {
+            "assemblyVersion": "4.8.0.5324",
+            "fileVersion": "4.8.0.5324"
+          }
+        }
+      },
+      "Emgu.CV.Bitmap/4.8.0.5324": {
+        "dependencies": {
+          "Emgu.CV": "4.8.0.5324",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.Bitmap.dll": {
             "assemblyVersion": "4.8.0.5324",
             "fileVersion": "4.8.0.5324"
           }
@@ -192,10 +205,16 @@
       },
       "Microsoft.NETCore.Platforms/1.1.1": {},
       "Microsoft.NETCore.Targets/1.1.3": {},
+      "Microsoft.Win32.SystemEvents/7.0.0": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
           "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
         }
       },
       "System.Drawing.Primitives/4.3.0": {
@@ -335,6 +354,13 @@
       "path": "emgu.cv/4.8.0.5324",
       "hashPath": "emgu.cv.4.8.0.5324.nupkg.sha512"
     },
+    "Emgu.CV.Bitmap/4.8.0.5324": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTSib46pHcRhwE1h8JvPclNDiWPu0AX1t7mx08HbgIkKP0vdbnDnPpAttHQPeIYopym4LYI4P0UFY5abMUIZow==",
+      "path": "emgu.cv.bitmap/4.8.0.5324",
+      "hashPath": "emgu.cv.bitmap.4.8.0.5324.nupkg.sha512"
+    },
     "Emgu.CV.runtime.windows/4.8.0.5324": {
       "type": "package",
       "serviceable": true,
@@ -377,12 +403,26 @@
       "path": "microsoft.netcore.targets/1.1.3",
       "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
     "runtime.native.System/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
     },
     "System.Drawing.Primitives/4.3.0": {
       "type": "package",
