@@ -44,6 +44,10 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.8.0.5324, )"
+            },
             "Emgu.CV.runtime.windows": {
               "target": "Package",
               "version": "[4.8.0.5324, )"
