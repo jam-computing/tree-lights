@@ -8,7 +8,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0be96077-36e3-4077-baa6-0cd879633329" name="Changes" comment="" />
+    <list default="true" id="0be96077-36e3-4077-baa6-0cd879633329" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/bin/Debug/net7.0-windows/Tree-Scanner.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/Tree-Scanner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/ref/Tree-Scanner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/ref/Tree-Scanner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/refint/Tree-Scanner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Debug/net7.0-windows/refint/Tree-Scanner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/Tree-Scanner.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/Tree-Scanner.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree-Scanner/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tree-Scanner/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeClientAPI/obj/Debug/net8.0/TreeClientAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TreeClientAPI/obj/Debug/net8.0/TreeClientAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeClientAPI/obj/Debug/net8.0/TreeClientAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TreeClientAPI/obj/Debug/net8.0/TreeClientAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeServer/obj/Debug/net8.0/TreeServer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TreeServer/obj/Debug/net8.0/TreeServer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeServer/obj/Debug/net8.0/TreeServer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TreeServer/obj/Debug/net8.0/TreeServer.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696435809460</updated>
-      <workItem from="1696435811633" duration="990000" />
+      <workItem from="1696435811633" duration="1335000" />
     </task>
     <servers />
   </component>

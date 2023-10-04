@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IE13OmSgiuq3hqt/6cxU7f9MxXnKG4C0sam5J4Qq24myWsoWakk/DLm3Sc6oktEdXmZa+BiNHNHJsY3n5vsK5g==",
+  "dgSpecHash": "K72BvsFSkNCCGgOvWbXVcMUHwHI8pBB8rausS0UjZ1HKkaJsJophI+xMBfaPgmNEmIgdxxVxZxxKIDaGpDW+mQ==",
   "success": true,
   "projectFilePath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
