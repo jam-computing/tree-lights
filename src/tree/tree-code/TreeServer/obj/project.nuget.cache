@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YRiIagOFh9C5oGsqJ5EI2vMdLXOeG3dZPbp0NOSP9fuAK8YWxC67AoFtDI3j8iBvufb00oAJ0bvSqwUoDUSBfg==",
+  "dgSpecHash": "s8coJACzroXOmre5+19Dc2lwfv0j2EpaWBI7bDeB1lEygTrgJYNbLtX96j6n1IJcPKVz/yhrDlxQ4kzxIEVpxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
+  "projectFilePath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

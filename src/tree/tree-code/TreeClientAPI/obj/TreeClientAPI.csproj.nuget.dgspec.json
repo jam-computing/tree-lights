@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj": {}
+    "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj": {
+    "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj",
+        "projectUniqueName": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj",
         "projectName": "TreeClientAPI",
-        "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj",
+        "projectPath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\TreeClientAPI.csproj",
         "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\obj\\",
+        "outputPath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeClientAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
