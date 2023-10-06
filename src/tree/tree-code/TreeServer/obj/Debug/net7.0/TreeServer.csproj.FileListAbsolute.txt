@@ -38,3 +38,4 @@ C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServ
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.genruntimeconfig.cache
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\ref\TreeServer.dll
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\Newtonsoft.Json.dll

@@ -16,13 +16,23 @@ class Program
         server.AddWebSocketService<AnimationHandler>("/Animation");
         Console.WriteLine("Added Animation Handler");
         
+        server.AddWebSocketService<TextHandler>("/Text");
+        
         server.Start();
         Console.WriteLine("Ready To Receive Frames");
 
+        Console.WriteLine("Type 'stop' to stop the server.");
+        Console.WriteLine("Type 'show frame' to show the most recent frame / animation");
+        Console.WriteLine("Type 'show text' to show the most recent text");
+
 
         while (true)
-            if (Console.ReadLine() == "stop".ToLower())
+            if (Console.ReadLine()?.ToLower() == "stop")
                 break;
+            else if(Console.ReadLine()?.ToLower() == "show frame") 
+                DataHolder.Sendables[^1].ToFrame().PrintFrame();
+            else if(Console.ReadLine()?.ToLower() == "show text")
+                Console.WriteLine(DataHolder.TextsReceived[^1]);
         
         server.Stop();
 

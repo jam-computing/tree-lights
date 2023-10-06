@@ -14,4 +14,5 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tree_Scanner
-build_property.ProjectDir = C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\
+build_property.ProjectDir = C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\
+build_property.EnableComHosting = 
