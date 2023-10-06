@@ -18,3 +18,22 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeSer
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeAPI.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeAPI.pdb
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.sourcelink.json
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeServer.exe
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeServer.deps.json
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeServer.runtimeconfig.json
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeServer.dll
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeServer.pdb
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\websocket-sharp.dll
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeAPI.dll
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\TreeAPI.pdb
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.csproj.AssemblyReference.cache
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.AssemblyInfoInputs.cache
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.AssemblyInfo.cs
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.csproj.CoreCompileInputs.cache
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.csproj.CopyComplete
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.dll
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\refint\TreeServer.dll
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.pdb
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.genruntimeconfig.cache
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\ref\TreeServer.dll

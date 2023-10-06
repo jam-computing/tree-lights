@@ -1,14 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "effqYgCcnNgCRB022fn19dzgph/j9UM7XFxk0h7Cd8aaZG0qDurubIefHEVI3SV0gcJYjXJwwLslWauQ5ONIDw==",
+  "dgSpecHash": "I+/9zH7p8a/dK+IxEt14zpVV8EO7k4ARFFDn2hvxXok8yxiVB26fDA/ZGMLdsKdCZbpm2HbWf0oN5/HhT6wJ3g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
+  "projectFilePath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.8\\microsoft.netcore.app.host.win-x64.7.0.8.nupkg.sha512"
+    "C:\\Users\\mgrac\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }
