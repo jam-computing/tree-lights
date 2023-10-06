@@ -12,7 +12,7 @@ class Frame : WebSocketBehavior
     }
     protected override void OnMessage(MessageEventArgs e)
     {
-        Console.WriteLine("Received message" + e.Data);
-        Send("Joshua coulter sucks");
+        Console.WriteLine("FRAME");
+        Send("just recevied a frame - server");
     }
 }

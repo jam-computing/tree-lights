@@ -11,6 +11,7 @@ class Program
         var server = new WebSocketServer(3000);
         
         server.AddWebSocketService<Frame>("/Frame");
+        server.AddWebSocketService<Animation>("/Animation");
         server.Start();
         Console.ReadKey(true);
         server.Stop();
