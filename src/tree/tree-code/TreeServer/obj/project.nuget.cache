@@ -1,15 +1,32 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "AALSdh158w8FBAr8hKZ7FoiFrEMyhfqFQ7S5iwog2yc9BCc9R804ZrvL7JcMpbiBp6GUgEPH7NvVEADctfjmPQ==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "I+/9zH7p8a/dK+IxEt14zpVV8EO7k4ARFFDn2hvxXok8yxiVB26fDA/ZGMLdsKdCZbpm2HbWf0oN5/HhT6wJ3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mgrac\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
+=======
+  "dgSpecHash": "/CPjDH99G5emfFCIFiIHydZLif9Hk3LHxOWR9rpEL7UIYnrowOG2w7JY3k9QweLc38GI53mz6e+wQ3fQz2Ki2A==",
+>>>>>>> ce0326c70b8e0c198ce67f5751f7f0b247ad8c5a
   "success": true,
   "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\elliot alderson\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.8\\microsoft.netcore.app.host.win-x64.7.0.8.nupkg.sha512"
+=======
+    "C:\\Users\\i hate windows\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\i hate windows\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
+>>>>>>> f195eeaddf470fe6fcf65add280887e201ab9306
+>>>>>>> ce0326c70b8e0c198ce67f5751f7f0b247ad8c5a
   ],
   "logs": []
 }
