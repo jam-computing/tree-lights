@@ -37,6 +37,7 @@
             richTextBox1.Location = new Point(24, 94);
             richTextBox1.Margin = new Padding(15);
             richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(930, 61);
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = "Welcome to the tree setup wizard. You will be walked through the steps to scan the Christmas Tree. Press the next button to continue";
@@ -64,10 +65,12 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(24, 185);
+            pictureBox1.Image = Properties.Images.Cursed_Tree;
+            pictureBox1.Location = new Point(250, 250);
             pictureBox1.Margin = new Padding(15);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(930, 671);
+            pictureBox1.Size = new Size(500, 500);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 

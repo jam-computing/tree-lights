@@ -7,6 +7,9 @@
     <Compile Update="formMaster.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formTreePhoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="formWelcome.cs">
       <SubType>Form</SubType>
     </Compile>

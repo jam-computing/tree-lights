@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Tree_Scanner {
     public partial class formMaster : Form {
 
-        public Form? ChildForm {  get; set; } 
+        public Form? ChildForm { get; set; }
 
         public formMaster() {
             InitializeComponent();

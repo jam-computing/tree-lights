@@ -32,7 +32,7 @@
             panelForm.Dock = DockStyle.Fill;
             panelForm.Location = new Point(0, 0);
             panelForm.Name = "panelForm";
-            panelForm.Size = new Size(978, 944);
+            panelForm.Size = new Size(1000, 1000);
             panelForm.TabIndex = 0;
             // 
             // formMaster
@@ -41,6 +41,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(978, 944);
             Controls.Add(panelForm);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximumSize = new Size(1000, 1000);
+            MinimumSize = new Size(1000, 1000);
+            MaximizeBox = false;
             Name = "formMaster";
             Text = "Tree Setup Wizard";
             ResumeLayout(false);

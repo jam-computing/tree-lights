@@ -145,3 +145,6 @@ C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Sca
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.pdb
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.genruntimeconfig.cache
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\ref\Tree-Scanner.dll
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formInfo.resources
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Images.resources
+C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources

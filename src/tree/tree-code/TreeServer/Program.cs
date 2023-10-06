@@ -7,19 +7,12 @@ class Program
 {
     public static void Main(string[] args)
     {
-        //Console.WriteLine("Starting WebServer");
-        //var server = new WebSocketServer(3000);
-        
-        //server.AddWebSocketService<TreeSocket>("/TreeSocket");
-        //server.Start();
-        //Console.ReadKey(true);
-        //server.Stop();
+        Console.WriteLine("Starting WebServer");
+        var server = new WebSocketServer(3000);
 
-        using(Tree tree = new Tree()) {
-            tree.Connect("10.56.253.51", 3000, "Animation");
-            
-            tree.Send("Josh sucks");
-        }
-
+        server.AddWebSocketService<TreeSocket>("/TreeSocket");
+        server.Start();
+        Console.ReadKey(true);
+        server.Stop();
     }
 }

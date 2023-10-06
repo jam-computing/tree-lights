@@ -15,7 +15,7 @@ namespace Tree_Scanner {
         }
 
         private void buttonNext_Click(object sender, EventArgs e) {
-            (ActiveForm as formMaster)?.DisplayForm(this);
+            (ActiveForm as formMaster)?.DisplayForm(new formInfo());
         }
     }
 }
