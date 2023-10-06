@@ -1,31 +1,21 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "V7BqXPo4Em+lygaVhPkNCapH9wSpAvJtwVZzL9RHia4Xy7i/n2hDiR5EXJTKnYzdnumO20/Jx3av7yYb6EmoKw==",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "YuSMVWXNnZZPie3AlSiPxa92bzDbWGwjvmpunNQyAO8XUp2uBviZ0aiio0F3Rs4CPR7dtNWxy5k1y/GnYhamKw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\mgrac\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
-=======
-  "dgSpecHash": "p+rRtSTLHIcGtwYLug3H+I5oQlxPhap1E/2QYJGjuKJ5Xc4MHz+rO8L0F0nSL/9DrWalYMBUt/saMcrp1F7vLQ==",
->>>>>>> ce0326c70b8e0c198ce67f5751f7f0b247ad8c5a
   "success": true,
   "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
   "expectedPackageFiles": [
-<<<<<<< HEAD
     "C:\\Users\\elliot alderson\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512"
-=======
-    "C:\\Users\\i hate windows\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\i hate windows\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
->>>>>>> f195eeaddf470fe6fcf65add280887e201ab9306
->>>>>>> ce0326c70b8e0c198ce67f5751f7f0b247ad8c5a
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
