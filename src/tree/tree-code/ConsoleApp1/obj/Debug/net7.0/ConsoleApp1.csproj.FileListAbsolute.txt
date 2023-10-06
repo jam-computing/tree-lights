@@ -18,3 +18,23 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Console
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.exe
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.deps.json
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.runtimeconfig.json
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.dll
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.pdb
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\websocket-sharp.dll
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TreeAPI.dll
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TreeAPI.pdb
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.dll
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\refint\ConsoleApp1.dll
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\Newtonsoft.Json.dll

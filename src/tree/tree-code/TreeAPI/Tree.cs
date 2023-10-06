@@ -7,6 +7,10 @@ namespace TreeAPI;
 public class Tree : IDisposable
 {
     public WebSocketSharp.WebSocket? WebSocket { get; set; } = null;
+
+    public Tree() {}
+
+    public Tree(IpAddr ip) => Connect(ip);
     
     public ReturnValue Connect(string IP, int port, string path)
     {
@@ -32,20 +36,40 @@ public class Tree : IDisposable
         return ReturnValue.Success;
     }
 
-    public ReturnValue Send(string message)
+    public ReturnValue Connect(IpAddr ip)
+    {
+        Console.WriteLine("Connecting...");
+
+        try
+        {
+            WebSocket = new WebSocketSharp.WebSocket(ip.ToString());
+            WebSocket.OnMessage += GetMessage!;
+            WebSocket.Connect();
+        }
+        catch (Exception)
+        {
+            return ReturnValue.Failure;
+        }
+
+        Console.WriteLine("Connected to server at:" + ip.ToString()); 
+
+        return ReturnValue.Success;
+    }
+    
+    
+    public ReturnValue Send(ISendable message)
     {
         if (WebSocket is null) return ReturnValue.Failure;
 
         try
         {
-            WebSocket.Send(message);
+            WebSocket.Send(message.ToJson());
         }
         catch (Exception)
         {
             return ReturnValue.Failure;
         }
         
-        Console.WriteLine($"Send message : \"{message}\".");
         return ReturnValue.Success;
     }
 
