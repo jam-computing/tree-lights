@@ -1,3 +1,7 @@
+
+-- PASTEBIN - CLbgFwBG
+
+
 -- setup server stuff
 local serverUrl = "ws://127.0.0.1:2000"
 local ws = nil
@@ -91,7 +95,7 @@ for i = 1, #foundBlocks do
     end
 end
 
-ws.send("[" .. string .. "]") 
+ws.send("[" .. string .. "]")
 print("Send data to tree")
 
 ws.close()

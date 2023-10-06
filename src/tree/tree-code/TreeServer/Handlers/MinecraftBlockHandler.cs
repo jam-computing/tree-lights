@@ -13,7 +13,7 @@ public class MinecraftBlockHandler : WebSocketBehavior
         Console.WriteLine("RECEIVED BLOCK - Anonymous");
         DataHolder.MinecraftBlocksReceived.AddRange(Blocks);
 
-        foreach (var block in Blocks)
+        foreach (var block in DataHolder.MinecraftBlocksReceived)
         {
             Console.WriteLine($"{block.Name} : ( {block.ValueOne}, {block.ValueTwo} )");
         }

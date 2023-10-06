@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tree-Scanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee96902539636cb7dc4aee5b6e7c991a68374a05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0765331b56172ac593303e21271359c938d440dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tree-Scanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tree-Scanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

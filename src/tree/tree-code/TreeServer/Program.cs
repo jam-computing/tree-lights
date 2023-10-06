@@ -21,6 +21,9 @@ class Program
         
         server.AddWebSocketService<MinecraftBlockHandler>("/MinecraftBlock");
         Console.WriteLine("Added Minecraft Block Handler");
+        
+        server.AddWebSocketService<BlockRequest>("/BlockRequest");
+        Console.WriteLine("Added Minecraft Request Handler");
 
         server.Start();
         Console.WriteLine("Ready To Receive Frames");

@@ -1,18 +1,15 @@
-﻿using TreeAPI;
-using TreeAPI.Types;
-using System.Linq;
+﻿using System.Drawing;
+using System.Threading.Channels;
 
-var rng = new Random();
 
-List<(int, int, int)> pixels = Enumerable.Range(0, 300).
-    Select(x => (rng.Next(0,255), rng.Next(0,255), rng.Next(0,255)))
-    .ToList();
+Image image = Image.FromFile("../../../../../../../data/images/nobara.jpg");
 
-Frame data = new Frame(pixels, "Laptop One");
+Bitmap bitmap = (Bitmap)image;
 
-using (var tree = new Tree())
-{
-    tree.Connect(new IpAddr() {Address = "localhost", Port = 3000, Path = "Frame"});
-    tree.Send(data);
-    Console.ReadKey();
-}
+Console.WriteLine(bitmap.Width);
+Console.WriteLine(bitmap.Height);
+
+var pixel = bitmap.GetPixel(1, 1);
+
+bitmap.SetPixel(1,1, Color.White);
+
