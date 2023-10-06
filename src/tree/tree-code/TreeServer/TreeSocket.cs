@@ -4,9 +4,9 @@ using WebSocketSharp.Server;
 
 namespace TreeServer;
 
-class TreeSocket : WebSocketBehavior
+class Frame : WebSocketBehavior
 {
-    public TreeSocket()
+    public Frame()
     {
         
     }

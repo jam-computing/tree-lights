@@ -1837,19 +1837,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\": {}
+    "C:\\Users\\i hate windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
+      "projectUniqueName": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
       "projectName": "Tree-Scanner",
-      "projectPath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
-      "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\obj\\",
+      "projectPath": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\Tree-Scanner.csproj",
+      "packagesPath": "C:\\Users\\i hate windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\Tree-Scanner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\i hate windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1869,9 +1869,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -1898,24 +1895,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.8, 7.0.8]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.8, 7.0.8]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.8, 7.0.8]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.8, 7.0.8]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -1924,7 +1903,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
