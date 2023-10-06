@@ -9,23 +9,19 @@ class Program
     {
         Console.WriteLine("Starting WebServer");
         var server = new WebSocketServer(3000);
-<<<<<<< HEAD
 
-        server.AddWebSocketService<TreeSocket>("/TreeSocket");
-=======
-        
         server.AddWebSocketService<FrameHandler>("/Frame");
         Console.WriteLine("Added Frame Handler");
         
         server.AddWebSocketService<AnimationHandler>("/Animation");
         Console.WriteLine("Added Animation Handler");
-        
-<<<<<<< HEAD
+
         server.AddWebSocketService<TextHandler>("/Text");
+        Console.WriteLine("Added Text Handler");        
         
-=======
->>>>>>> f195eeaddf470fe6fcf65add280887e201ab9306
->>>>>>> ce0326c70b8e0c198ce67f5751f7f0b247ad8c5a
+        server.AddWebSocketService<MinecraftBlockHandler>("/MinecraftBlock");
+        Console.WriteLine("Added Minecraft Block Handler");
+
         server.Start();
         Console.WriteLine("Ready To Receive Frames");
 

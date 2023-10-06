@@ -9,9 +9,15 @@ public class MinecraftBlockHandler : WebSocketBehavior
     protected override void OnMessage(MessageEventArgs e)
     {
         var data = e.Data;
-        var Block = JsonConvert.DeserializeObject<MinecraftBlock>(data)!;
-        Console.WriteLine("RECEIVED BLOCK - Type of: " + Block.Name + " - Anonymous ");
-        DataHolder.MinecraftBlocksReceived.Add(Block);
+        var Blocks = JsonConvert.DeserializeObject<List<MinecraftBlock>>(data)!;
+        Console.WriteLine("RECEIVED BLOCK - Anonymous");
+        DataHolder.MinecraftBlocksReceived.AddRange(Blocks);
+
+        foreach (var block in Blocks)
+        {
+            Console.WriteLine($"{block.Name} : ( {block.ValueOne}, {block.ValueTwo} )");
+        }
+        
         Send("Block received - from TreeServer"); 
     }
 }

@@ -1,6 +1,6 @@
 const webSocket = require('ws')
 
-const serverUrl = "ws://127.0.0.1:3000/Text";
+const serverUrl = "ws://127.0.0.1:3000/MinecraftBlock";
 
 const ws = new webSocket(serverUrl);
 

@@ -82,7 +82,6 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Sc
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\vcruntime140.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.AssemblyReference.cache
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Resources.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.TreeSetupForm.resources
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.GenerateResource.cache
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.AssemblyInfoInputs.cache
@@ -148,3 +147,9 @@ C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Sca
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formInfo.resources
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Images.resources
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formInfo.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formMaster.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formWelcome.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Images.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.sourcelink.json
