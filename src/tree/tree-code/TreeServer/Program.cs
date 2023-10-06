@@ -10,10 +10,20 @@ class Program
         Console.WriteLine("Starting WebServer");
         var server = new WebSocketServer(3000);
         
-        server.AddWebSocketService<Frame>("/Frame");
-        server.AddWebSocketService<Animation>("/Animation");
+        server.AddWebSocketService<FrameHandler>("/Frame");
+        Console.WriteLine("Added Frame Handler");
+        
+        server.AddWebSocketService<AnimationHandler>("/Animation");
+        Console.WriteLine("Added Animation Handler");
+        
         server.Start();
-        Console.ReadKey(true);
+        Console.WriteLine("Ready To Receive Frames");
+
+
+        while (true)
+            if (Console.ReadLine() == "stop".ToLower())
+                break;
+        
         server.Stop();
 
     }

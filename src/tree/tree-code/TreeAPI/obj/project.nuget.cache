@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LvT+G2cfSnL6PbIjDwtOD11MP5TWLeiCwvZHhZ7Cl/9qxeyd+FXNFQNskMib2bgmft8r1VoYTEwfzKmELgTFBA==",
+  "dgSpecHash": "p+rRtSTLHIcGtwYLug3H+I5oQlxPhap1E/2QYJGjuKJ5Xc4MHz+rO8L0F0nSL/9DrWalYMBUt/saMcrp1F7vLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\i hate windows\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\i hate windows\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
   ],
   "logs": []
