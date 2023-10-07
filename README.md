@@ -1,4 +1,4 @@
-# <b> Tree Lights </b>
+# <b> Tree Lights </b> 🎄
 A container for code and ideas for tree lightshow
 
 + [Power Adapter](https://www.amazon.co.uk/dp/B07RHM5KCW/ref=sspa_dk_detail_3?pd_rd_i=B07RHM5KCW&pd_rd_w=4sFHv&content-id=amzn1.sym.67430c1d-696a-45e1-be6b-972213775cc6&pf_rd_p=67430c1d-696a-45e1-be6b-972213775cc6&pf_rd_r=EJCAPMQP2K8M846SX8FJ&pd_rd_wg=Mq5ME&pd_rd_r=cf8fdd5f-cd97-4af6-a0bd-76511c525399&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy&th=1) - Delievered
@@ -8,13 +8,13 @@ A container for code and ideas for tree lightshow
 + Mr Martin's <b> REAL </b> tree / sad fake one<br>
 + Level shifter from and breadboard from Mr Martin's stash
 
-# ITL
+# ITL 🌲
 
 The programming language for the scripting of the tree will be done in [ITL](https://github.com/juleswhi/itl).
 
 ITL is a simple, interpreted programming language, with native implementation to access the Tree's ws
 
-# Raspberry Pi
+# Raspberry Pi 🥧
 
 The plan for the RPi is as follows:
 + Python Websocket AND flask Webserver on the pi
@@ -25,7 +25,7 @@ The plan for the RPi is as follows:
 
 The RPi Py server should also have functionality for a direct, immediate connection, E.G for the GUI.
 
-## GUI Client
+## GUI Client 🇬🇳
 
 The GUI Client will be built in Unity, and will involve a 3D model of a tree, ( built in Blender ). 
 
@@ -34,7 +34,7 @@ Where the user clicks on the tree, that will light up the corresponding light on
 ( Allow user to create animations in the GUI? )
 
 
-## Lighting
+## Lighting 🌩️
 
 <img src="https://m.media-amazon.com/images/I/71kuC8MiyZL._AC_SX679_.jpg" width="200"/>
 
@@ -46,7 +46,7 @@ Where the user clicks on the tree, that will light up the corresponding light on
 + Use less lights and do half the tree
 + Imaging lights - need after school or multiple lunchtimes to get it right
 
-## C# libraries
+## C# libraries 📘
 
 + Emgu - To pinpoint the tree lights
 + Adafriut - Neopixel - To manipulate the tree lights
@@ -54,7 +54,7 @@ Where the user clicks on the tree, that will light up the corresponding light on
 + Or maybe this [nuget package](https://www.nuget.org/packages/ws281x.Net/) / [other nuget package](https://www.nuget.org/packages/kenssamson.rpi-ws281x-csharp)
 + [This?](https://kenssamson.github.io/rpi-ws281x-csharp/)
 
-## Electronics
+## Electronics 🔌
 
 + [Video of how to wire the pi](https://www.youtube.com/watch?v=KJupt2LIjp4) 
 + The video uses the following method. Wiring with only a female adapter and jumper wires
@@ -85,14 +85,14 @@ Where the user clicks on the tree, that will light up the corresponding light on
 + Indian guys who sound like they know what they are doing can be found [here](https://www.youtube.com/watch?v=1OB2-H-jiJM), and [here](https://www.youtube.com/watch?v=nnapNHn-Ge0)
 + A high ampage power supply will be required for daisy chaining the LEDs or each set of 50 can be provided with its own power supply
 
-## Light Show
+## Light Show 🔦
 
 + A couple minutes of preset animations - show stopper - maybe use external non-tree lights - people talk about tree - more people see tree - ooga booga bish bash bosh Tree 2 electric boogaloo I am become Tree pine needeler of school
 + Obnoxious Carol Of the Bells
 + Get someone from maths to come up with cool mathematical function to use on tree
 + Use precomputed animations
 
-## Fun Features
+## Fun Features 
 
 + API - C# compatible to allow GCSE and A Level IT people to work with the tree
 + GUI client where you can create animations or switch on off invididual lights
