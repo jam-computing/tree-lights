@@ -37,20 +37,24 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Georgia", 24F, FontStyle.Italic, GraphicsUnit.Point);
-            label1.Location = new Point(135, 9);
+            label1.Location = new Point(193, 15);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(191, 38);
+            label1.Size = new Size(286, 56);
             label1.TabIndex = 0;
             label1.Text = "Tree Lights!";
             label1.Click += label1_Click;
             // 
             // btnViewAnimations
             // 
-            btnViewAnimations.Location = new Point(107, 71);
+            btnViewAnimations.Anchor = AnchorStyles.None;
+            btnViewAnimations.Location = new Point(153, 118);
+            btnViewAnimations.Margin = new Padding(4, 5, 4, 5);
             btnViewAnimations.Name = "btnViewAnimations";
-            btnViewAnimations.Size = new Size(130, 54);
+            btnViewAnimations.Size = new Size(186, 90);
             btnViewAnimations.TabIndex = 1;
             btnViewAnimations.Text = "View Animations";
             btnViewAnimations.UseVisualStyleBackColor = true;
@@ -58,9 +62,11 @@
             // 
             // btnViewFrames
             // 
-            btnViewFrames.Location = new Point(243, 71);
+            btnViewFrames.Anchor = AnchorStyles.None;
+            btnViewFrames.Location = new Point(347, 118);
+            btnViewFrames.Margin = new Padding(4, 5, 4, 5);
             btnViewFrames.Name = "btnViewFrames";
-            btnViewFrames.Size = new Size(130, 54);
+            btnViewFrames.Size = new Size(186, 90);
             btnViewFrames.TabIndex = 2;
             btnViewFrames.Text = "View Frames";
             btnViewFrames.UseVisualStyleBackColor = true;
@@ -68,9 +74,11 @@
             // 
             // btnSetupTree
             // 
-            btnSetupTree.Location = new Point(176, 131);
+            btnSetupTree.Anchor = AnchorStyles.None;
+            btnSetupTree.Location = new Point(251, 218);
+            btnSetupTree.Margin = new Padding(4, 5, 4, 5);
             btnSetupTree.Name = "btnSetupTree";
-            btnSetupTree.Size = new Size(130, 54);
+            btnSetupTree.Size = new Size(186, 90);
             btnSetupTree.TabIndex = 3;
             btnSetupTree.Text = "Setup Tree";
             btnSetupTree.UseVisualStyleBackColor = true;
@@ -78,13 +86,14 @@
             // 
             // formMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(484, 261);
+            ClientSize = new Size(691, 435);
             Controls.Add(btnSetupTree);
             Controls.Add(btnViewFrames);
             Controls.Add(btnViewAnimations);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "formMain";
             Text = "formMain";
             ResumeLayout(false);

@@ -13,5 +13,8 @@
     <Compile Update="formViewFrames.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Scanner\formScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
