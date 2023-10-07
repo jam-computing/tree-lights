@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj": {}
+    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
+    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
         "projectName": "TreeAPI",
-        "projectPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
-        "packagesPath": "C:\\Users\\mgrac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\obj\\",
+        "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
+        "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mgrac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -64,26 +67,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj": {
+    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
+        "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
         "projectName": "TreeServer",
-        "projectPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
-        "packagesPath": "C:\\Users\\mgrac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\obj\\",
+        "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
+        "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mgrac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,8 +114,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
-                "projectPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj"
+              "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
+                "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj"
               }
             }
           }
@@ -107,6 +124,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -133,12 +153,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
         }
       }
     }
