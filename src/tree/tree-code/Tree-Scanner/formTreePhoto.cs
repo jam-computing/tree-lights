@@ -55,6 +55,7 @@ namespace Tree_Scanner
 
         private Bitmap GetImage()
         {
+            label2.Text = "Connecting...";
             Image image = Image.FromFile("../../../../../../../data/images/nobara.jpg");
 
             IpAddr IP = new IpAddr() { Address = "localhost", Port = 3000, Path = "BlockRequest" };
@@ -63,11 +64,19 @@ namespace Tree_Scanner
 
             using (var tree = new Tree(IP))
             {
+                if (!tree.IsConnected)
+                {
+                    tree.Dispose();
+                    label2.Text = "No connection";
+                    return (Bitmap)image;
+                }
                 tree.Send("Hello from FORMS");
                 System.Threading.Thread.Sleep(500);
                 Console.WriteLine(tree.ReceivedMessage);
-                if (tree.ReceivedMessage is null) label2.Text += "No Minecraft Blocks available";
-                    Blocks = JsonConvert.DeserializeObject<List<MinecraftBlock>>(tree.ReceivedMessage!)!;
+
+                if (tree.ReceivedMessage is "[]") { label2.Text = "No Minecraft Blocks available"; return (Bitmap)image; }
+
+                Blocks = JsonConvert.DeserializeObject<List<MinecraftBlock>>(tree.ReceivedMessage!)!;
             }
 
             Bitmap bitmap = (Bitmap)image;
@@ -109,9 +118,5 @@ namespace Tree_Scanner
             pictureboxTreePhoto.Image = (Image)GetImage();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

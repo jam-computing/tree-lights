@@ -1,57 +1,12 @@
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.AssemblyReference.cache
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Resources.resources
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.TreeSetupForm.resources
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.GenerateResource.cache
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.AssemblyInfoInputs.cache
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.AssemblyInfo.cs
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.CoreCompileInputs.cache
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.exe
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.deps.json
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.runtimeconfig.json
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.pdb
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\Emgu.CV.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\cvextern.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\cvextern.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg480_64.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\cvextern.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg480.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\concrt140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_1.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_2.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_atomic_wait.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_codecvt_ids.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\vcruntime140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\vcruntime140_1.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\concrt140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_1.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_2.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_atomic_wait.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\vcruntime140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\vcruntime140_1.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\concrt140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_1.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_2.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_atomic_wait.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\vcruntime140.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.CopyComplete
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\refint\Tree-Scanner.dll
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.pdb
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.genruntimeconfig.cache
-C:\Users\jcoul\Documents\GitHub\Tree-Lights\Tree-Scanner\Tree-Scanner\obj\Debug\net7.0-windows\ref\Tree-Scanner.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.exe
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.deps.json
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.runtimeconfig.json
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.pdb
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Emgu.CV.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Emgu.CV.Bitmap.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\websocket-sharp.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\cvextern.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\cvextern.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg480_64.dll
@@ -80,7 +35,14 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Sc
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_atomic_wait.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\vcruntime140.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\TreeAPI.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\TreeAPI.pdb
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.AssemblyReference.cache
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formInfo.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formMaster.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formWelcome.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Images.resources
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Resources.resources
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.GenerateResource.cache
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.GeneratedMSBuildEditorConfig.editorconfig
@@ -93,67 +55,3 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Sc
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.pdb
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.genruntimeconfig.cache
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\ref\Tree-Scanner.dll
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Emgu.CV.Bitmap.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.exe
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.deps.json
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.runtimeconfig.json
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Tree-Scanner.pdb
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Emgu.CV.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Emgu.CV.Bitmap.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\cvextern.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\cvextern.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\opencv_videoio_ffmpeg480_64.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\cvextern.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\opencv_videoio_ffmpeg480.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\concrt140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_1.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_2.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_atomic_wait.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\msvcp140_codecvt_ids.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\vcruntime140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-arm64\native\vcruntime140_1.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\concrt140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_1.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_2.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_atomic_wait.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\vcruntime140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x64\native\vcruntime140_1.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\concrt140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_1.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_2.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_atomic_wait.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\runtimes\win-x86\native\vcruntime140.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.AssemblyReference.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formMaster.resources
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formWelcome.resources
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Resources.resources
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.GenerateResource.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.AssemblyInfoInputs.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.AssemblyInfo.cs
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.CoreCompileInputs.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.csproj.CopyComplete
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\refint\Tree-Scanner.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.pdb
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.genruntimeconfig.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\ref\Tree-Scanner.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formInfo.resources
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Images.resources
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formInfo.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formMaster.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.formWelcome.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree_Scanner.Properties.Images.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\websocket-sharp.dll
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\TreeAPI.dll
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\bin\Debug\net7.0-windows\TreeAPI.pdb
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Tree-Scanner\obj\Debug\net7.0-windows\Tree-Scanner.sourcelink.json

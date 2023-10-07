@@ -1,3 +1,5 @@
+using TreeAPI.Types;
+using TreeAPI;
 using Newtonsoft.Json;
 using WebSocketSharp;
 using WebSocketSharp.Server;
@@ -8,10 +10,9 @@ public class MinecraftBlockHandler : WebSocketBehavior
 {
     protected override void OnMessage(MessageEventArgs e)
     {
-        var data = e.Data;
-        var Blocks = JsonConvert.DeserializeObject<List<MinecraftBlock>>(data)!;
+        List<MinecraftBlock> data = ISendable.FromJsonList<List<MinecraftBlock>>(e.Data);
         Console.WriteLine("RECEIVED BLOCK - Anonymous");
-        DataHolder.MinecraftBlocksReceived.AddRange(Blocks);
+        DataHolder.MinecraftBlocksReceived.AddRange(data);
 
         foreach (var block in DataHolder.MinecraftBlocksReceived)
         {
