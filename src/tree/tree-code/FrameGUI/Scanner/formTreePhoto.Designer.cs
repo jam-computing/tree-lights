@@ -37,7 +37,6 @@ namespace Tree_Scanner
             buttonBack = new Button();
             buttonTakePhoto = new Button();
             buttonReset = new Button();
-            button1 = new Button();
             label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureboxTreePhoto).BeginInit();
             SuspendLayout();
@@ -46,11 +45,11 @@ namespace Tree_Scanner
             // 
             richTextBox1.BackColor = SystemColors.Control;
             richTextBox1.BorderStyle = BorderStyle.None;
-            richTextBox1.Location = new Point(24, 93);
-            richTextBox1.Margin = new Padding(14, 15, 14, 15);
+            richTextBox1.Location = new Point(17, 56);
+            richTextBox1.Margin = new Padding(10, 9, 10, 9);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(930, 62);
+            richTextBox1.Size = new Size(651, 37);
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = "Please take a photograph of the tree, with the lights on, then select the three corners of the tree by clicking the resulting image.";
             // 
@@ -58,19 +57,20 @@ namespace Tree_Scanner
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(11, 25);
+            label1.Location = new Point(8, 15);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(342, 54);
+            label1.Size = new Size(236, 37);
             label1.TabIndex = 1;
             label1.Text = "Initial tree photo";
             // 
             // buttonNext
             // 
             buttonNext.Enabled = false;
-            buttonNext.Location = new Point(841, 887);
-            buttonNext.Margin = new Padding(14, 15, 14, 15);
+            buttonNext.Location = new Point(589, 532);
+            buttonNext.Margin = new Padding(10, 9, 10, 9);
             buttonNext.Name = "buttonNext";
-            buttonNext.Size = new Size(111, 33);
+            buttonNext.Size = new Size(78, 20);
             buttonNext.TabIndex = 2;
             buttonNext.Text = "Next";
             buttonNext.UseVisualStyleBackColor = true;
@@ -79,10 +79,10 @@ namespace Tree_Scanner
             // pictureboxTreePhoto
             // 
             pictureboxTreePhoto.BorderStyle = BorderStyle.FixedSingle;
-            pictureboxTreePhoto.Location = new Point(24, 185);
-            pictureboxTreePhoto.Margin = new Padding(14, 15, 14, 15);
+            pictureboxTreePhoto.Location = new Point(17, 111);
+            pictureboxTreePhoto.Margin = new Padding(10, 9, 10, 9);
             pictureboxTreePhoto.Name = "pictureboxTreePhoto";
-            pictureboxTreePhoto.Size = new Size(650, 650);
+            pictureboxTreePhoto.Size = new Size(456, 391);
             pictureboxTreePhoto.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureboxTreePhoto.TabIndex = 3;
             pictureboxTreePhoto.TabStop = false;
@@ -90,10 +90,10 @@ namespace Tree_Scanner
             // 
             // buttonBack
             // 
-            buttonBack.Location = new Point(24, 887);
-            buttonBack.Margin = new Padding(14, 15, 14, 15);
+            buttonBack.Location = new Point(17, 532);
+            buttonBack.Margin = new Padding(10, 9, 10, 9);
             buttonBack.Name = "buttonBack";
-            buttonBack.Size = new Size(111, 33);
+            buttonBack.Size = new Size(78, 20);
             buttonBack.TabIndex = 6;
             buttonBack.Text = "Back";
             buttonBack.UseVisualStyleBackColor = true;
@@ -101,10 +101,10 @@ namespace Tree_Scanner
             // 
             // buttonTakePhoto
             // 
-            buttonTakePhoto.Location = new Point(700, 385);
-            buttonTakePhoto.Margin = new Padding(14, 15, 14, 15);
+            buttonTakePhoto.Location = new Point(490, 231);
+            buttonTakePhoto.Margin = new Padding(10, 9, 10, 9);
             buttonTakePhoto.Name = "buttonTakePhoto";
-            buttonTakePhoto.Size = new Size(250, 100);
+            buttonTakePhoto.Size = new Size(175, 60);
             buttonTakePhoto.TabIndex = 7;
             buttonTakePhoto.Text = "Take photo";
             buttonTakePhoto.UseVisualStyleBackColor = true;
@@ -112,42 +112,29 @@ namespace Tree_Scanner
             // 
             // buttonReset
             // 
-            buttonReset.Location = new Point(700, 500);
-            buttonReset.Margin = new Padding(14, 15, 14, 15);
+            buttonReset.Location = new Point(490, 300);
+            buttonReset.Margin = new Padding(10, 9, 10, 9);
             buttonReset.Name = "buttonReset";
-            buttonReset.Size = new Size(250, 100);
+            buttonReset.Size = new Size(175, 60);
             buttonReset.TabIndex = 8;
             buttonReset.Text = "Reset";
             buttonReset.UseVisualStyleBackColor = true;
             buttonReset.Click += buttonReset_Click;
             // 
-            // button1
-            // 
-            button1.Location = new Point(700, 615);
-            button1.Margin = new Padding(14, 15, 14, 15);
-            button1.Name = "button1";
-            button1.Size = new Size(250, 100);
-            button1.TabIndex = 9;
-            button1.Text = "View Minecraft Image";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(694, 765);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(486, 459);
             label2.Name = "label2";
-            label2.Size = new Size(0, 25);
+            label2.Size = new Size(0, 15);
             label2.TabIndex = 10;
             // 
             // formTreePhoto
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(979, 943);
+            ClientSize = new Size(685, 566);
             Controls.Add(label2);
-            Controls.Add(button1);
             Controls.Add(buttonReset);
             Controls.Add(buttonTakePhoto);
             Controls.Add(buttonBack);
@@ -155,6 +142,7 @@ namespace Tree_Scanner
             Controls.Add(buttonNext);
             Controls.Add(label1);
             Controls.Add(richTextBox1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "formTreePhoto";
             Text = "formWelcome";
             ((System.ComponentModel.ISupportInitialize)pictureboxTreePhoto).EndInit();
@@ -171,7 +159,6 @@ namespace Tree_Scanner
         private Button buttonBack;
         private Button buttonTakePhoto;
         private Button buttonReset;
-        private Button button1;
         private Label label2;
     }
 }
