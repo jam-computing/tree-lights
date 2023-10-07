@@ -37,9 +37,10 @@ namespace TreeGUI
 
         }
 
-        private void btnViewAnimations_Click(object sender, EventArgs e)
-        {
+        private void btnViewAnimations_Click(object sender, EventArgs e) =>
+            (ActiveForm as formMaster)!.DisplayForm(new formViewAnimations());
 
-        }
+        private void btnSendToTree_Click(object sender, EventArgs e) =>
+            (ActiveForm as formMaster)!.DisplayForm(new formSendToTree());
     }
 }

@@ -33,6 +33,7 @@
             btnViewFrames = new Button();
             btnSetupTree = new Button();
             helpProvider1 = new HelpProvider();
+            btnSendToTree = new Button();
             SuspendLayout();
             // 
             // label1
@@ -48,7 +49,7 @@
             // 
             // btnViewAnimations
             // 
-            btnViewAnimations.Location = new Point(107, 71);
+            btnViewAnimations.Location = new Point(163, 135);
             btnViewAnimations.Name = "btnViewAnimations";
             btnViewAnimations.Size = new Size(130, 54);
             btnViewAnimations.TabIndex = 1;
@@ -58,7 +59,7 @@
             // 
             // btnViewFrames
             // 
-            btnViewFrames.Location = new Point(243, 71);
+            btnViewFrames.Location = new Point(163, 195);
             btnViewFrames.Name = "btnViewFrames";
             btnViewFrames.Size = new Size(130, 54);
             btnViewFrames.TabIndex = 2;
@@ -68,7 +69,7 @@
             // 
             // btnSetupTree
             // 
-            btnSetupTree.Location = new Point(176, 131);
+            btnSetupTree.Location = new Point(342, 195);
             btnSetupTree.Name = "btnSetupTree";
             btnSetupTree.Size = new Size(130, 54);
             btnSetupTree.TabIndex = 3;
@@ -76,11 +77,22 @@
             btnSetupTree.UseVisualStyleBackColor = true;
             btnSetupTree.Click += button1_Click;
             // 
+            // btnSendToTree
+            // 
+            btnSendToTree.Location = new Point(163, 60);
+            btnSendToTree.Name = "btnSendToTree";
+            btnSendToTree.Size = new Size(130, 54);
+            btnSendToTree.TabIndex = 4;
+            btnSendToTree.Text = "Send To Tree";
+            btnSendToTree.UseVisualStyleBackColor = true;
+            btnSendToTree.Click += btnSendToTree_Click;
+            // 
             // formMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(484, 261);
+            Controls.Add(btnSendToTree);
             Controls.Add(btnSetupTree);
             Controls.Add(btnViewFrames);
             Controls.Add(btnViewAnimations);
@@ -98,5 +110,6 @@
         private Button btnViewFrames;
         private Button btnSetupTree;
         private HelpProvider helpProvider1;
+        private Button btnSendToTree;
     }
 }

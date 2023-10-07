@@ -30,3 +30,5 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGU
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formMaster.resources
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.Properties.Images.resources
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.Properties.Resources.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.ViewAnimationCode.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSendToTree.resources
