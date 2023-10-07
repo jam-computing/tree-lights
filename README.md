@@ -50,6 +50,9 @@ Where the user clicks on the tree, that will light up the corresponding light on
 
 + Emgu - To pinpoint the tree lights
 + Adafriut - Neopixel - To manipulate the tree lights
++ [Other library](https://github.com/rpi-ws281x/rpi-ws281x-csharp) may be better
++ Or maybe this [nuget package](https://www.nuget.org/packages/ws281x.Net/) / [other nuget package](https://www.nuget.org/packages/kenssamson.rpi-ws281x-csharp)
++ [This?](https://kenssamson.github.io/rpi-ws281x-csharp/)
 
 ## Electronics
 
