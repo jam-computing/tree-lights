@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "hLdqluiJfxkJwY+jUfEQbidNqZ2LNkblhbk0EBDNIhhAmd85eZfaBNfDsTeYZ5Nwuum3yo6A3JUlM7WtU1CRPQ==",
+  "dgSpecHash": "m5eKb+0KCqXhieG9n4tXM3G5pxre1YI4paMllfEnSo+M1JjrGIOpezy4WbOApMjuBmFEBkmd+0nnMQGXtxJJNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\i hate windows\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\i hate windows\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.8\\microsoft.netcore.app.host.win-x64.7.0.8.nupkg.sha512"
   ],
   "logs": []
 }

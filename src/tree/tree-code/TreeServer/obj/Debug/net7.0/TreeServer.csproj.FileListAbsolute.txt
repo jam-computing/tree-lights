@@ -59,4 +59,6 @@ C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServ
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.genruntimeconfig.cache
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\ref\TreeServer.dll
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\Newtonsoft.Json.dll
 >>>>>>> f195eeaddf470fe6fcf65add280887e201ab9306
+>>>>>>> ce0326c70b8e0c198ce67f5751f7f0b247ad8c5a

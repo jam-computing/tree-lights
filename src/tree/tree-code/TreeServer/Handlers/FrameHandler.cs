@@ -17,18 +17,9 @@ class FrameHandler : WebSocketBehavior
     {
         var data = ISendable.FromJson<Frame>(e.Data);
         Console.WriteLine("RECEIVED FRAME - " + data.Sender);
-        Send("FRAME CONFIRMATION - FROM " + data.Sender);
-
-        PrintFrame(data! as Frame);
+        Send("Frame received - from TreeServer" );
         
+        DataHolder.Sendables.Add(data);
     }
 
-    private void PrintFrame(Frame data)
-    {
-        int index = 0;
-        foreach (var i in data.Pixels)
-        {
-            Console.WriteLine($"{++index}: ({i.Item1} {i.Item2} {i.Item3})");
-        }
-    }
 }

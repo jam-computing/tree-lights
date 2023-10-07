@@ -39,4 +39,8 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TreeAPI\TreeAPI.csproj" />
+  </ItemGroup>
+
 </Project>

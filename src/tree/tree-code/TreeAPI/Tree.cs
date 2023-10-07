@@ -8,6 +8,8 @@ public class Tree : IDisposable
 {
     public WebSocketSharp.WebSocket? WebSocket { get; set; } = null;
 
+    public string? ReceivedMessage { get; private set; } = null;
+
     public Tree() {}
 
     public Tree(IpAddr ip) => Connect(ip);
@@ -73,10 +75,25 @@ public class Tree : IDisposable
         return ReturnValue.Success;
     }
 
+    public ReturnValue Send(string message)
+    {
+        if (WebSocket is null) return ReturnValue.Failure;
+
+        try
+        {
+            WebSocket.Send(message);
+        }
+        catch (Exception)
+        {
+            return ReturnValue.Failure;
+        }
+
+        return ReturnValue.Success;
+    }
 
     private void GetMessage(object sender, MessageEventArgs e)
     {
-        Console.WriteLine(e.Data);
+        ReceivedMessage = e.Data;
     }
 
     public void Dispose()

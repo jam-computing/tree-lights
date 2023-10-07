@@ -11,6 +11,8 @@ public class AnimationHandler : WebSocketBehavior
     {
         var data = ISendable.FromJson<Animation>(e.Data);
         Console.WriteLine("RECEIVED ANIMATION - " + data.Sender);
-        Send("ANIMATION CONFIRMATION - FROM " + data.Sender); 
+        Send("Animation received - from TreeServer" );
+        
+        DataHolder.Sendables.Add(data);
     }
 }
