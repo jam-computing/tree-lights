@@ -27,7 +27,8 @@ namespace TreeGUI
         private void button1_Click(object sender, EventArgs e)
         {
             var activeForm = ActiveForm as formMaster;
-            activeForm!.Size = new Size(1000, 1000);
+            // Set size to size of Scanner
+            activeForm!.Size = new Size(701, 605);
             activeForm!.MaximizeBox = false;
             activeForm!.DisplayForm(new formWelcome());
 
@@ -43,5 +44,16 @@ namespace TreeGUI
 
         private void btnSendToTree_Click(object sender, EventArgs e) =>
             (ActiveForm as formMaster)!.DisplayForm(new formSendToTree());
+
+        private void formMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnViewMinecraft_Click(object sender, EventArgs e)
+        {
+            (ActiveForm as formMaster)!.Size = new Size(1000, 600);
+            (ActiveForm as formMaster)!.DisplayForm(new ViewMinecraftImage());
+        }
     }
 }

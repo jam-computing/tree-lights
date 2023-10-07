@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TreeServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0564834a8ad3c897a169c7bb904a8441a56af181")]
 [assembly: System.Reflection.AssemblyProductAttribute("TreeServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TreeServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

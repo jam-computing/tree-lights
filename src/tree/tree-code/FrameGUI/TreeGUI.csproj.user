@@ -7,19 +7,22 @@
     <Compile Update="formMaster.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formSendToTree.cs">
+    <Compile Update="Viewer\formSendToTree.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formViewAnimations.cs">
+    <Compile Update="Viewer\formViewAnimations.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formViewFrames.cs">
+    <Compile Update="Viewer\formViewFrames.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Scanner\formScan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewAnimationCode.cs">
+    <Compile Update="Viewer\ViewAnimationCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewMinecraftImage.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

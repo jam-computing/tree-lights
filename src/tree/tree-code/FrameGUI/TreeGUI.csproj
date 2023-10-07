@@ -10,10 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Viewer\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Emgu.CV.Bitmap" Version="4.8.0.5324" />
     <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.0.5324" />
   </ItemGroup>

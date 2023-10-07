@@ -23,3 +23,5 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\Console
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\Emgu.CV.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\Emgu.CV.Bitmap.dll

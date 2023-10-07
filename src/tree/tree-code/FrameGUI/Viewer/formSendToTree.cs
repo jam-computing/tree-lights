@@ -18,22 +18,12 @@ namespace TreeGUI
 
         private string animationDirectory = "../../../../../../../data/animations/";
         private string frameDirectory = "../../../../../../../data/frames/";
-        private string configFile = "../../../../../../../data/config.json";
         private List<string> AllSendables = new();
         private Tree tree = new();
         public formSendToTree()
         {
 
-
-            string configData = "";
-            string[] file = File.ReadAllLines(configFile);
-
-            foreach(var line in file)
-            {
-                configData += line;
-            }
-
-            TreeConfig config = JsonConvert.DeserializeObject<TreeConfig>(configData)!;
+            TreeConfig config = TreeConfig.GetConfig();
 
             tree = new Tree(new IpAddr(config.IP, config.Port, "Text"));
 

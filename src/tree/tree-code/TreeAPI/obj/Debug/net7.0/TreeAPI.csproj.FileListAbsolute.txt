@@ -10,15 +10,4 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\refint\TreeAPI.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.pdb
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\ref\TreeAPI.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\bin\Debug\net7.0\TreeAPI.deps.json
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\bin\Debug\net7.0\TreeAPI.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\bin\Debug\net7.0\TreeAPI.pdb
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.csproj.AssemblyReference.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.AssemblyInfoInputs.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.AssemblyInfo.cs
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.csproj.CoreCompileInputs.cache
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\refint\TreeAPI.dll
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.pdb
-C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\ref\TreeAPI.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.sourcelink.json
