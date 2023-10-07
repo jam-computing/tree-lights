@@ -8,8 +8,9 @@ public class Tree : IDisposable
 {
     public WebSocketSharp.WebSocket? WebSocket { get; set; } = null;
 
-    public string? ReceivedMessage { get; private set; } = null;
+    public bool IsConnected  => this.WebSocket.IsAlive;
 
+    public string? ReceivedMessage { get; private set; } = null;
     public Tree() {}
 
     public Tree(IpAddr ip) => Connect(ip);
@@ -20,10 +21,8 @@ public class Tree : IDisposable
 
         try
         {
-            WebSocket = new WebSocketSharp.WebSocket("ws://" + IP + ":" + port + "/" + path);
-
+            WebSocket = new WebSocket("ws://" + IP + ":" + port + "/" + path);
             WebSocket.OnMessage += GetMessage!;
-
             WebSocket.Connect();
         }
         catch (Exception)
@@ -44,9 +43,10 @@ public class Tree : IDisposable
 
         try
         {
-            WebSocket = new WebSocketSharp.WebSocket(ip.ToString());
+            WebSocket = new WebSocket(ip.ToString());
             WebSocket.OnMessage += GetMessage!;
             WebSocket.Connect();
+
         }
         catch (Exception)
         {
@@ -57,8 +57,7 @@ public class Tree : IDisposable
 
         return ReturnValue.Success;
     }
-    
-    
+
     public ReturnValue Send(ISendable message)
     {
         if (WebSocket is null) return ReturnValue.Failure;
