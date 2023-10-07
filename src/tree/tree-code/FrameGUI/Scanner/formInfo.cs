@@ -18,7 +18,9 @@ namespace Tree_Scanner
             InitializeComponent();
             var str = "";
             Enumerable.Range(0, 1000).Select(x => "Emacs sucks, ").ToList().ForEach(x => str += x);
-            richTextBox2.Text = str;        }
+            str += "\n\nBut we all know vim sucks more";
+            richTextBox2.Text = str;        
+        }
 
         private void buttonNext_Click(object sender, EventArgs e)
         {

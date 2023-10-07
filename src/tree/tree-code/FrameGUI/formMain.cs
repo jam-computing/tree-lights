@@ -27,7 +27,8 @@ namespace TreeGUI
         private void button1_Click(object sender, EventArgs e)
         {
             var activeForm = ActiveForm as formMaster;
-            activeForm!.Size = new Size(705, 616);
+            activeForm!.Size = new Size(1000, 1000);
+            activeForm!.MaximizeBox = false;
             activeForm!.DisplayForm(new formWelcome());
 
         }

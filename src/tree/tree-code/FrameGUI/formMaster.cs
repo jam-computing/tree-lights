@@ -30,7 +30,6 @@ namespace TreeGUI
             panelMaster.Controls.Clear();
             panelMaster.Controls.Add(ChildForm);
             ChildForm.Show();
-
         }
     }
 }
