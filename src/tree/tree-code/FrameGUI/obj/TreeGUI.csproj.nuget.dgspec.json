@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj": {}
+    "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj": {
+    "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj",
+        "projectUniqueName": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj",
         "projectName": "TreeGUI",
-        "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj",
-        "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\obj\\",
+        "projectPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\TreeGUI.csproj",
+        "packagesPath": "C:\\Users\\mgrac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\FrameGUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mgrac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
-                "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj"
+              "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
+                "projectPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
           "targetAlias": "net7.0-windows",
           "dependencies": {
             "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.8.0.5324, )"
+            },
+            "Emgu.CV.runtime.windows": {
               "target": "Package",
               "version": "[4.8.0.5324, )"
             }
@@ -68,21 +72,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
+    "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
         "projectName": "TreeAPI",
-        "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
-        "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\obj\\",
+        "projectPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj",
+        "packagesPath": "C:\\Users\\mgrac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mgrac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -137,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

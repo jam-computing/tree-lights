@@ -1,3 +1,6 @@
+using Tree_Scanner;
+using TreeGUI.Scanner;
+
 namespace TreeGUI;
 
 internal static class Program
