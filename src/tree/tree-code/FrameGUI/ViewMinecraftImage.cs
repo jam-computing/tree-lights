@@ -79,8 +79,14 @@ namespace TreeGUI
                 Blocks = JsonConvert.DeserializeObject<List<MinecraftBlock>>(tree.ReceivedMessage!)!;
             }
 
-            int factor = config.ImageMultiplicationFactor;
+            int imageX = config.ImageX;
+            int imageY = config.ImageY;
+            
 
+            int factor = (int)Math.Round((double)(image.Height / imageX));
+
+            label1.Text += factor;
+                
             Bitmap bitmap = (Bitmap)image;
 
             if (Blocks is null) return bitmap;
@@ -89,16 +95,16 @@ namespace TreeGUI
 
             foreach (var (width, height) in locations)
             {
-                var newWidth = width * factor;
-                var newHeight = (height * -1) * factor;
+                var newWidth = Math.Abs(width) * factor;
+                var newHeight = Math.Abs(height)  * factor;
 
                 for (var i = newWidth - factor > 0 ? newWidth - factor : newWidth;
                      i < (newWidth + factor < bitmap.Width ? newWidth + factor : newWidth);
                      i++)
                 {
 
-                    for (var j = newHeight - factor > 0 ? newHeight - factor : newHeight;
-                         j < (newHeight + factor < bitmap.Height ? newHeight + factor : newHeight);
+                    for (var j = newHeight - factor > 0 ? newHeight - ( factor - 2 ) : newHeight;
+                         j < (newHeight + ( factor + 2 ) < bitmap.Height ? newHeight + factor : newHeight);
                          j++)
                     {
                         bitmap.SetPixel(i, j, Color.Blue);

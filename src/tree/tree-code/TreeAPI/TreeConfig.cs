@@ -14,7 +14,8 @@ public class TreeConfig
 
 
     public string MinecraftImage { get; set; }
-    public int ImageMultiplicationFactor { get; set; }
+    public int ImageX { get; set; }
+    public int ImageY { get; set; }
 
     public static TreeConfig GetConfig()
     {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3SidpM+5LPVjycaLSOXpAD3nNbRbsjgpcP89DC/XGvYPlcNVpLMZP7sRW8Lxa4ihBuiGewmCOErrgAzQtZvp9Q==",
+  "dgSpecHash": "NaQa0yngkl/IjwxRKOanR2ERHcciM6+RNVHQJ0V784VkQ7xXDF/3V/kt3BeKUtW6RHZyUsAZ3T2VVj1diarz3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,11 @@
     "C:\\Users\\elliot alderson\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.8\\microsoft.netcore.app.host.win-x64.7.0.8.nupkg.sha512"
   ],
   "logs": []
 }
