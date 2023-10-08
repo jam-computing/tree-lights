@@ -2,6 +2,8 @@
 using WebSocketSharp.Server;
 using WebSocketSharp;
 using Newtonsoft.Json;
+using rpi_ws281x;
+using System.Drawing;
 
 namespace TreeServer.Requests;
 
@@ -26,8 +28,14 @@ internal class SetupRequest : WebSocketBehavior
         CurrentIndex = data.index;
 
         // Turn corresponding light on
+       
+        var settings = Settings.CreateDefaultSettings();
+        var controller = settings.AddController(data.ledCount);
 
-        // Neopixel something?
+        using(var rpi = new WS281x(settings)) {
+            rpi.Reset();
+            controller.SetLED(data.index, Color.White);
+        }
 
 
         Send($"Turned on: {CurrentIndex}");

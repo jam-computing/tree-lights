@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "digitalhigh.rpi-ws281x-csharp/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/rpi_ws281x.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/rpi_ws281x.dll": {}
+        }
+      },
       "Emgu.CV/4.8.0.5324": {
         "type": "package",
         "dependencies": {
@@ -420,6 +429,22 @@
     }
   },
   "libraries": {
+    "digitalhigh.rpi-ws281x-csharp/1.2.0": {
+      "sha512": "NXPTb17ZqpjjaFpWc/oLZBHG3/2KPybDUUGzeXvKMyXj49xr4zKS1HeuOcEWcFdkImPQBxIFgbj2NG6lSfTTzA==",
+      "type": "package",
+      "path": "digitalhigh.rpi-ws281x-csharp/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "digitalhigh.rpi-ws281x-csharp.1.2.0.nupkg.sha512",
+        "digitalhigh.rpi-ws281x-csharp.nuspec",
+        "lib/net5.0/rpi_ws281x.dll",
+        "lib/net6.0/rpi_ws281x.dll",
+        "lib/netcoreapp3.1/rpi_ws281x.dll",
+        "lib/netstandard2.0/rpi_ws281x.dll",
+        "lib/netstandard2.1/rpi_ws281x.dll"
+      ]
+    },
     "Emgu.CV/4.8.0.5324": {
       "sha512": "ij5qkchY/z4Hj+CNg5M4BURPI+SiE85B5SluG4lyWzrdsf7qVjDi3fs9bFrQdwnEKgYrvbsFswKXFE5CKV6/hQ==",
       "type": "package",
@@ -1705,7 +1730,8 @@
     "net7.0": [
       "Emgu.CV.Bitmap >= 4.8.0.5324",
       "TreeAPI >= 1.0.0",
-      "WebSocketSharp-netstandard >= 1.0.1"
+      "WebSocketSharp-netstandard >= 1.0.1",
+      "digitalhigh.rpi-ws281x-csharp >= 1.2.0"
     ]
   },
   "packageFolders": {
@@ -1745,6 +1771,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -1758,6 +1787,10 @@
           "WebSocketSharp-netstandard": {
             "target": "Package",
             "version": "[1.0.1, )"
+          },
+          "digitalhigh.rpi-ws281x-csharp": {
+            "target": "Package",
+            "version": "[1.2.0, )"
           }
         },
         "imports": [
@@ -1771,12 +1804,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.8, 7.0.8]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.8, 7.0.8]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.8, 7.0.8]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.8, 7.0.8]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
       }
     }
   }

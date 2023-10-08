@@ -54,14 +54,15 @@ class Program
         Console.WriteLine($"This server is being hosted on ws://{IpAddr}:{config.Port}");
 
 
-        while (true)
+        while (true) {
             if (Console.ReadLine()?.ToLower() == "stop")
                 break;
             else if(Console.ReadLine()?.ToLower() == "show frame") 
                 DataHolder.Sendables[^1].ToFrame().PrintFrame();
             else if(Console.ReadLine()?.ToLower() == "show text")
                 Console.WriteLine(DataHolder.TextsReceived[^1]);
-        
+        }
+
         server.Stop();
     }
 }
