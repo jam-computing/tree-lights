@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using TreeAPI;
 using TreeAPI.Types;
 using Newtonsoft.Json;
+using TreeAPI.Config;
 
 namespace TreeGUI
 {
@@ -40,21 +41,23 @@ namespace TreeGUI
             (ActiveForm as formMaster)!.DisplayForm(new formMain());
         }
 
-        private Bitmap GetImage()
+        private Bitmap? GetImage()
         {
             label1.Text = "Connecting...";
 
-            var config = TreeConfig.GetConfig();
+            var minecraft = MinecraftConfig.GetConfig() as MinecraftConfig;
+            var config = TreeConfig.GetConfig() as TreeConfig;
+            
 
-            var file = "../../../../../../../data/images/" + config.MinecraftImage;
+            var file = "../../../../../../../data/images/" + minecraft!.MinecraftImage;
 
             if (!File.Exists(file)) return null;
 
             Image image = Image.FromFile(file);
 
-            if (config.IP is null)
+            if (config!.IP is null)
             {
-                label1.Text = "No IP found in config.json";
+                label1.Text = @"No IP found in config.json";
                 return (Bitmap)image;
             }
 
@@ -67,23 +70,23 @@ namespace TreeGUI
                 if (!tree.IsConnected)
                 {
                     tree.Dispose();
-                    label1.Text = "No connection";
+                    label1.Text = @"No connection";
                     return (Bitmap)image;
                 }
                 tree.Send("Hello from MinecraftImageHandler");
                 System.Threading.Thread.Sleep(500);
                 Console.WriteLine(tree.ReceivedMessage);
 
-                if (tree.ReceivedMessage is "[]") { label1.Text = "No Minecraft Blocks available"; return (Bitmap)image; }
+                if (tree.ReceivedMessage is "[]") { label1.Text = @"No Minecraft Blocks available"; return (Bitmap)image; }
 
                 Blocks = JsonConvert.DeserializeObject<List<MinecraftBlock>>(tree.ReceivedMessage!)!;
             }
 
-            int imageX = config.ImageX;
-            int imageY = config.ImageY;
+            int imageX = minecraft!.ImageX;
+            int imageY = minecraft!.ImageY;
             
 
-            int factor = (int)Math.Round((double)(image.Height / imageX));
+            int factor = (int)Math.Round(Convert.ToDouble(image.Height / imageX));
 
             label1.Text += factor;
                 

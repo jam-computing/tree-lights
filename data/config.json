@@ -1,9 +1,4 @@
 {
     "IP": "localhost",
-    "Port": 3000,
-
-
-    "MinecraftImage": "tree.jpg",
-    "ImageX": 50,
-    "ImageY": 50
+    "Port": 3000
 }

@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Tree_Scanner;
 using TreeAPI;
 using TreeAPI.Types;
+using TreeAPI.Config;
 using WebSocketSharp;
 
 namespace TreeGUI.Scanner
@@ -19,8 +20,8 @@ namespace TreeGUI.Scanner
     {
 
 
-        private string? _IP => TreeConfig.GetConfig().IP;
-        private int _port = TreeConfig.GetConfig().Port;
+        private string? _IP => ((TreeConfig)TreeConfig.GetConfig()).IP;
+        private int _port = ((TreeConfig)TreeConfig.GetConfig()).Port;
         private List<Point> _points = new List<Point>();
 
         private const int numberOfLights = 10;
@@ -48,7 +49,7 @@ namespace TreeGUI.Scanner
         {
             if (_IP is null || _port == -1)
             {
-                MessageBox.Show("Please fill in the port and IP fields");
+                MessageBox.Show(@"Please fill in the port and IP fields");
                 return;
             }
 
@@ -56,7 +57,7 @@ namespace TreeGUI.Scanner
             buttonStartScan.Enabled = false;
             buttonNext.Enabled = false;
 
-            buttonStartScan.Text = "Working...";
+            buttonStartScan.Text = @"Working...";
 
             IpAddr address = new IpAddr()
             {
