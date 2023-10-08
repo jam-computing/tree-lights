@@ -27,6 +27,7 @@
             label1 = new Label();
             buttonNext = new Button();
             pictureBox1 = new PictureBox();
+            buttonBack = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -74,11 +75,23 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
+            // buttonBack
+            // 
+            buttonBack.Location = new Point(24, 887);
+            buttonBack.Margin = new Padding(14, 15, 14, 15);
+            buttonBack.Name = "buttonBack";
+            buttonBack.Size = new Size(111, 33);
+            buttonBack.TabIndex = 6;
+            buttonBack.Text = "Back";
+            buttonBack.UseVisualStyleBackColor = true;
+            buttonBack.Click += buttonBack_Click;
+            // 
             // formWelcome
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(978, 944);
+            Controls.Add(buttonBack);
             Controls.Add(pictureBox1);
             Controls.Add(buttonNext);
             Controls.Add(label1);
@@ -96,5 +109,6 @@
         private Label label1;
         private Button buttonNext;
         private PictureBox pictureBox1;
+        private Button buttonBack;
     }
 }
