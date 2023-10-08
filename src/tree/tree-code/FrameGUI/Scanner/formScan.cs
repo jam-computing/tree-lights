@@ -83,7 +83,7 @@ public partial class formScan : Form {
             string receivedText = tree.ReceivedMessage!;
 
             foreach (var i in Enumerable.Range(0, numberOfLights)) {
-                var req = new SetupRequest() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights};
+                var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights};
                 
                 tree.Send(req);
 

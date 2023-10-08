@@ -51,3 +51,4 @@ C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServ
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.pdb
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\TreeServer.genruntimeconfig.cache
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\obj\Debug\net7.0\ref\TreeServer.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeServer\bin\Debug\net7.0\rpi_ws281x.dll
