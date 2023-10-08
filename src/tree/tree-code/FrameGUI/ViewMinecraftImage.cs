@@ -11,8 +11,9 @@ using TreeAPI;
 using TreeAPI.Types;
 using Newtonsoft.Json;
 using TreeAPI.Config;
+using TreeAPI.Requests;
 
-namespace TreeGUI; 
+namespace TreeGUI;
 public partial class ViewMinecraftImage : Form {
     public ViewMinecraftImage() {
         InitializeComponent();
@@ -58,7 +59,7 @@ public partial class ViewMinecraftImage : Form {
         List<MinecraftBlock> Blocks = new();
 
         using (var tree = new Tree(IP)) {
-            if (!tree.IsConnected) {
+            if (!tree.IsConnected is true) {
                 tree.Dispose();
                 label1.Text = @"No connection";
                 return (Bitmap)image;

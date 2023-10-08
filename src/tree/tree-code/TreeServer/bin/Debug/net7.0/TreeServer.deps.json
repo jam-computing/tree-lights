@@ -10,10 +10,19 @@
         "dependencies": {
           "Emgu.CV.Bitmap": "4.8.0.5324",
           "TreeAPI": "1.0.0",
-          "WebSocketSharp-netstandard": "1.0.1"
+          "WebSocketSharp-netstandard": "1.0.1",
+          "digitalhigh.rpi-ws281x-csharp": "1.2.0"
         },
         "runtime": {
           "TreeServer.dll": {}
+        }
+      },
+      "digitalhigh.rpi-ws281x-csharp/1.2.0": {
+        "runtime": {
+          "lib/net6.0/rpi_ws281x.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
         }
       },
       "Emgu.CV/4.8.0.5324": {
@@ -240,6 +249,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "digitalhigh.rpi-ws281x-csharp/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NXPTb17ZqpjjaFpWc/oLZBHG3/2KPybDUUGzeXvKMyXj49xr4zKS1HeuOcEWcFdkImPQBxIFgbj2NG6lSfTTzA==",
+      "path": "digitalhigh.rpi-ws281x-csharp/1.2.0",
+      "hashPath": "digitalhigh.rpi-ws281x-csharp.1.2.0.nupkg.sha512"
     },
     "Emgu.CV/4.8.0.5324": {
       "type": "package",

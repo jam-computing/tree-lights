@@ -13,7 +13,7 @@ internal class SetupRequest : WebSocketBehavior
     private const string logsDir = "../../../../../../../data/logs/";
     protected override void OnMessage(MessageEventArgs e)
     {
-        var data = (TreeAPI.SetupRequest)ISendable.FromJson<TreeAPI.SetupRequest>(e.Data);
+        var data = (TreeAPI.Setup)ISendable.FromJson<TreeAPI.Setup>(e.Data);
         Console.WriteLine("REQUEST TO SETUP - FROM " + data.Sender);
 
         // Means a setup request

@@ -1,4 +1,8 @@
-﻿using TreeAPI;
+﻿using System.Net;
+using System.Net.Sockets;
+using TreeServer.Requests;
+using TreeAPI;
+using TreeAPI.Config;
 using WebSocketSharp.Server;
 
 namespace TreeServer;
@@ -7,8 +11,21 @@ class Program
 {
     public static void Main(string[] args)
     {
+
+        string IpAddr = "";
+
+        var host = Dns.GetHostEntry(Dns.GetHostName());
+        foreach (var ip in host.AddressList)
+        {
+            if (ip.AddressFamily == AddressFamily.InterNetwork)
+            {
+                IpAddr = ip.ToString();
+            }
+        }
+        
+        var config = TreeConfig.GetConfig();
         Console.WriteLine("Starting WebServer");
-        var server = new WebSocketServer(3000);
+        var server = new WebSocketServer(config.Port);
 
         server.AddWebSocketService<FrameHandler>("/Frame");
         Console.WriteLine("Added Frame Handler");
@@ -25,12 +42,16 @@ class Program
         server.AddWebSocketService<BlockRequest>("/BlockRequest");
         Console.WriteLine("Added Minecraft Request Handler");
 
+        server.AddWebSocketService<Requests.SetupRequest>("/SetupRequest");
+        Console.WriteLine("Added Setup Request Handler");
+
+        server.AddWebSocketService<PingRequest>("/Ping");
+        Console.WriteLine("Added Ping Request");
+
         server.Start();
         Console.WriteLine("Ready To Receive Frames");
 
-        Console.WriteLine("Type 'stop' to stop the server.");
-        Console.WriteLine("Type 'show frame' to show the most recent frame / animation");
-        Console.WriteLine("Type 'show text' to show the most recent text");
+        Console.WriteLine($"This server is being hosted on ws://{IpAddr}:{config.Port}");
 
 
         while (true) {

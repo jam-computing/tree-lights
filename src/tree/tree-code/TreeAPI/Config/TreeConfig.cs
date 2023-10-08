@@ -1,16 +1,11 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TreeAPI.Types;
 
 namespace TreeAPI.Config;
 
 public class TreeConfig
 {
-    private static string ConfigFile { get; } = "../../../../../../../data/config.json";
+    public static string ConfigFile { get; } = "../../../../../../../data/config.json";
 
     public static TreeConfig GetConfig()
     {
@@ -26,8 +21,8 @@ public class TreeConfig
     public int Port { get; set; }
 
     public IpAddr GetIpAddr(string path) => new() {
-        Address = this.IP,
-        Port = this.Port,
+        Address = IP!,
+        Port = Port,
         Path = path
     };
 }

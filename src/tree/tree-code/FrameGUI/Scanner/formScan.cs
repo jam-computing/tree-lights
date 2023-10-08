@@ -76,14 +76,14 @@ public partial class formScan : Form {
 
             // Our request to begin setup
 
-            var SetupReq = new SetupRequest() { Sender = $"TreeSetupGUI{randomNumber}" };
+            var SetupReq = new Setup() { Sender = $"TreeSetupGUI{randomNumber}" };
 
             tree.Send(SetupReq);
 
             string receivedText = tree.ReceivedMessage!;
 
             foreach (var i in Enumerable.Range(0, numberOfLights)) {
-                var req = new SetupRequest() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights};
+                var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights};
                 
                 tree.Send(req);
 

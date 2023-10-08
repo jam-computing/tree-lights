@@ -62,7 +62,6 @@ C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGU
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.genruntimeconfig.cache
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\ref\TreeGUI.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.ViewMinecraftImage.resources
-C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.sourcelink.json
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\bin\Debug\net7.0-windows\TreeGUI.exe
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\bin\Debug\net7.0-windows\TreeGUI.deps.json
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\bin\Debug\net7.0-windows\TreeGUI.runtimeconfig.json
@@ -127,3 +126,5 @@ C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.pdb
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.genruntimeconfig.cache
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\ref\TreeGUI.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSettings.resources
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.sourcelink.json
