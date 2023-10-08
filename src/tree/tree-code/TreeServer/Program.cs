@@ -27,7 +27,7 @@ class Program
 
         
 
-        var TreeConfig = TreeConfig.GetConfig();
+        var treeConfig = TreeConfig.GetConfig();
 
 
         Console.WriteLine("Starting WebServer");
