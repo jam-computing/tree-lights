@@ -8,7 +8,7 @@ public class Tree : IDisposable
 {
     public WebSocketSharp.WebSocket? WebSocket { get; set; } = null;
 
-    public bool IsConnected  => this.WebSocket.IsAlive;
+    public bool? IsConnected  => this.WebSocket?.IsAlive;
 
     public string? ReceivedMessage { get; private set; } = null;
     public Tree() {}
@@ -17,6 +17,11 @@ public class Tree : IDisposable
     
     public ReturnValue Connect(string IP, int port, string path)
     {
+
+        if(IsConnected is true)
+            WebSocket?.CloseAsync();
+
+
         Console.WriteLine("Connecting...");
 
         try
@@ -39,6 +44,10 @@ public class Tree : IDisposable
 
     public ReturnValue Connect(IpAddr ip)
     {
+        
+        if(IsConnected is not null || IsConnected is true)
+            WebSocket?.Close();
+
         Console.WriteLine("Connecting...");
 
         try

@@ -1,9 +1,10 @@
 using Newtonsoft.Json;
+
 namespace TreeAPI.Config;
 
 public class MinecraftConfig 
 {
-    private static string ConfigFile { get; } = "../../../../../../../data/minecraft.json";
+    public static string ConfigFile { get; } = "../../../../../../../data/minecraft.json";
 
     public static MinecraftConfig GetConfig()
     {
@@ -16,7 +17,7 @@ public class MinecraftConfig
         return JsonConvert.DeserializeObject<MinecraftConfig>(configData)!;
     }
     
-    public string MinecraftImage { get; set; }
+    public string? MinecraftImage { get; set; }
     public int ImageX { get; set; }
     public int ImageY { get; set; }
 }

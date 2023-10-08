@@ -2,7 +2,7 @@
 
 namespace TreeAPI;
 
-public class SetupRequest : ISendable
+public class Setup : ISendable
 {
     public string Sender { get; init; } = String.Empty;
 

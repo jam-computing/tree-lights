@@ -76,7 +76,7 @@ namespace TreeGUI
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            if (tree.IsConnected) tree.Dispose();
+            if (tree.IsConnected is true) tree.Dispose();
             (ActiveForm as formMaster)!.DisplayForm(new formMain());
         }
     }

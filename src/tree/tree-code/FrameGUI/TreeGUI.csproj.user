@@ -7,6 +7,9 @@
     <Compile Update="formMaster.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Viewer\formSendToTree.cs">
       <SubType>Form</SubType>
     </Compile>

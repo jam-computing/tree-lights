@@ -12,7 +12,7 @@ using(var tree = new Tree()) {
 
     tree.Connect(ip);
 
-    if(!tree.IsConnected) return;
+    if(!(tree.IsConnected is true)) return;
 
     Console.WriteLine("Connected!");
 
