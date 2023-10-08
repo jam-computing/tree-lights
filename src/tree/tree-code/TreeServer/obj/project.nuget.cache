@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "O646qUZXQbWIYrcBbY7HL/PJxeGR0qnesAp6XTwcfRgKcoJ5Vw+Q9v01R48vcGVVi2Z9swGV6qAOP4LB1qs3zw==",
+  "dgSpecHash": "WOAZWIj1UWHWJ6XSwYHcoviB0m5rCsFcLjatO6/BMk3jVrNb2ksfNQ2AYs7Qtqq5H5WqoSxIeEXQKbNmvVuKew==",
   "success": true,
   "projectFilePath": "C:\\Users\\mgrac\\OneDrive\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeServer\\TreeServer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mgrac\\.nuget\\packages\\digitalhigh.rpi-ws281x-csharp\\1.2.0\\digitalhigh.rpi-ws281x-csharp.1.2.0.nupkg.sha512",
     "C:\\Users\\mgrac\\.nuget\\packages\\emgu.cv\\4.8.0.5324\\emgu.cv.4.8.0.5324.nupkg.sha512",
     "C:\\Users\\mgrac\\.nuget\\packages\\emgu.cv.bitmap\\4.8.0.5324\\emgu.cv.bitmap.4.8.0.5324.nupkg.sha512",
     "C:\\Users\\mgrac\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",

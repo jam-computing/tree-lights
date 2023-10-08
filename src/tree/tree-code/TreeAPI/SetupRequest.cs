@@ -8,4 +8,6 @@ public class SetupRequest : ISendable
 
     // -1 means a setup request, else turn the corresponding light on
     public int index { get; init; } = -1;
+
+    public int ledCount { get; init; } = 0;
 }
