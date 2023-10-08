@@ -52,7 +52,7 @@ public partial class formScan : Form {
         progressBar1.Step = (int)(100 / (float)numberOfLights);
 
         for (int i = 0; i < numberOfLights; i++) {
-            // Simulaying connection delay
+            // Simulating connection delay
             await Task.Delay(1000);
 
             ProcessedImage image = new ProcessedImage();
@@ -80,22 +80,24 @@ public partial class formScan : Form {
 
             tree.Send(SetupReq);
 
-            string receivedText = tree.ReceivedMessage;
+            string receivedText = tree.ReceivedMessage!;
 
             foreach (var i in Enumerable.Range(0, numberOfLights)) {
-                var req = new SetupRequest() { Sender = $"TreeSetupGUI{randomNumber}" };
-
+                var req = new SetupRequest() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights};
+                
                 tree.Send(req);
 
-                var msg = tree.ReceivedMessage.Split(":")[^1].Trim();
+                var msg = tree.ReceivedMessage!.Split(":")[^1].Trim();
 
-                if (msg == $"{i}") continue;
+                if (msg != $"{i}") { MessageBox.Show("An error occured :("); break; }
 
-                MessageBox.Show("An error occured :(");
+                ProcessedImage image = new ProcessedImage();
+                pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, image.BrightestPoints).ToBitmap();
+                pictureboxTreePhoto.Refresh();
+                _points.Add(image.BrightestPoints[0]);
 
-                break;
+                progressBar1.PerformStep();
             }
-
         }
 
     #endregion
