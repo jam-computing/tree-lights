@@ -1,0 +1,12 @@
+{
+    "Port": 1234,
+    "Endpoints": [
+        "FrameHandler",
+        "AnimationHandler",
+        "TextHandler",
+        "MinecraftBlockHandler",
+        "BlockRequest",
+        "SetupRequest",
+        "PingRequest"
+    ]
+}

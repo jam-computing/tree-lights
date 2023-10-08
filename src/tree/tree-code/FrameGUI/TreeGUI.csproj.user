@@ -25,7 +25,7 @@
     <Compile Update="Viewer\ViewAnimationCode.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewMinecraftImage.cs">
+    <Compile Update="Viewer\ViewMinecraftImage.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
