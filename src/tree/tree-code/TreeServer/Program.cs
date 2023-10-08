@@ -33,14 +33,15 @@ class Program
         Console.WriteLine("Type 'show text' to show the most recent text");
 
 
-        while (true)
+        while (true) {
             if (Console.ReadLine()?.ToLower() == "stop")
                 break;
             else if(Console.ReadLine()?.ToLower() == "show frame") 
                 DataHolder.Sendables[^1].ToFrame().PrintFrame();
             else if(Console.ReadLine()?.ToLower() == "show text")
                 Console.WriteLine(DataHolder.TextsReceived[^1]);
-        
+        }
+
         server.Stop();
     }
 }
