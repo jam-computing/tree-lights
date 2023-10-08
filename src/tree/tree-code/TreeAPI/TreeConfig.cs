@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TreeAPI.Types;
 
 namespace TreeAPI;
 
@@ -30,4 +31,10 @@ public class TreeConfig
         return JsonConvert.DeserializeObject<TreeConfig>(configData)!;
 
     }
+
+    public IpAddr GetIpAddr(string path) => new() {
+        Address = this.IP,
+        Port = this.Port,
+        Path = path
+    };
 }
