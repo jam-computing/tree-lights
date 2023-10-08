@@ -1,15 +1,31 @@
-﻿using System.Drawing;
-using System.Threading.Channels;
+﻿using System.Net;
+using TreeAPI;
+using TreeAPI.Types;
+
+using(var tree = new Tree()) {
+
+    IpAddr ip = new IpAddr() {
+        Address = "localhost",
+        Port = 3000,
+        Path = "Frame"
+    };
+
+    tree.Connect(ip);
+
+    if(!tree.IsConnected) return;
+
+    Console.WriteLine("Connected!");
 
 
-Image image = Image.FromFile("../../../../../../../data/images/nobara.jpg");
+    Frame frame = new(new List<(int, int, int)>(), "Intrigued Reader");
 
-Bitmap bitmap = (Bitmap)image;
 
-Console.WriteLine(bitmap.Width);
-Console.WriteLine(bitmap.Height);
+    tree.Send(frame);
 
-var pixel = bitmap.GetPixel(1, 1);
 
-bitmap.SetPixel(1,1, Color.White);
+    Console.WriteLine("The Received Message is: ");
+    Console.WriteLine(tree.ReceivedMessage);
 
+    Thread.Sleep(1000);
+
+}

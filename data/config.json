@@ -1,6 +1,4 @@
 {
     "IP": "localhost",
-    "Port": 3000,
-    "MinecraftImage": "tree.jpg",
-    "ImageMultiplicationFactor": 14
+    "Port": 3000
 }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using TreeAPI;
 using Newtonsoft.Json;
 using TreeAPI.Types;
+using TreeAPI.Config;
 
 namespace TreeGUI
 {
@@ -23,7 +24,7 @@ namespace TreeGUI
         public formSendToTree()
         {
 
-            TreeConfig config = TreeConfig.GetConfig();
+            TreeConfig config = TreeConfig.GetConfig() as TreeConfig;
 
             tree = new Tree(new IpAddr(config.IP, config.Port, "Text"));
 

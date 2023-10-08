@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using TreeAPI;
 using TreeAPI.Types;
 using Newtonsoft.Json;
+using TreeAPI.Config;
 
 namespace TreeGUI
 {
@@ -40,21 +41,23 @@ namespace TreeGUI
             (ActiveForm as formMaster)!.DisplayForm(new formMain());
         }
 
-        private Bitmap GetImage()
+        private Bitmap? GetImage()
         {
             label1.Text = "Connecting...";
 
-            var config = TreeConfig.GetConfig();
+            var minecraft = MinecraftConfig.GetConfig() as MinecraftConfig;
+            var config = TreeConfig.GetConfig() as TreeConfig;
+            
 
-            var file = "../../../../../../../data/images/" + config.MinecraftImage;
+            var file = "../../../../../../../data/images/" + minecraft!.MinecraftImage;
 
             if (!File.Exists(file)) return null;
 
             Image image = Image.FromFile(file);
 
-            if (config.IP is null)
+            if (config!.IP is null)
             {
-                label1.Text = "No IP found in config.json";
+                label1.Text = @"No IP found in config.json";
                 return (Bitmap)image;
             }
 
@@ -67,20 +70,26 @@ namespace TreeGUI
                 if (!tree.IsConnected)
                 {
                     tree.Dispose();
-                    label1.Text = "No connection";
+                    label1.Text = @"No connection";
                     return (Bitmap)image;
                 }
                 tree.Send("Hello from MinecraftImageHandler");
                 System.Threading.Thread.Sleep(500);
                 Console.WriteLine(tree.ReceivedMessage);
 
-                if (tree.ReceivedMessage is "[]") { label1.Text = "No Minecraft Blocks available"; return (Bitmap)image; }
+                if (tree.ReceivedMessage is "[]") { label1.Text = @"No Minecraft Blocks available"; return (Bitmap)image; }
 
                 Blocks = JsonConvert.DeserializeObject<List<MinecraftBlock>>(tree.ReceivedMessage!)!;
             }
 
-            int factor = config.ImageMultiplicationFactor;
+            int imageX = minecraft!.ImageX;
+            int imageY = minecraft!.ImageY;
+            
 
+            int factor = (int)Math.Round(Convert.ToDouble(image.Height / imageX));
+
+            label1.Text += factor;
+                
             Bitmap bitmap = (Bitmap)image;
 
             if (Blocks is null) return bitmap;
@@ -89,16 +98,16 @@ namespace TreeGUI
 
             foreach (var (width, height) in locations)
             {
-                var newWidth = width * factor;
-                var newHeight = (height * -1) * factor;
+                var newWidth = Math.Abs(width) * factor;
+                var newHeight = Math.Abs(height)  * factor;
 
                 for (var i = newWidth - factor > 0 ? newWidth - factor : newWidth;
                      i < (newWidth + factor < bitmap.Width ? newWidth + factor : newWidth);
                      i++)
                 {
 
-                    for (var j = newHeight - factor > 0 ? newHeight - factor : newHeight;
-                         j < (newHeight + factor < bitmap.Height ? newHeight + factor : newHeight);
+                    for (var j = newHeight - factor > 0 ? newHeight - ( factor - 2 ) : newHeight;
+                         j < (newHeight + ( factor + 2 ) < bitmap.Height ? newHeight + factor : newHeight);
                          j++)
                     {
                         bitmap.SetPixel(i, j, Color.Blue);
