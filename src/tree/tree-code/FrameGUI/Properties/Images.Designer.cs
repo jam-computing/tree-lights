@@ -71,11 +71,12 @@ namespace TreeGUI.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static string String {
+        internal static System.Drawing.Icon vim_logo {
             get {
-                return ResourceManager.GetString("String", resourceCulture);
+                object obj = ResourceManager.GetObject("vim_logo", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
     }

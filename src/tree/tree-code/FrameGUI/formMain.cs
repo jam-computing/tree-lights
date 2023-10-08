@@ -9,23 +9,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Tree_Scanner;
 
-namespace TreeGUI
-{
-    public partial class formMain : Form
-    {
-        public formMain()
-        {
+namespace TreeGUI {
+    public partial class formMain : Form {
+        public formMain() {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+        private void label1_Click(object sender, EventArgs e) {
 
         }
 
         // btnSetupTree
-        private void button1_Click(object sender, EventArgs e)
-        {
+        private void button1_Click(object sender, EventArgs e) {
             var activeForm = ActiveForm as formMaster;
             // Set size to size of Scanner
             activeForm!.Size = new Size(701, 605);
@@ -34,8 +29,7 @@ namespace TreeGUI
 
         }
 
-        private void btnViewFrames_Click(object sender, EventArgs e)
-        {
+        private void btnViewFrames_Click(object sender, EventArgs e) {
 
         }
 
@@ -45,13 +39,11 @@ namespace TreeGUI
         private void btnSendToTree_Click(object sender, EventArgs e) =>
             (ActiveForm as formMaster)!.DisplayForm(new formSendToTree());
 
-        private void formMain_Load(object sender, EventArgs e)
-        {
+        private void formMain_Load(object sender, EventArgs e) {
 
         }
 
-        private void btnViewMinecraft_Click(object sender, EventArgs e)
-        {
+        private void btnViewMinecraft_Click(object sender, EventArgs e) {
             (ActiveForm as formMaster)!.Size = new Size(1000, 600);
             (ActiveForm as formMaster)!.DisplayForm(new ViewMinecraftImage());
         }

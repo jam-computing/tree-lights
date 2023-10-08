@@ -1,6 +1,5 @@
 using Emgu.CV;
 using Emgu.CV.Structure;
-using System.Reflection.Metadata.Ecma335;
 
 namespace Tree_Scanner; 
 internal class ProcessedImage {

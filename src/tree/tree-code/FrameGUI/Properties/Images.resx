@@ -307,7 +307,8 @@
         zIUoLoPSPTLTqcmjJnu7KRsm5XBxQ+53SmteAgL9imHS910Y7J+h4u6UPqmWuJ9UuD7oupPY/9k=
 </value>
   </data>
-  <data name="String" xml:space="preserve">
-    <value />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="vim_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vim_logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
