@@ -16,8 +16,8 @@ public class ServerConfig
         return JsonConvert.DeserializeObject<ServerConfig>(configData)!;
     }
 
-    public int Port { get;} 
-    public List<string> Endpoints { get; } = new();
+    public int Port { get; set; } 
+    public List<string> Endpoints { get; set; } = new();
 
 
 }

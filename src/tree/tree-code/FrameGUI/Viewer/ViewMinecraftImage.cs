@@ -40,7 +40,7 @@ public partial class ViewMinecraftImage : Form {
         label1.Text = "Connecting...";
 
         var minecraft = MinecraftConfig.GetConfig() as MinecraftConfig;
-        var config = TreeConfig.GetConfig() as TreeConfig;
+        var config = ClientConfig.GetConfig() as ClientConfig;
 
 
         var file = "../../../../../../../data/images/" + minecraft!.MinecraftImage;

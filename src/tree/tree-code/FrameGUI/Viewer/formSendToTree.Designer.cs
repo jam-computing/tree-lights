@@ -28,31 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listBox1 = new ListBox();
-            btnSend = new Button();
             btnBack = new Button();
+            txtBoxSend = new TextBox();
+            btnSend = new Button();
             SuspendLayout();
-            // 
-            // listBox1
-            // 
-            listBox1.Dock = DockStyle.Left;
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(0, 0);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(272, 261);
-            listBox1.TabIndex = 0;
-            // 
-            // btnSend
-            // 
-            btnSend.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSend.Location = new Point(278, 12);
-            btnSend.Name = "btnSend";
-            btnSend.Size = new Size(194, 102);
-            btnSend.TabIndex = 1;
-            btnSend.Text = "Send: ";
-            btnSend.UseVisualStyleBackColor = true;
-            btnSend.Click += btnSend_Click;
             // 
             // btnBack
             // 
@@ -64,23 +43,41 @@
             btnBack.UseVisualStyleBackColor = true;
             btnBack.Click += btnBack_Click;
             // 
+            // txtBoxSend
+            // 
+            txtBoxSend.Location = new Point(187, 101);
+            txtBoxSend.Name = "txtBoxSend";
+            txtBoxSend.Size = new Size(117, 23);
+            txtBoxSend.TabIndex = 3;
+            txtBoxSend.Text = "Your message here";
+            // 
+            // btnSend
+            // 
+            btnSend.Location = new Point(206, 130);
+            btnSend.Name = "btnSend";
+            btnSend.Size = new Size(75, 23);
+            btnSend.TabIndex = 4;
+            btnSend.Text = "Send";
+            btnSend.UseVisualStyleBackColor = true;
+            btnSend.Click += btnSend_Click;
+            // 
             // formSendToTree
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(484, 261);
-            Controls.Add(btnBack);
             Controls.Add(btnSend);
-            Controls.Add(listBox1);
+            Controls.Add(txtBoxSend);
+            Controls.Add(btnBack);
             Name = "formSendToTree";
             Text = "formSendToTree";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private ListBox listBox1;
-        private Button btnSend;
         private Button btnBack;
+        private TextBox txtBoxSend;
+        private Button btnSend;
     }
 }

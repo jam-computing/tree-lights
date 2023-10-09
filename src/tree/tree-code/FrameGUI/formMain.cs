@@ -18,12 +18,10 @@ namespace TreeGUI
 {
     public partial class formMain : Form
     {
-
         public static Tree Tree { get; set; } = new Tree();
-        private static bool HasEstablishedConnection = false;
+        public static bool HasEstablishedConnection { get; set; } = false;
 
-
-
+        
 
         public formMain()
         {
@@ -40,11 +38,11 @@ namespace TreeGUI
         private void CheckConnection()
         {
 
-            if (HasEstablishedConnection || TestingConfig.GetConfig().test == true)
+            if (HasEstablishedConnection || ClientConfig.GetConfig().Test == true)
             {
                 SetButtons(true);
                 btnConnecToTree.Text = "Connected to Tree!";
-                if (TestingConfig.GetConfig().test == true)
+                if (ClientConfig.GetConfig().Test == true)
                     lblInfo.Text = "TESTING BUILD";
                 return;
             }
@@ -52,12 +50,12 @@ namespace TreeGUI
 
             lblInfo.Text = "Testing Connection...";
 
-            IpAddr ip = TreeConfig.GetConfig().GetIpAddr("Text");
+            IpAddr ip = ClientConfig.GetConfig().GetIpAddr("Text");
 
             Tree.Connect(ip);
             Tree.Send("New TreeGUI instance - Connecting to server");
 
-            if(Tree.IsConnected == false)
+            if (Tree.IsConnected == false)
             {
                 lblInfo.Text = "Could not connect to the Tree server. Please check your config files";
                 SetButtons(false);
@@ -82,6 +80,7 @@ namespace TreeGUI
 
             SetButtons(true);
             btnConnecToTree.Text = "Connected to Tree!";
+            HasEstablishedConnection = true;
             lblInfo.Text = String.Empty;
 
         }

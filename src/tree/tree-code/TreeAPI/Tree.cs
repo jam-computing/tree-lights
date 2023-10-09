@@ -19,7 +19,7 @@ public class Tree : IDisposable
     {
 
         if(IsConnected is true)
-            WebSocket?.CloseAsync();
+            WebSocket?.Close();
 
 
         Console.WriteLine("Connecting...");

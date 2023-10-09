@@ -1,0 +1,7 @@
+{
+    "IP": "localhost",
+    "Port": 1234,
+    "ScreenX": 1000,
+    "ScreenY": 700,
+    "Test": false
+}

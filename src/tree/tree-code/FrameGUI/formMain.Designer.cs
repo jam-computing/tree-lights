@@ -32,7 +32,6 @@
             btnViewAnimations = new Button();
             btnViewFrames = new Button();
             btnSetupTree = new Button();
-            helpProvider1 = new HelpProvider();
             btnSendToTree = new Button();
             btnViewMinecraft = new Button();
             btnOpenConfig = new Button();
@@ -175,7 +174,6 @@
         private Button btnViewAnimations;
         private Button btnViewFrames;
         private Button btnSetupTree;
-        private HelpProvider helpProvider1;
         private Button btnSendToTree;
         private Button btnViewMinecraft;
         private Button btnOpenConfig;

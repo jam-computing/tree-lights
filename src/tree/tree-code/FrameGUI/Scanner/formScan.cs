@@ -8,8 +8,8 @@ namespace TreeGUI.Scanner;
 public partial class formScan : Form {
 
 
-    private string? _IP => ((TreeConfig)TreeConfig.GetConfig()).IP;
-    private int _port = ((TreeConfig)TreeConfig.GetConfig()).Port;
+    private string? _IP => ((ClientConfig)ClientConfig.GetConfig()).IP;
+    private int _port = ((ClientConfig)ClientConfig.GetConfig()).Port;
     private List<Point> _points = new List<Point>();
 
     private const int numberOfLights = 10;
@@ -66,7 +66,7 @@ public partial class formScan : Form {
 
 
         // To avoid errors
-        if (TestingConfig.GetConfig().test == true)
+        if (ClientConfig.GetConfig().Test == true)
             goto _L1;
 
         #region Connect to tree
