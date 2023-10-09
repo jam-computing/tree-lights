@@ -58,7 +58,7 @@ public partial class formTreePhoto : Form {
             Points.RemoveAt(0);
         }
 
-        Points.Add(new Point((int)(((float)me.X / 650f) * (float)image.Width), (int)(((float)me.Y / 650f) * (float)image.Height)));
+        Points.Add(new Point((int)(((float)me.X / (float)pictureboxTreePhoto.Width) * (float)image.Width), (int)(((float)me.Y / (float)pictureboxTreePhoto.Height) * (float)image.Height)));
 
         pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, Points.ToArray()).ToBitmap();
 
