@@ -22,8 +22,14 @@ class Program
                 IpAddr = ip.ToString();
             }
         }
+
+        var config = ServerConfig.GetConfig();
+
         
-        var config = TreeConfig.GetConfig();
+
+        var treeConfig = TreeConfig.GetConfig();
+
+
         Console.WriteLine("Starting WebServer");
         var server = new WebSocketServer(config.Port);
 
@@ -52,6 +58,7 @@ class Program
         Console.WriteLine("Ready To Receive Frames");
 
         Console.WriteLine($"This server is being hosted on ws://{IpAddr}:{config.Port}");
+
 
 
         while (true) {

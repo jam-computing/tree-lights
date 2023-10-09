@@ -24,6 +24,7 @@ public partial class formScan : Form {
         DataManger.LightPositions = _points;
         DataManger.PrintDataToFile();
         (ActiveForm as formMaster)?.DisplayForm(new formMain());
+
     }
 
     private void buttonBack_Click(object sender, EventArgs e) {
@@ -65,15 +66,20 @@ public partial class formScan : Form {
 
 
         // To avoid errors
-        goto _L1;
+        if (TestingConfig.GetConfig().test == true)
+            goto _L1;
 
         #region Connect to tree
+
+
+
+
 
         int randomNumber = new Random().Next(100, 999);
 
         // If using address in ctor, it automatically connects
-        using (Tree tree = new(address)) {
-
+        using (Tree tree = new(address))
+        {
             // Our request to begin setup
 
             var SetupReq = new Setup() { Sender = $"TreeSetupGUI{randomNumber}" };
@@ -82,9 +88,10 @@ public partial class formScan : Form {
 
             string receivedText = tree.ReceivedMessage!;
 
-            foreach (var i in Enumerable.Range(0, numberOfLights)) {
-                var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights};
-                
+            foreach (var i in Enumerable.Range(0, numberOfLights))
+            {
+                var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights };
+
                 tree.Send(req);
 
                 var msg = tree.ReceivedMessage!.Split(":")[^1].Trim();

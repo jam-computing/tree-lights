@@ -31,14 +31,15 @@
             btnMincraftConfig = new Button();
             btnIpConfig = new Button();
             btnBack = new Button();
+            btnTestingConfigFile = new Button();
             SuspendLayout();
             // 
             // btnMincraftConfig
             // 
             btnMincraftConfig.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnMincraftConfig.Location = new Point(12, 189);
+            btnMincraftConfig.Location = new Point(353, 12);
             btnMincraftConfig.Name = "btnMincraftConfig";
-            btnMincraftConfig.Size = new Size(660, 165);
+            btnMincraftConfig.Size = new Size(319, 165);
             btnMincraftConfig.TabIndex = 0;
             btnMincraftConfig.Text = "Minecraft Config File";
             btnMincraftConfig.UseVisualStyleBackColor = true;
@@ -49,7 +50,7 @@
             btnIpConfig.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnIpConfig.Location = new Point(12, 12);
             btnIpConfig.Name = "btnIpConfig";
-            btnIpConfig.Size = new Size(660, 171);
+            btnIpConfig.Size = new Size(319, 165);
             btnIpConfig.TabIndex = 1;
             btnIpConfig.Text = "IP Config File";
             btnIpConfig.UseVisualStyleBackColor = true;
@@ -66,11 +67,22 @@
             btnBack.UseVisualStyleBackColor = true;
             btnBack.Click += btnBack_Click;
             // 
+            // btnTestingConfigFile
+            // 
+            btnTestingConfigFile.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnTestingConfigFile.Location = new Point(12, 183);
+            btnTestingConfigFile.Name = "btnTestingConfigFile";
+            btnTestingConfigFile.Size = new Size(319, 171);
+            btnTestingConfigFile.TabIndex = 3;
+            btnTestingConfigFile.Text = "Testing Config File";
+            btnTestingConfigFile.UseVisualStyleBackColor = true;
+            // 
             // formSettings
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(684, 461);
+            Controls.Add(btnTestingConfigFile);
             Controls.Add(btnBack);
             Controls.Add(btnIpConfig);
             Controls.Add(btnMincraftConfig);
@@ -84,5 +96,6 @@
         private Button btnMincraftConfig;
         private Button btnIpConfig;
         private Button btnBack;
+        private Button btnTestingConfigFile;
     }
 }
