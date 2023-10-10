@@ -8,8 +8,8 @@ namespace TreeGUI.Scanner;
 public partial class formScan : Form {
 
 
-    private string? _IP => ((ClientConfig)ClientConfig.GetConfig()).IP;
-    private int _port = ((ClientConfig)ClientConfig.GetConfig()).Port;
+    private string? _IP => ClientConfig.GetConfig().IP;
+    private int _port = ClientConfig.GetConfig().Port;
     private List<Point> _points = new List<Point>();
 
     private const int numberOfLights = 10;
@@ -24,7 +24,6 @@ public partial class formScan : Form {
         DataManger.LightPositions = _points;
         DataManger.PrintDataToFile();
         (ActiveForm as formMaster)?.DisplayForm(new formMain());
-
     }
 
     private void buttonBack_Click(object sender, EventArgs e) {
@@ -32,6 +31,7 @@ public partial class formScan : Form {
     }
 
     private async void buttonStartScan_Click(object sender, EventArgs e) {
+
         if (_IP is null || _port == -1) {
             MessageBox.Show(@"Please ensure the tree config is set up properly");
             return;
@@ -71,10 +71,6 @@ public partial class formScan : Form {
 
         #region Connect to tree
 
-
-
-
-
         int randomNumber = new Random().Next(100, 999);
 
         // If using address in ctor, it automatically connects
@@ -90,7 +86,7 @@ public partial class formScan : Form {
 
             foreach (var i in Enumerable.Range(0, numberOfLights))
             {
-                var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, ledCount = numberOfLights };
+                var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, LedCount = numberOfLights };
 
                 tree.Send(req);
 
