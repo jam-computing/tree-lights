@@ -4,8 +4,9 @@ using TreeAPI;
 using TreeAPI.Types;
 using TreeAPI.Config;
 
-namespace TreeGUI.Scanner; 
-public partial class formScan : Form {
+namespace TreeGUI.Scanner;
+public partial class formScan : Form
+{
 
 
     private string? _IP => ClientConfig.GetConfig().IP;
@@ -14,25 +15,30 @@ public partial class formScan : Form {
 
     private const int numberOfLights = 10;
 
-    public formScan() {
+    public formScan()
+    {
         InitializeComponent();
         lblCurrentIP.Text += "\n" + _IP;
         lblCurrentPort.Text += "\n" + _port.ToString();
     }
 
-    private void buttonNext_Click(object sender, EventArgs e) {
+    private void buttonNext_Click(object sender, EventArgs e)
+    {
         DataManger.LightPositions = _points;
         DataManger.PrintDataToFile();
         (ActiveForm as formMaster)?.DisplayForm(new formMain());
     }
 
-    private void buttonBack_Click(object sender, EventArgs e) {
+    private void buttonBack_Click(object sender, EventArgs e)
+    {
         (ActiveForm as formMaster)?.DisplayForm(new formTreePhoto());
     }
 
-    private async void buttonStartScan_Click(object sender, EventArgs e) {
+    private async void buttonStartScan_Click(object sender, EventArgs e)
+    {
 
-        if (_IP is null || _port == -1) {
+        if (_IP is null || _port == -1)
+        {
             MessageBox.Show(@"Please ensure the tree config is set up properly");
             return;
         }
@@ -44,7 +50,8 @@ public partial class formScan : Form {
 
         buttonStartScan.Text = @"Working...";
 
-        IpAddr address = new IpAddr() {
+        IpAddr address = new IpAddr()
+        {
             Address = _IP,
             Port = _port,
             Path = "SetupRequest"
@@ -52,17 +59,17 @@ public partial class formScan : Form {
 
         progressBar1.Step = (int)(100 / (float)numberOfLights);
 
-        for (int i = 0; i < numberOfLights; i++) {
-            // Simulating connection delay
-            await Task.Delay(1000);
+        //for (int i = 0; i < numberOfLights; i++) {
+        //    // Simulating connection delay
+        //    await Task.Delay(1000);
 
-            ProcessedImage image = new ProcessedImage();
-            pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, image.BrightestPoints).ToBitmap();
-            pictureboxTreePhoto.Refresh();
-            _points.Add(image.BrightestPoints[0]);
+        //    ProcessedImage image = new ProcessedImage();
+        //    pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, image.BrightestPoints).ToBitmap();
+        //    pictureboxTreePhoto.Refresh();
+        //    _points.Add(image.BrightestPoints[0]);
 
-            progressBar1.PerformStep();
-        }
+        //    progressBar1.PerformStep();
+        //}
 
 
         // To avoid errors
@@ -76,32 +83,39 @@ public partial class formScan : Form {
 
         // get tree
         var tree = formMain.Tree;
-        
+
         // Connect to ip address
         tree.Connect(address);
 
         if (tree.IsConnected is false) return;
 
+        MessageBox.Show("Connected");
+
         // Create a request to begin the setup process
-        var SetupReq = new Setup() { Sender = $"TreeSetupGUI{randomNumber}" };
+        var SetupReq = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = -1 };
 
         // Send the req
         tree.Send(SetupReq);
 
         // Loop through range of lights
-        foreach (var i in Enumerable.Range(0, numberOfLights))
+        for (int i = 0; i < numberOfLights; i++)
         {
+
             // Create a new setup request WITHOUT INDEX OF -1
+            MessageBox.Show("Sending number: " + i);
             var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, LedCount = numberOfLights };
 
             // Send req
             tree.Send(req);
 
-            // store the received message from the tree in variable
-            var msg = tree.ReceivedMessage!.Split(":")[^1].Trim();
+            Thread.Sleep(500);
+
+            int index;
 
             // If message number is not the right one, throw error
-            if (msg != $"{i}") { MessageBox.Show("An error occured :("); break; }
+            if (!Int32.TryParse(tree.ReceivedMessage, out index)) { MessageBox.Show("An error occured :("); break; }
+
+            label2.Text = tree.ReceivedMessage;
 
             // Create the image
             ProcessedImage image = new ProcessedImage();
@@ -113,9 +127,9 @@ public partial class formScan : Form {
             progressBar1.PerformStep();
         }
 
-        #endregion
+    #endregion
 
-        _L1:
+    _L1:
 
         progressBar1.Value = 100;
         buttonStartScan.Text = "Start Scan";
