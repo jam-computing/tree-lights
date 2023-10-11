@@ -34,3 +34,4 @@ C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\refint\TreeAPI.dll
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.pdb
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\ref\TreeAPI.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\TreeAPI\obj\Debug\net7.0\TreeAPI.sourcelink.json

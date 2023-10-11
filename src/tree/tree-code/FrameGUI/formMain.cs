@@ -32,14 +32,14 @@ namespace TreeGUI
             if (HasEstablishedConnection || ClientConfig.GetConfig().Test == true)
             {
                 SetButtons(true);
-                btnConnecToTree.Text = "Connected to Tree!";
+                btnConnecToTree.Text = @"Connected to Tree!";
                 if (ClientConfig.GetConfig().Test == true)
-                    lblInfo.Text = "TESTING BUILD";
+                    lblInfo.Text = @"TESTING BUILD";
                 return;
             }
 
 
-            lblInfo.Text = "Testing Connection...";
+            lblInfo.Text = @"Testing Connection...";
 
             IpAddr ip = ClientConfig.GetConfig().GetIpAddr("Text");
 
@@ -57,6 +57,7 @@ namespace TreeGUI
             // dont ask
             Tree.WebSocket!.OnMessage += (sender, e) =>
             {
+                Thread.Sleep(50);
                 var form = formMaster.ChildForm as formMain;
                 form?.Invoke(() =>
                 {

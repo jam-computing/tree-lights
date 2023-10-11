@@ -71,41 +71,51 @@ public partial class formScan : Form {
 
         #region Connect to tree
 
+        // Generate random numbers for username in server
         int randomNumber = new Random().Next(100, 999);
 
-        // If using address in ctor, it automatically connects
-        using (Tree tree = new(address))
+        // get tree
+        var tree = formMain.Tree;
+        
+        // Connect to ip address
+        tree.Connect(address);
+
+        if (tree.IsConnected is false) return;
+
+        // Create a request to begin the setup process
+        var SetupReq = new Setup() { Sender = $"TreeSetupGUI{randomNumber}" };
+
+        // Send the req
+        tree.Send(SetupReq);
+
+        // Loop through range of lights
+        foreach (var i in Enumerable.Range(0, numberOfLights))
         {
-            // Our request to begin setup
+            // Create a new setup request WITHOUT INDEX OF -1
+            var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, LedCount = numberOfLights };
 
-            var SetupReq = new Setup() { Sender = $"TreeSetupGUI{randomNumber}" };
+            // Send req
+            tree.Send(req);
 
-            tree.Send(SetupReq);
+            // store the received message from the tree in variable
+            var msg = tree.ReceivedMessage!.Split(":")[^1].Trim();
 
-            string receivedText = tree.ReceivedMessage!;
+            // If message number is not the right one, throw error
+            if (msg != $"{i}") { MessageBox.Show("An error occured :("); break; }
 
-            foreach (var i in Enumerable.Range(0, numberOfLights))
-            {
-                var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, LedCount = numberOfLights };
+            // Create the image
+            ProcessedImage image = new ProcessedImage();
+            pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, image.BrightestPoints).ToBitmap();
+            pictureboxTreePhoto.Refresh();
+            _points.Add(image.BrightestPoints[0]);
 
-                tree.Send(req);
-
-                var msg = tree.ReceivedMessage!.Split(":")[^1].Trim();
-
-                if (msg != $"{i}") { MessageBox.Show("An error occured :("); break; }
-
-                ProcessedImage image = new ProcessedImage();
-                pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, image.BrightestPoints).ToBitmap();
-                pictureboxTreePhoto.Refresh();
-                _points.Add(image.BrightestPoints[0]);
-
-                progressBar1.PerformStep();
-            }
+            // Add to the progress bar
+            progressBar1.PerformStep();
         }
 
-    #endregion
+        #endregion
 
-    _L1:
+        _L1:
 
         progressBar1.Value = 100;
         buttonStartScan.Text = "Start Scan";
