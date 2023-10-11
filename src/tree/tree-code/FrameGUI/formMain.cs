@@ -48,7 +48,7 @@ namespace TreeGUI
 
             if (Tree.IsConnected == false)
             {
-                lblInfo.Text = "Could not connect to the Tree server. Please check your config files";
+                lblInfo.Text = @"Could not connect to the Tree server. Please check your config files";
                 SetButtons(false);
                 return;
             }

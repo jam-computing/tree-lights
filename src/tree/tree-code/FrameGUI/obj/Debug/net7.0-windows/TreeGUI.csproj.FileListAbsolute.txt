@@ -192,3 +192,4 @@ C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.pdb
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.genruntimeconfig.cache
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\ref\TreeGUI.dll
+C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.sourcelink.json
