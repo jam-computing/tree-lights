@@ -19,14 +19,13 @@ internal class SetupRequest : WebSocketBehavior
         if (data.index == -1)
         {
             DataHolder.KnownSenders.Add(data.Sender);
-            Send("Setup Request Received - Continue");
             // OutputToFile(data.Sender, $"{data.Sender} has begun setup of christmas tree.");
             return;
         }
-
+        
         CurrentIndex = data.index;
+        Send(CurrentIndex.ToString());
 
-        bool? isTrue = true;
 
         Console.WriteLine("REQUEST TO TURN LED ON - FROM " + data.Sender);
 
@@ -51,7 +50,8 @@ internal class SetupRequest : WebSocketBehavior
         Send($"Turned on: {CurrentIndex}");
         OutputToFile(data.Sender + "-Setup", $"{data.Sender} has requested light of index: {data.index}");
 
-    L2: Console.WriteLine("Skipped past the actual lights part");
+    L2:
+    return;
 
     }
 
