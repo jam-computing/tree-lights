@@ -31,8 +31,11 @@ public partial class ViewMinecraftImage : Form {
         pictureBox1.Image = img;
     }
 
-    private void button2_Click(object sender, EventArgs e) {
-        (ActiveForm as formMaster)!.Size = new Size(500, 300);
+    private void button2_Click(object sender, EventArgs e)
+    {
+        Size size = WindowConfig.GetSize();
+        this.Size = new Size(size.Width, size.Height);
+        // (ActiveForm as formMaster)!.Size = new Size(500, 300);
         (ActiveForm as formMaster)!.DisplayForm(new formMain());
     }
 

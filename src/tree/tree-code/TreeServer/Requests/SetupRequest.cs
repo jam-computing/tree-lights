@@ -1,16 +1,14 @@
 ﻿using TreeAPI.Types;
 using WebSocketSharp.Server;
 using WebSocketSharp;
-using Newtonsoft.Json;
 using rpi_ws281x;
 using System.Drawing;
-using Emgu.CV.Structure;
-using System.Linq;
 
 namespace TreeServer.Requests;
 
 internal class SetupRequest : WebSocketBehavior
 {
+    // CurrentIndex of -1 denotes a setup request
     public int CurrentIndex { get; private set; } = -1;
     private const string logsDir = "../../../../../../../data/logs/";
     protected override void OnMessage(MessageEventArgs e)
@@ -53,7 +51,7 @@ internal class SetupRequest : WebSocketBehavior
         Send($"Turned on: {CurrentIndex}");
         OutputToFile(data.Sender + "-Setup", $"{data.Sender} has requested light of index: {data.index}");
 
-    L2: Console.WriteLine("Hello");
+    L2: Console.WriteLine("Skipped past the actual lights part");
 
     }
 

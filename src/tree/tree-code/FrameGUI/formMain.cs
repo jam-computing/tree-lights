@@ -16,7 +16,8 @@ namespace TreeGUI
         public formMain()
         {
             InitializeComponent();
-            this.Size = new Size(700, 500);
+            Size size = WindowConfig.GetSize();
+            this.Size = new Size(size.Width, size.Height);
             CheckConnection();
         }
 
@@ -52,7 +53,6 @@ namespace TreeGUI
                 return;
             }
 
-            Thread.Sleep(200);
 
             // dont ask
             Tree.WebSocket!.OnMessage += (sender, e) =>
@@ -61,16 +61,13 @@ namespace TreeGUI
                 form?.Invoke(() =>
                 {
                     string message = e.Data;
-                    btnConnecToTree.Text = "Connected to dat trree";
+                    btnConnecToTree.Text = "Connected to Tree!";
                     HasEstablishedConnection = true;
-
                     SetButtons(true);
                 });
             };
 
-            SetButtons(true);
-            btnConnecToTree.Text = "Connected to Tree!";
-            HasEstablishedConnection = true;
+
             lblInfo.Text = String.Empty;
 
         }
@@ -80,7 +77,9 @@ namespace TreeGUI
         {
             var activeForm = ActiveForm as formMaster;
             // Set size to size of Scanner
-            activeForm!.Size = new Size(700, 601);
+            Size size = WindowConfig.GetSize();
+            this.Size = new Size(size.Width, size.Height);
+            // activeForm!.Size = new Size(700, 601);
             activeForm!.MaximizeBox = false;
             activeForm!.DisplayForm(new formWelcome());
 
@@ -115,7 +114,8 @@ namespace TreeGUI
 
         private void btnViewMinecraft_Click(object sender, EventArgs e)
         {
-            (ActiveForm as formMaster)!.Size = new Size(1000, 600);
+            var size = WindowConfig.GetSize();
+            (ActiveForm as formMaster)!.Size = new Size(size.Width, size.Height);
             (ActiveForm as formMaster)!.DisplayForm(new ViewMinecraftImage());
         }
 
