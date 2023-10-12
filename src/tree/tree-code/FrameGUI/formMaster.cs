@@ -11,12 +11,13 @@ public partial class formMaster : Form
         FormClosing += Form_Close!;
         DisplayForm(new formMain());
         Size size = WindowConfig.GetSize();
-        this.Size = new Size(size.Width, size.Height);
+        Size = new Size(size.Width, size.Height);
         // Size = new Size(700, 500);
         TreeSetup = true;
     }
 
-    public void DisplayForm(Form form) {
+    public void DisplayForm(Form form)
+    {
         ChildForm = form;
         ChildForm.TopLevel = false;
         ChildForm.FormBorderStyle = FormBorderStyle.None;
@@ -25,6 +26,9 @@ public partial class formMaster : Form
         panelMaster.Controls.Clear();
         panelMaster.Controls.Add(ChildForm);
         ChildForm.Show();
+        panelMaster.Size = ChildForm.Size;
+        MinimumSize = ChildForm.Size;
+        MaximumSize = ChildForm.Size;
     }
 
     public void Form_Close(object sender, EventArgs e)

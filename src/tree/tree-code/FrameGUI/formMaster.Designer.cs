@@ -1,7 +1,9 @@
 ﻿using TreeGUI.Properties;
 
-namespace TreeGUI {
-    partial class formMaster {
+namespace TreeGUI
+{
+    partial class formMaster
+    {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -11,8 +13,10 @@ namespace TreeGUI {
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing) {
-            if (disposing && (components != null)) {
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -24,7 +28,8 @@ namespace TreeGUI {
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent() {
+        private void InitializeComponent()
+        {
             panelMaster = new Panel();
             SuspendLayout();
             // 
@@ -32,23 +37,22 @@ namespace TreeGUI {
             // 
             panelMaster.Dock = DockStyle.Fill;
             panelMaster.Location = new Point(0, 0);
-            panelMaster.Margin = new Padding(4, 5, 4, 5);
+            panelMaster.Margin = new Padding(3, 4, 3, 4);
             panelMaster.Name = "panelMaster";
-            panelMaster.Size = new Size(978, 944);
+            panelMaster.Size = new Size(786, 554);
             panelMaster.TabIndex = 0;
             // 
             // formMaster
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(978, 944);
+            ClientSize = new Size(786, 554);
             Controls.Add(panelMaster);
-            Margin = new Padding(4, 5, 4, 5);
-            MinimumSize = new Size(1000, 1000);
+            Icon = Images.vim_logo;
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
             Name = "formMaster";
             Text = "Tree GUI";
-            MaximizeBox = false;
-            Icon = Properties.Images.vim_logo;
             ResumeLayout(false);
         }
 
