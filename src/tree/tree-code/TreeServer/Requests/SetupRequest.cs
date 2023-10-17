@@ -27,32 +27,19 @@ internal class SetupRequest : WebSocketBehavior
         Send(CurrentIndex.ToString());
 
 
-        Console.WriteLine("REQUEST TO TURN LED ON - FROM " + data.Sender);
-
-        Console.WriteLine($"The Current LED turned on it {CurrentIndex}");
-
+        Console.WriteLine($"REQUEST TO TURN LED {CurrentIndex} ON - FROM " + data.Sender);
 
         // Turn corresponding light on
 
-        goto L2;
-       
+
         var settings = Settings.CreateDefaultSettings();
-        var controller = settings.AddController(data.LedCount);
-        
+        var controller = settings.AddController(data.LedCount, Pin.Gpio18, StripType.Unknown, ControllerType.PWM0);
 
 
-        using(var rpi = new WS281x(settings)) {
+        using (var rpi = new WS281x(settings)) {
             rpi.Reset();
             controller.SetLED(data.index, Color.White);
         }
-
-
-        Send($"Turned on: {CurrentIndex}");
-        OutputToFile(data.Sender + "-Setup", $"{data.Sender} has requested light of index: {data.index}");
-
-    L2:
-    return;
-
     }
 
     private void OutputToFile(string sender, string data)

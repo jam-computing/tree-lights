@@ -6,16 +6,18 @@ namespace TreeAPI.Config;
 public class ClientConfig
 {
     public static string ConfigFile { get; } = "../../../../../../../data/client.json";
-    
+
     public string? IP { get; set; }
     public int Port { get; set; }
     public bool Test { get; set; }
+    public int LedCount { get; set; }
+    public int DefaultInterval { get; set; }
 
     public static ClientConfig GetConfig()
     {
         string configData = "";
         string[] file = File.ReadAllLines(ConfigFile);
-                
+
         foreach (var line in file)
             configData += line;
                 

@@ -1,7 +1,9 @@
 {
-    "IP": "192.168.1.174",
+    "IP": "192.168.1.173",
     "Port": 1234,
     "ScreenX": 1000,
     "ScreenY": 700,
-    "Test": false
+    "Test": false,
+    "LedCount": 50,
+    "DefaultInverval": 1000
 }

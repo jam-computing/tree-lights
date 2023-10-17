@@ -15,10 +15,6 @@ public static class DataHolder
     public static void PrintFrame(this Frame data)
     {
         int index = 0;
-        foreach (var i in data.Pixels)
-        {
-            Console.WriteLine($"{++index}: ({i.Item1} {i.Item2} {i.Item3})");
-        }
     }
 
     public static Frame ToFrame(this ISendable sendable)

@@ -1,6 +1,7 @@
-﻿using WebSocketSharp;
-
+﻿using TreeAPI.Config;
+using WebSocketSharp;
 using TreeAPI.Types;
+using static TreeAPI.DirectoryHolder;
 
 namespace TreeAPI;
 
@@ -99,14 +100,34 @@ public class Tree : IDisposable
         return ReturnValue.Success;
     }
 
-    private void GetMessage(object sender, MessageEventArgs e)
+    public void CreateFrameFile(Frame sendable)
     {
-        ReceivedMessage = e.Data;
+        if (IsConnected is false) return;
+        Console.WriteLine("Sending Frame");
+
+        sendable.Name += "-frame";
+        
+        this.Connect(ClientConfig.GetConfig().GetIpAddr("CreateFile"));
+        this.Send(sendable);
     }
+    
+    public void CreateAnimationFile(Animation sendable)
+    {
+        if (IsConnected is false) return;
+        Console.WriteLine("Sending Animation");
+
+        sendable.Name += "-animation";
+        
+        this.Connect(ClientConfig.GetConfig().GetIpAddr("CreateFile"));
+        this.Send(sendable);
+    }
+
+    private void GetMessage(object sender, MessageEventArgs e) =>
+        ReceivedMessage = e.Data;
 
     public void Dispose()
     {
-        Console.WriteLine("Closing stuff down");
+        Console.WriteLine("Connection to tree terminated ( safe )");
         WebSocket?.Close();
         WebSocket = null;
     }

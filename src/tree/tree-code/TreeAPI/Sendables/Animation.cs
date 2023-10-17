@@ -15,4 +15,6 @@ public class Animation : ISendable
     public Frame this[int i] => Frames[i];
     public string Sender { get; init; } = String.Empty;
     public List<Frame> Frames { get; set; } = new();
+    public bool IsLooping { get; set; } = false;
+    public string Name { get; set; }
 }

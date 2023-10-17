@@ -13,7 +13,7 @@ public partial class formScan : Form
     private int _port = ClientConfig.GetConfig().Port;
     private List<Point> _points = new List<Point>();
 
-    private const int numberOfLights = 10;
+    private const int numberOfLights = 50;
 
     public formScan()
     {
@@ -102,13 +102,13 @@ public partial class formScan : Form
         {
 
             // Create a new setup request WITHOUT INDEX OF -1
-            MessageBox.Show("Sending number: " + i);
+            Console.WriteLine("Sending number: " + i);
             var req = new Setup() { Sender = $"TreeSetupGUI{randomNumber}", index = i, LedCount = numberOfLights };
 
             // Send req
             tree.Send(req);
 
-            Thread.Sleep(500);
+            Thread.Sleep(200);
 
             int index;
 

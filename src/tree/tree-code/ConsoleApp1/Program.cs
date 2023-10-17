@@ -1,31 +1,36 @@
-﻿using System.Net;
+﻿using Newtonsoft.Json; 
+using static TreeAPI.DirectoryHolder;
+using System.Drawing;
+using System.Net.Http.Headers;
 using TreeAPI;
+using TreeAPI.Config;
 using TreeAPI.Types;
 
-using(var tree = new Tree()) {
+var rng = new Random();
 
-    IpAddr ip = new IpAddr() {
-        Address = "localhost",
-        Port = 3000,
-        Path = "Frame"
-    };
+Animation animation = new()
+{
+    Sender = "TreeGui - Instance Master",
+    Frames = Enumerable.Range(0, 20).Select(
+        frame => new Frame()
+        {
+            Pixels = Enumerable.Range(0, ClientConfig.GetConfig().LedCount)
+                .Select(pixel => Color.FromArgb(12 * frame, 0, 0)).ToList()
+        }
+    ).ToList(),
+    IsLooping = true,
+    Name = "red-ascend"
+};
 
-    tree.Connect(ip);
+Frame frame = new() {
+    Pixels = Enumerable.Range(0, ClientConfig.GetConfig().LedCount)
+        .Select(x => Color.FromArgb(254,254,254)).ToList(),
+    Name = "white"
+    
+};
 
-    if(!(tree.IsConnected is true)) return;
-
-    Console.WriteLine("Connected!");
-
-
-    Frame frame = new(new List<(int, int, int)>(), "Intrigued Reader");
-
-
-    tree.Send(frame);
-
-
-    Console.WriteLine("The Received Message is: ");
-    Console.WriteLine(tree.ReceivedMessage);
-
-    Thread.Sleep(1000);
-
-}
+Tree tree = new Tree();
+// tree.CreateFrameFile(frame);
+tree.CreateAnimationFile(animation);
+Thread.Sleep(100);
+tree.Dispose();

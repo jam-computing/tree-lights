@@ -5,6 +5,8 @@ namespace TreeAPI.Types;
 
 public interface ISendable
 {
+    
+    public string Name { get; set; }
     public string Sender { get; init; }
     public string ToJson() =>
         JsonConvert.SerializeObject(this);

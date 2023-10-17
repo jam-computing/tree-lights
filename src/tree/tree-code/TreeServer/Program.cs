@@ -52,22 +52,35 @@ class Program
         server.AddWebSocketService<PingRequest>("/Ping");
         Console.WriteLine("Added Ping Request");
 
+        server.AddWebSocketService<StoredAnimationRequest>("/FrameRequest");
+        Console.WriteLine("Added Frame Request");
+        
+        server.AddWebSocketService<CreateSendableFile>("/CreateFile");
+        Console.WriteLine("Added Create file Request");
+
         server.Start();
         Console.WriteLine("Ready To Receive Frames");
 
+        ConsoleColor col = Console.ForegroundColor;
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"This server is being hosted on ws://{IpAddr}:{config.Port}");
+        Console.ForegroundColor = col;
 
-
-
-        while (true) {
-            if (Console.ReadLine()?.ToLower() == "stop")
-                break;
-            else if(Console.ReadLine()?.ToLower() == "show frame") 
-                DataHolder.Sendables[^1].ToFrame().PrintFrame();
-            else if(Console.ReadLine()?.ToLower() == "show text")
-                Console.WriteLine(DataHolder.TextsReceived[^1]);
+        while (true)
+        {
+            Console.ReadKey();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Are you sure you want to stop? ( y / n )");
+            Console.ForegroundColor = col;
+            switch (Console.ReadLine())
+            {
+                case "y":
+                    server.Stop();
+                    break;
+                default:
+                    break;
+            }
         }
 
-        server.Stop();
     }
 }
