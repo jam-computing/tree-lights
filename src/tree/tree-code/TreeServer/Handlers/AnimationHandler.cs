@@ -5,6 +5,8 @@ using WebSocketSharp;
 using WebSocketSharp.Server;
 using static TreeAPI.DirectoryHolder;
 using Newtonsoft.Json;
+using rpi_ws281x;
+using TreeAPI.Config;
 
 namespace TreeServer;
 
@@ -33,7 +35,11 @@ public class AnimationHandler : WebSocketBehavior
             Console.WriteLine("RECEIVED ANIMATION - " + data.Sender);
         }
 
-        RaspberryPi.RPi?.Reset();
+        Settings? settings = Settings.CreateDefaultSettings();
+        Controller controller = settings.AddController(ClientConfig.GetConfig().LedCount, Pin.Gpio18, StripType.Unknown, ControllerType.PWM0);
+
+        var rpi = new WS281x(settings);
+
 
         // Use thread so that the main thread doesnt sleep and can still do things
 
@@ -43,14 +49,16 @@ public class AnimationHandler : WebSocketBehavior
             {
                 for (int i = 0; i < frame.Pixels.Count; i++)
                 {
-                    RaspberryPi.Controller.SetLED(i, frame.Pixels[i]);
+                    controller.SetLED(i, frame.Pixels[i]);
                 }
-                RaspberryPi.RPi?.Render();
-                Thread.Sleep(RaspberryPi.Interval);
+                rpi?.Render();
+                Thread.Sleep(ClientConfig.GetConfig().DefaultInterval);
             }
         });
 
         animateThread.Start();
+
+        Console.WriteLine("Starting Animation Thread");
 
         DataHolder.Sendables.Add(data);
     }

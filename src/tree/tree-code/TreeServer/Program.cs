@@ -58,6 +58,9 @@ class Program
         server.AddWebSocketService<CreateSendableFile>("/CreateFile");
         Console.WriteLine("Added Create file Request");
 
+        server.AddWebSocketService<TestRequest>("/Test");
+        Console.WriteLine("Added test request");
+
         server.Start();
         Console.WriteLine("Ready To Receive Frames");
 

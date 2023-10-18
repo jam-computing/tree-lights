@@ -1,3 +1,5 @@
+using TreeAPI.Config;
+using rpi_ws281x;
 using Newtonsoft.Json;
 using TreeAPI.Types;
 using WebSocketSharp;
@@ -25,6 +27,9 @@ class FrameHandler : WebSocketBehavior
                 if (e.Data != file.Split("\\")[^1]) continue;
 
                 data = JsonConvert.DeserializeObject<Frame>(File.ReadAllLines($"{FrameDirectory}{file}.json")[0]);
+
+                data.Pixels.ForEach(x => Console.Write($"[{x.R},{x.B},{x.B}], "));
+                Console.WriteLine();
                 
                 Console.WriteLine("RECEIVED FRAME - " + file);
             }
@@ -35,13 +40,19 @@ class FrameHandler : WebSocketBehavior
             Console.WriteLine("RECEIVED FRAME - " + data.Sender);
         }
 
-        RaspberryPi.RPi?.Reset();
 
-        for(int i = 0; i < RaspberryPi.LedCount; i++) {
-            RaspberryPi.Controller.SetLED(i, data.Pixels[i]);
+        Settings? settings = Settings.CreateDefaultSettings();
+        Controller controller = settings.AddController(ClientConfig.GetConfig().LedCount, Pin.Gpio18, StripType.Unknown, ControllerType.PWM0);
+
+        var rpi = new WS281x(settings);
+
+        rpi?.Reset();
+
+        for(int i = 0; i < ClientConfig.GetConfig().LedCount; i++) {
+            controller.SetLED(i, data.Pixels[i]);
         }
 
-        RaspberryPi.RPi?.Render();
+        rpi?.Render();
 
         DataHolder.Sendables.Add(data);
     }
