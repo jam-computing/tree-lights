@@ -11,7 +11,7 @@ namespace TreeGUI
         public static Tree Tree { get; set; } = new Tree();
         public static bool HasEstablishedConnection { get; set; } = false;
 
-        
+
 
         public formMain()
         {
