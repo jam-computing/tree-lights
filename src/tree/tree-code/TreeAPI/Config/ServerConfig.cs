@@ -3,7 +3,7 @@ namespace TreeAPI.Config;
 
 public class ServerConfig
 {
-    public static string ConfigFile { get; } = "../../../../../../../data/server.json";
+    public static string ConfigFile { get; } = OperatingSystem.IsWindows() ? "../../../../../../../data/server.json" : "../../../../data/server.json";
 
     public static ServerConfig GetConfig()
     {

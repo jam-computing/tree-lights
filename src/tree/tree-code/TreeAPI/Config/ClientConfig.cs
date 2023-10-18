@@ -1,11 +1,12 @@
 ﻿using Newtonsoft.Json;
+using System.Runtime.InteropServices;
 using TreeAPI.Types;
 
 namespace TreeAPI.Config;
 
 public class ClientConfig
 {
-    public static string ConfigFile { get; } = "../../../../../../../data/client.json";
+    public static string ConfigFile { get; } = OperatingSystem.IsWindows() ? "../../../../../../../data/client.json" : "../../../../data/client.json";
 
     public string? IP { get; set; }
     public int Port { get; set; }
