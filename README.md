@@ -8,18 +8,17 @@ A container for code and ideas for tree lightshow
 + Mr Martin's <b> REAL </b> tree / sad fake one ✔️ ( kinda )
 + Level shifter from and breadboard from Mr Martin's stash ✔️
 
-# ITL 🌲
+# Leafscript 🌲
 
-The programming language for the scripting of the tree will be done in [ITL](https://github.com/juleswhi/itl).
+Leafscript is a interpreted language with native support for tree-lights.
+It is easy to learn and understand.
 
-ITL is a simple, interpreted programming language, with native implementation to access the Tree's ws
+Get started [here](https://github.com/juleswhi/leafscript)
 
 # Raspberry Pi 🥧
 
-+ The RPi will run a C# server, [TreeServer](https://github.com/Friends-Robotics/Tree-Lights/tree/main/src/tree/tree-code/TreeServer)
-+ This server receives connections via WebSocket
-+ It interprets the data sent to it and applies that to the tree.
-+ Learn more about the server [here](https://github.com/Friends-Robotics/Tree-Lights)
++ The RPi runs a C# Websocket server, which clients can connect to and send animations to ( and individual frames! )
++ The server will then take those animations and map them to the tree
 
 ## Lighting 🌩️
 
@@ -35,11 +34,8 @@ ITL is a simple, interpreted programming language, with native implementation to
 
 ## C# libraries 📘
 
-+ Emgu - To pinpoint the tree lights
++ Emgu - This library is used pinpoint the tree lights
 + Adafriut - Neopixel - To manipulate the tree lights
-+ [Other library](https://github.com/rpi-ws281x/rpi-ws281x-csharp) may be better
-+ Or maybe this [nuget package](https://www.nuget.org/packages/ws281x.Net/) / [other nuget package](https://www.nuget.org/packages/kenssamson.rpi-ws281x-csharp)
-+ [This?](https://kenssamson.github.io/rpi-ws281x-csharp/)
 
 ## Electronics 🔌
 
