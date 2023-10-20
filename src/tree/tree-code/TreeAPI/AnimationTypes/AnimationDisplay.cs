@@ -1,6 +1,9 @@
 using TreeAPI;
 namespace TreeAPI.Types;
 
+
+// TF is this code for?
+
 internal class AnimationDisplay : DisplayType
 {
        public AnimationDisplay()

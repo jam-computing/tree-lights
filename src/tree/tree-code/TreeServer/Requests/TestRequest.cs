@@ -54,7 +54,6 @@ internal class TestRequest : WebSocketBehavior
 
     private async Task DisplayAnimation(WS281x rpi, Controller controller, Color color)
     {
-        
         Console.WriteLine($"Displaying animation {color}");
         
         int index = 0;

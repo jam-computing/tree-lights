@@ -2,6 +2,9 @@
 using Newtonsoft.Json;
 namespace TreeAPI.Config;
 
+
+// Obselete / Why does this exists? Just use ClientConfig
+
 public class WindowConfig
 {
     public static string ConfigFile { get; } = "../../../../../../../data/window.json";
