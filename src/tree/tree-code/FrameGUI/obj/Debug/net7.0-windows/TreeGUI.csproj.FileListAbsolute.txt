@@ -204,9 +204,6 @@ C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\o
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\Tree_Scanner.formWelcome.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSendToTree.resources
-C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formViewAnimations.resources
-C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formViewFrames.resources
-C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.ViewAnimationCode.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.ViewMinecraftImage.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.csproj.GenerateResource.cache
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.GeneratedMSBuildEditorConfig.editorconfig

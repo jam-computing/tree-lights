@@ -89,6 +89,7 @@ public class Tree : IDisposable
         // Message can be anything that implements ISendable
         if (WebSocket is null) return ReturnValue.Failure;
 
+        // catch any possible errors
         try
         {
             // Send the data as a JSON string
@@ -96,9 +97,10 @@ public class Tree : IDisposable
         }
         catch (Exception)
         {
+            // Return failure if any exception occurs
             return ReturnValue.Failure;
         }
-        
+        // else return success
         return ReturnValue.Success;
     }
 

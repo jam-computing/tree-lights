@@ -9,6 +9,7 @@ public partial class formScan : Form
 {
 
 
+    // Get configuration stuff
     private string? _IP => ClientConfig.GetConfig().IP;
     private int _port = ClientConfig.GetConfig().Port;
     private List<Point> _points = new List<Point>();
@@ -17,6 +18,7 @@ public partial class formScan : Form
 
     public formScan()
     {
+        // Print out the IP and Port to the screen
         InitializeComponent();
         lblCurrentIP.Text += "\n" + _IP;
         lblCurrentPort.Text += "\n" + _port.ToString();
@@ -24,25 +26,34 @@ public partial class formScan : Form
 
     private void buttonNext_Click(object sender, EventArgs e)
     {
+        // Get the light positions
         DataManger.LightPositions = _points;
+        // Shove it out to a file somewhere
         DataManger.PrintDataToFile();
+        // Go back to the main menu
         (ActiveForm as formMaster)?.DisplayForm(new formMain());
     }
 
     private void buttonBack_Click(object sender, EventArgs e)
     {
+        // Just go back
+        // easy!
         (ActiveForm as formMaster)?.DisplayForm(new formTreePhoto());
     }
 
     private async void buttonStartScan_Click(object sender, EventArgs e)
     {
 
+        // if ip stuff isn't working.
+        // You should be in this menu if server isn't alive but just a precautionary measure
         if (_IP is null || _port == -1)
         {
             MessageBox.Show(@"Please ensure the tree config is set up properly");
             return;
         }
 
+        // Set progress bar to 0
+        // and set defaults
         progressBar1.Value = 0;
         buttonBack.Enabled = false;
         buttonStartScan.Enabled = false;
@@ -50,33 +61,10 @@ public partial class formScan : Form
 
         buttonStartScan.Text = @"Working...";
 
-        IpAddr address = new IpAddr()
-        {
-            Address = _IP,
-            Port = _port,
-            Path = "SetupRequest"
-        };
+        // Get the ip addr
+        IpAddr address = "SetupRequest".GetIp();
 
         progressBar1.Step = (int)(100 / (float)numberOfLights);
-
-        //for (int i = 0; i < numberOfLights; i++) {
-        //    // Simulating connection delay
-        //    await Task.Delay(1000);
-
-        //    ProcessedImage image = new ProcessedImage();
-        //    pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, image.BrightestPoints).ToBitmap();
-        //    pictureboxTreePhoto.Refresh();
-        //    _points.Add(image.BrightestPoints[0]);
-
-        //    progressBar1.PerformStep();
-        //}
-
-
-        // To avoid errors
-        if (ClientConfig.GetConfig().Test == true)
-            goto _L1;
-
-        #region Connect to tree
 
         // Generate random numbers for username in server
         int randomNumber = new Random().Next(100, 999);
@@ -117,24 +105,28 @@ public partial class formScan : Form
 
             label2.Text = tree.ReceivedMessage;
 
-            // Create the image
+            // Create a new Processed image
             ProcessedImage image = new ProcessedImage();
+            // Highlight the brightest points from the image
             pictureboxTreePhoto.Image = ProcessedImage.HighlightPoints(image.RawImage, image.BrightestPoints).ToBitmap();
+            // Refresh the photo box
             pictureboxTreePhoto.Refresh();
+            // Add the brightest point
             _points.Add(image.BrightestPoints[0]);
 
             // Add to the progress bar
             progressBar1.PerformStep();
         }
 
-    #endregion
 
-    _L1:
 
+        // Make sure progress bar is full
+        // Allow user to press buttons
         progressBar1.Value = 100;
-        buttonStartScan.Text = "Start Scan";
+        buttonStartScan.Text = @"Start Scan";
         buttonNext.Enabled = true;
         buttonBack.Enabled = true;
         buttonStartScan.Enabled = true;
+        
     }
 }

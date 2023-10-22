@@ -90,8 +90,6 @@ namespace TreeGUI
         {
             btnSendToTree.Enabled = enabled;
             btnViewMinecraft.Enabled = enabled;
-            btnViewFrames.Enabled = enabled;
-            btnViewAnimations.Enabled = enabled;
             btnSetupTree.Enabled = enabled;
             btnConnecToTree.Enabled = !enabled;
 
@@ -102,8 +100,6 @@ namespace TreeGUI
 
         }
 
-        private void btnViewAnimations_Click(object sender, EventArgs e) =>
-            (ActiveForm as formMaster)!.DisplayForm(new formViewAnimations());
 
         private void btnSendToTree_Click(object sender, EventArgs e) =>
             (ActiveForm as formMaster)!.DisplayForm(new formSendToTree());
