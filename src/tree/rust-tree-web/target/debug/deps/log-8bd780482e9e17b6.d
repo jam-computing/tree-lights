@@ -1,0 +1,10 @@
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\rust-tree-web\target\debug\deps\log-8bd780482e9e17b6.rmeta: C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\lib.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\macros.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\serde.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\__private_api.rs
+
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\rust-tree-web\target\debug\deps\liblog-8bd780482e9e17b6.rlib: C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\lib.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\macros.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\serde.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\__private_api.rs
+
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\rust-tree-web\target\debug\deps\log-8bd780482e9e17b6.d: C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\lib.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\macros.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\serde.rs C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\__private_api.rs
+
+C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\lib.rs:
+C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\macros.rs:
+C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\serde.rs:
+C:\Users\ayo\ mr\ white\.cargo\registry\src\index.crates.io-6f17d22bba15001f\log-0.4.20\src\__private_api.rs:
