@@ -29,8 +29,6 @@ using(Tree tree = new ())  {
     Frame frame = new Frame(pixels, "Sender Tutorial");
 
     tree.Send()
-
-
 }
 ```
 
