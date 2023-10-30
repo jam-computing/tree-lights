@@ -7,7 +7,8 @@ namespace TreeAPI.Config;
  * Maps to "data/client.json"
  */
 
-public class ClientConfig {
+public class ClientConfig
+{
     // MUST check if OS is windows before setting path
     // Dotnet core on linux has it's path from the folder containing your .cs files, windows does NOT
 
@@ -21,7 +22,8 @@ public class ClientConfig {
     public int DefaultInterval { get; set; }
 
     // Returns an instance of ClientConfig, with all the data from the json
-    public static ClientConfig GetConfig() {
+    public static ClientConfig GetConfig()
+    {
         string configData = "";
         string[] file = File.ReadAllLines(ConfigFile);
 
@@ -33,7 +35,8 @@ public class ClientConfig {
 
     // Easy IpAddr grabber from the json
 
-    public IpAddr GetIpAddr(string path) => new() {
+    public IpAddr GetIpAddr(string path) => new()
+    {
         Address = IP!,
         Port = Port,
         Path = path
