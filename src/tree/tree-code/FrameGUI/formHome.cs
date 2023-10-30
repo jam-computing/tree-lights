@@ -4,33 +4,27 @@ using TreeAPI.Types;
 using TreeAPI;
 using TreeAPI.Config;
 
-namespace TreeGUI
-{
-    public partial class formMain : Form
-    {
+namespace TreeGUI {
+    public partial class formHome : Form {
         public static Tree Tree { get; set; } = new Tree();
         public static bool HasEstablishedConnection { get; set; } = false;
 
 
 
-        public formMain()
-        {
+        public formHome() {
             InitializeComponent();
             Size size = WindowConfig.GetSize();
             this.Size = new Size(size.Width, size.Height);
             CheckConnection();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+        private void label1_Click(object sender, EventArgs e) {
 
         }
 
-        private void CheckConnection()
-        {
+        private void CheckConnection() {
 
-            if (HasEstablishedConnection || ClientConfig.GetConfig().Test == true)
-            {
+            if (HasEstablishedConnection || ClientConfig.GetConfig().Test == true) {
                 SetButtons(true);
                 btnConnecToTree.Text = @"Connected to Tree!";
                 if (ClientConfig.GetConfig().Test == true)
@@ -46,8 +40,7 @@ namespace TreeGUI
             Tree.Connect(ip);
             Tree.Send("New TreeGUI instance - Connecting to server");
 
-            if (Tree.IsConnected == false)
-            {
+            if (Tree.IsConnected == false) {
                 lblInfo.Text = @"Could not connect to the Tree server. Please check your config files";
                 SetButtons(false);
                 return;
@@ -55,12 +48,10 @@ namespace TreeGUI
 
 
             // dont ask
-            Tree.WebSocket!.OnMessage += (sender, e) =>
-            {
+            Tree.WebSocket!.OnMessage += (sender, e) => {
                 Thread.Sleep(50);
-                var form = formMaster.ChildForm as formMain;
-                form?.Invoke(() =>
-                {
+                var form = formMaster.ChildForm as formHome;
+                form?.Invoke(() => {
                     string message = e.Data;
                     btnConnecToTree.Text = "Connected to Tree!";
                     HasEstablishedConnection = true;
@@ -74,8 +65,7 @@ namespace TreeGUI
         }
 
         // btnSetupTree
-        private void button1_Click(object sender, EventArgs e)
-        {
+        private void button1_Click(object sender, EventArgs e) {
             var activeForm = ActiveForm as formMaster;
             // Set size to size of Scanner
             Size size = WindowConfig.GetSize();
@@ -86,8 +76,7 @@ namespace TreeGUI
 
         }
 
-        private void SetButtons(bool enabled)
-        {
+        private void SetButtons(bool enabled) {
             btnSendToTree.Enabled = enabled;
             btnViewMinecraft.Enabled = enabled;
             btnSetupTree.Enabled = enabled;
@@ -95,8 +84,7 @@ namespace TreeGUI
 
         }
 
-        private void btnViewFrames_Click(object sender, EventArgs e)
-        {
+        private void btnViewFrames_Click(object sender, EventArgs e) {
 
         }
 
@@ -104,13 +92,11 @@ namespace TreeGUI
         private void btnSendToTree_Click(object sender, EventArgs e) =>
             (ActiveForm as formMaster)!.DisplayForm(new formSendToTree());
 
-        private void formMain_Load(object sender, EventArgs e)
-        {
+        private void formMain_Load(object sender, EventArgs e) {
 
         }
 
-        private void btnViewMinecraft_Click(object sender, EventArgs e)
-        {
+        private void btnViewMinecraft_Click(object sender, EventArgs e) {
             var size = WindowConfig.GetSize();
             (ActiveForm as formMaster)!.Size = new Size(size.Width, size.Height);
             (ActiveForm as formMaster)!.DisplayForm(new ViewMinecraftImage());

@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeAPI", "TreeAPI\TreeAPI.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeServer", "TreeServer\TreeServer.csproj", "{3DD016C3-8A97-44ED-9BB4-99AA962CD8BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C37F31AD-7C7A-45CC-BC35-CA9354D92821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsoleApp", "ConsoleApp1\TestConsoleApp.csproj", "{C37F31AD-7C7A-45CC-BC35-CA9354D92821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeGUI", "FrameGUI\TreeGUI.csproj", "{16B32193-3B1C-4BE7-8DEA-E224CD0081EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeGUI", "FrameGUI\TreeGUI.csproj", "{16B32193-3B1C-4BE7-8DEA-E224CD0081EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

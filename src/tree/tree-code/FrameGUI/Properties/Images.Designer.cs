@@ -63,6 +63,36 @@ namespace TreeGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Circuit_Christmas_Tree {
+            get {
+                object obj = ResourceManager.GetObject("Circuit_Christmas_Tree", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Circuit_Side_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Circuit_Side_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Circuit_Top_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Circuit_Top_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cursed_Tree {
             get {
                 object obj = ResourceManager.GetObject("Cursed_Tree", resourceCulture);

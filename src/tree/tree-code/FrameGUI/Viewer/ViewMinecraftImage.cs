@@ -36,7 +36,7 @@ public partial class ViewMinecraftImage : Form {
         Size size = WindowConfig.GetSize();
         this.Size = new Size(size.Width, size.Height);
         // (ActiveForm as formMaster)!.Size = new Size(500, 300);
-        (ActiveForm as formMaster)!.DisplayForm(new formMain());
+        (ActiveForm as formMaster)!.DisplayForm(new formHome());
     }
 
     private Bitmap? GetImage() {
@@ -110,6 +110,6 @@ public partial class ViewMinecraftImage : Form {
     }
 
     private void buttonBack_Click(object sender, EventArgs e) {
-        (ActiveForm as formMaster)?.DisplayForm(new formMain());
+        (ActiveForm as formMaster)?.DisplayForm(new formHome());
     }
 }

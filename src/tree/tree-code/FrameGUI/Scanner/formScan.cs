@@ -31,7 +31,7 @@ public partial class formScan : Form
         // Shove it out to a file somewhere
         DataManger.PrintDataToFile();
         // Go back to the main menu
-        (ActiveForm as formMaster)?.DisplayForm(new formMain());
+        (ActiveForm as formMaster)?.DisplayForm(new formHome());
     }
 
     private void buttonBack_Click(object sender, EventArgs e)
@@ -70,7 +70,7 @@ public partial class formScan : Form
         int randomNumber = new Random().Next(100, 999);
 
         // get tree
-        var tree = formMain.Tree;
+        var tree = formHome.Tree;
 
         // Connect to ip address
         tree.Connect(address);

@@ -18,7 +18,7 @@ public partial class formWelcome : Form
     private void buttonBack_Click(object sender, EventArgs e)
     {
         // Go back to main
-        (ActiveForm as formMaster)?.DisplayForm(new formMain());
+        (ActiveForm as formMaster)?.DisplayForm(new formHome());
     }
 
     private void formWelcome_Load(object sender, EventArgs e)

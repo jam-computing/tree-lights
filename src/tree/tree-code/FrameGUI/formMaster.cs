@@ -1,38 +1,90 @@
-﻿using TreeAPI.Config;
-namespace TreeGUI;
-public partial class formMaster : Form
-{
-    public bool TreeSetup = false;
+﻿namespace TreeGUI;
+public partial class formMaster : Form {
+    public const int FORM_BORDER_HEIGHT = 54;
+    public const int FORM_BORDER_WIDTH = 22;
     public static Form? ChildForm { get; set; }
-    public Panel MasterPanel => panelMaster;
-    public formMaster()
-    {
+
+    public formMaster() {
         InitializeComponent();
-        FormClosing += Form_Close!;
-        DisplayForm(new formMain());
-        Size size = WindowConfig.GetSize();
-        Size = new Size(size.Width, size.Height);
-        // Size = new Size(700, 500);
-        TreeSetup = true;
+
+        // Setup events
+        FormClosing += Form_Close;
+
+        // Format this form
+        MinimumSize = GetSize();
+        Size = MinimumSize;
+
+        // Display the first form
+        DisplayFormAfterSplash(new formHome());
     }
 
-    public void DisplayForm(Form form)
-    {
+    /// <summary>
+    /// Gets the initial size of the master form
+    /// </summary>
+    /// <returns></returns>
+    /// <exception cref="NullReferenceException"></exception>
+    private static Size GetSize() {
+        Size workingArea;
+
+        try {
+            workingArea = Screen.PrimaryScreen!.WorkingArea.Size;
+        }
+        catch (NullReferenceException) {
+            throw new NullReferenceException("You don't seem to have a screen on your computer?!?!");
+        }
+
+        int width = workingArea.Width / 3;
+
+        int height = (int)(width * 2f / 3);
+
+        return new Size(width + FORM_BORDER_WIDTH, height + FORM_BORDER_HEIGHT);
+    }
+
+    public void DisplayForm(Form form) {
         ChildForm = form;
-        ChildForm.TopLevel = false;
-        ChildForm.FormBorderStyle = FormBorderStyle.None;
-        ChildForm.BringToFront();
 
-        panelMaster.Controls.Clear();
-        panelMaster.Controls.Add(ChildForm);
-        ChildForm.Show();
-        panelMaster.Size = ChildForm.Size;
-        MinimumSize = ChildForm.Size;
-        MaximumSize = ChildForm.Size;
+        // Setup form display settings
+        ChildForm.TopLevel = false;
+        ChildForm.Dock = DockStyle.Fill;
+        ChildForm.FormBorderStyle = FormBorderStyle.None;
+        ChildForm.Enabled = true;
+        ChildForm.Visible = true;
+
+        // Display in panel
+        pnlFormHolder.Controls.Clear();
+        pnlFormHolder.Controls.Add(ChildForm);
+        pnlFormHolder.Show();
     }
 
-    public void Form_Close(object sender, EventArgs e)
-    {
-        formMain.Tree.Dispose();
+    public void DisplayFormInBackground(Form form) {
+        ChildForm = form;
+
+        // Setup form display settings
+        ChildForm.TopLevel = false;
+        ChildForm.Dock = DockStyle.Fill;
+        ChildForm.FormBorderStyle = FormBorderStyle.None;
+        ChildForm.Visible = false;
+        ChildForm.Enabled = true;
+
+        // Display in panel
+        pnlFormHolder.Controls.Add(ChildForm);
+        ChildForm.SendToBack();
+        ChildForm.Visible = true;
+        pnlFormHolder.Show();
+    }
+
+    public async void DisplayFormAfterSplash(Form form) {
+        formSplash splashScreen = new formSplash();
+        DisplayForm(splashScreen);
+        DisplayFormInBackground(form);
+
+        await splashScreen.SimulateLoading();
+
+        form.BringToFront();
+        pnlFormHolder.Controls.Remove(splashScreen);
+    }
+
+    public void Form_Close(object? sender, EventArgs e) {
+        formHome.Tree.Dispose();
     }
 }

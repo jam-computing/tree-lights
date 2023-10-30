@@ -2,7 +2,7 @@ using TreeAPI.Config;
 using TreeAPI;
 using TreeAPI.Types;
 using System.Drawing;
-namespace ConsoleApp1;
+namespace TestConsoleApp;
 
 public class FrameSendTester
 {

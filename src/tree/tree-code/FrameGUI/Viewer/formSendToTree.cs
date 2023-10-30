@@ -16,7 +16,7 @@ namespace TreeGUI
             InitializeComponent();
 
             // Grab the tree instance from the main form
-            Tree tree = formMain.Tree;
+            Tree tree = formHome.Tree;
 
             // Connect with a frame request
             tree.Connect(config.GetIpAddr("FrameRequest"));
@@ -52,12 +52,12 @@ namespace TreeGUI
 
         // Back to the main form we go!
         private void btnBack_Click(object sender, EventArgs e) =>
-            (ActiveForm as formMaster)!.DisplayForm(new formMain());
+            (ActiveForm as formMaster)!.DisplayForm(new formHome());
 
         private void btnSend_Click(object sender, EventArgs e)
         {
             // Send the text message found in the text-box
-            Tree tree = formMain.Tree;
+            Tree tree = formHome.Tree;
             // Connect to the Text endpoint, see docs/endpoints.md
             tree.Connect(ClientConfig.GetConfig().GetIpAddr("Text"));
 
@@ -67,7 +67,7 @@ namespace TreeGUI
         private void btnSendFrame_Click(object sender, EventArgs e)
         {
             // create the tree and send a filepath of the combo box text  
-            Tree tree = formMain.Tree;
+            Tree tree = formHome.Tree;
             tree.Connect(config.GetIpAddr("Frame"));
             Console.WriteLine(comboFrameList.Text);
             tree.Send(comboFrameList.Text);
@@ -77,7 +77,7 @@ namespace TreeGUI
         private void btnSendAnimation_Click(object sender, EventArgs e)
         {
             // create the tree and send a filepath of the combo box text  
-            Tree tree = formMain.Tree;
+            Tree tree = formHome.Tree;
             tree.Connect(config.GetIpAddr("Animation"));
             Console.WriteLine(comboBox1.Text);
             tree.Send(comboBox1.Text);

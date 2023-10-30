@@ -1,9 +1,7 @@
 ﻿using TreeGUI.Properties;
 
-namespace TreeGUI
-{
-    partial class formMaster
-    {
+namespace TreeGUI {
+    partial class formMaster {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -13,10 +11,8 @@ namespace TreeGUI
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -28,28 +24,28 @@ namespace TreeGUI
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
-            panelMaster = new Panel();
+        private void InitializeComponent() {
+            pnlFormHolder = new Panel();
             SuspendLayout();
             // 
-            // panelMaster
+            // pnlFormHolder
             // 
-            panelMaster.Dock = DockStyle.Fill;
-            panelMaster.Location = new Point(0, 0);
-            panelMaster.Margin = new Padding(3, 4, 3, 4);
-            panelMaster.Name = "panelMaster";
-            panelMaster.Size = new Size(786, 554);
-            panelMaster.TabIndex = 0;
+            pnlFormHolder.BackColor = Color.Black;
+            pnlFormHolder.Dock = DockStyle.Fill;
+            pnlFormHolder.Location = new Point(0, 0);
+            pnlFormHolder.Margin = new Padding(4, 5, 4, 5);
+            pnlFormHolder.Name = "pnlFormHolder";
+            pnlFormHolder.Size = new Size(1200, 900);
+            pnlFormHolder.TabIndex = 0;
             // 
             // formMaster
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(786, 554);
-            Controls.Add(panelMaster);
+            ClientSize = new Size(1200, 900);
+            Controls.Add(pnlFormHolder);
             Icon = Images.vim_logo;
-            Margin = new Padding(3, 4, 3, 4);
+            Margin = new Padding(4, 5, 4, 5);
             MaximizeBox = false;
             Name = "formMaster";
             Text = "Tree GUI";
@@ -58,6 +54,6 @@ namespace TreeGUI
 
         #endregion
 
-        private Panel panelMaster;
+        private Panel pnlFormHolder;
     }
 }

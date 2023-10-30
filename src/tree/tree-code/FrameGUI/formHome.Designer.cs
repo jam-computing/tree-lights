@@ -1,7 +1,5 @@
-﻿namespace TreeGUI
-{
-    partial class formMain
-    {
+﻿namespace TreeGUI {
+    partial class formHome {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -11,10 +9,8 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -26,8 +22,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             label1 = new Label();
             btnSetupTree = new Button();
             btnSendToTree = new Button();
@@ -36,25 +31,30 @@
             btnConnecToTree = new Button();
             lblInfo = new Label();
             lblMessage = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.Top;
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Black", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(239, 9);
+            label1.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(449, 40);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(239, 50);
+            label1.Size = new Size(303, 67);
             label1.TabIndex = 0;
-            label1.Text = "Tree Lights!";
+            label1.Text = "Tree Lights";
             label1.Click += label1_Click;
             // 
             // btnSetupTree
             // 
-            btnSetupTree.Location = new Point(216, 176);
+            btnSetupTree.Location = new Point(386, 341);
+            btnSetupTree.Margin = new Padding(4, 5, 4, 5);
             btnSetupTree.Name = "btnSetupTree";
-            btnSetupTree.Size = new Size(280, 75);
+            btnSetupTree.Size = new Size(400, 125);
             btnSetupTree.TabIndex = 3;
             btnSetupTree.Text = "Setup Tree";
             btnSetupTree.UseVisualStyleBackColor = true;
@@ -62,10 +62,9 @@
             // 
             // btnSendToTree
             // 
-            btnSendToTree.Location = new Point(216, 96);
-            btnSendToTree.Margin = new Padding(2);
+            btnSendToTree.Location = new Point(386, 208);
             btnSendToTree.Name = "btnSendToTree";
-            btnSendToTree.Size = new Size(280, 75);
+            btnSendToTree.Size = new Size(400, 125);
             btnSendToTree.TabIndex = 4;
             btnSendToTree.Text = "Send To Tree";
             btnSendToTree.UseVisualStyleBackColor = true;
@@ -73,9 +72,10 @@
             // 
             // btnViewMinecraft
             // 
-            btnViewMinecraft.Location = new Point(216, 257);
+            btnViewMinecraft.Location = new Point(386, 476);
+            btnViewMinecraft.Margin = new Padding(4, 5, 4, 5);
             btnViewMinecraft.Name = "btnViewMinecraft";
-            btnViewMinecraft.Size = new Size(280, 76);
+            btnViewMinecraft.Size = new Size(400, 127);
             btnViewMinecraft.TabIndex = 5;
             btnViewMinecraft.Text = "View Minecraft Image";
             btnViewMinecraft.UseVisualStyleBackColor = true;
@@ -84,9 +84,10 @@
             // btnOpenConfig
             // 
             btnOpenConfig.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnOpenConfig.Location = new Point(216, 62);
+            btnOpenConfig.Location = new Point(559, 151);
+            btnOpenConfig.Margin = new Padding(4, 5, 4, 5);
             btnOpenConfig.Name = "btnOpenConfig";
-            btnOpenConfig.Size = new Size(144, 29);
+            btnOpenConfig.Size = new Size(206, 48);
             btnOpenConfig.TabIndex = 6;
             btnOpenConfig.Text = "Settings";
             btnOpenConfig.UseVisualStyleBackColor = true;
@@ -94,9 +95,10 @@
             // 
             // btnConnecToTree
             // 
-            btnConnecToTree.Location = new Point(366, 62);
+            btnConnecToTree.Location = new Point(600, 151);
+            btnConnecToTree.Margin = new Padding(4, 5, 4, 5);
             btnConnecToTree.Name = "btnConnecToTree";
-            btnConnecToTree.Size = new Size(130, 29);
+            btnConnecToTree.Size = new Size(186, 48);
             btnConnecToTree.TabIndex = 7;
             btnConnecToTree.Text = "Connect To Tree";
             btnConnecToTree.UseVisualStyleBackColor = true;
@@ -106,25 +108,38 @@
             // 
             lblInfo.AutoSize = true;
             lblInfo.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            lblInfo.Location = new Point(49, 343);
+            lblInfo.Location = new Point(70, 572);
+            lblInfo.Margin = new Padding(4, 0, 4, 0);
             lblInfo.Name = "lblInfo";
-            lblInfo.Size = new Size(0, 30);
+            lblInfo.Size = new Size(0, 45);
             lblInfo.TabIndex = 8;
             // 
             // lblMessage
             // 
             lblMessage.AutoSize = true;
             lblMessage.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            lblMessage.Location = new Point(391, 357);
+            lblMessage.Location = new Point(559, 595);
+            lblMessage.Margin = new Padding(4, 0, 4, 0);
             lblMessage.Name = "lblMessage";
-            lblMessage.Size = new Size(0, 30);
+            lblMessage.Size = new Size(0, 45);
             lblMessage.TabIndex = 9;
             // 
-            // formMain
+            // pictureBox1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            pictureBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            pictureBox1.Location = new Point(900, 500);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(300, 300);
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
+            // 
+            // formHome
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(719, 386);
+            BackColor = Color.Black;
+            ClientSize = new Size(1200, 800);
+            Controls.Add(pictureBox1);
             Controls.Add(lblMessage);
             Controls.Add(lblInfo);
             Controls.Add(btnConnecToTree);
@@ -134,9 +149,11 @@
             Controls.Add(btnSetupTree);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "formMain";
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "formHome";
             Text = "formMain";
             Load += formMain_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -151,5 +168,6 @@
         private Button btnConnecToTree;
         private Label lblInfo;
         private Label lblMessage;
+        private PictureBox pictureBox1;
     }
 }

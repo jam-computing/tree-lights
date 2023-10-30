@@ -1,9 +1,7 @@
-﻿using TreeAPI;
+﻿using System.Drawing;
+using TreeAPI;
 using TreeAPI.Config;
-
-var rng = new Random();
-
-
+using TreeAPI.Types;
 
 
 using (Tree tree = new Tree("Text".GetIp()))
@@ -17,10 +15,3 @@ using (Tree tree = new Tree("Text".GetIp()))
     Console.WriteLine($"Message is:  {tree.ReceivedMessage}");
     
 }
-
-
-    
-    
-
-
-

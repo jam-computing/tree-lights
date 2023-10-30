@@ -1,22 +1,24 @@
 using System.Drawing;
-using System.Text.Json;
 namespace TreeAPI.Types;
 
-// The skeleton of the entire API, kinda
-public class Frame : ISendable
-{
-    public Frame( List<Color>? pixels = null, string? sender = null )
-    {
-        if (pixels is null || sender == null) return;
+/// <summary>
+/// A "Frame" is a list of colours, which corresponds to what colour each LED will be set to when it is displayed
+/// </summary>
+public class Frame : ISendable {
+    public string Name { get; set; } = String.Empty;
+    public string Sender { get; init; } = String.Empty;
+    public List<Color> Pixels { get; init; } = new();
 
-        (Sender, Pixels) = (sender, pixels);
+    public Frame() { }
+
+    public Frame(List<Color> pixels, string sender) {
+        Pixels = pixels;
+        Sender = sender;
     }
 
-    public string Sender { get; init; } = String.Empty;
-    // A list of System.Drawing.Color
-    // The best way to code with these is to use the 
-    // Color.FromArgb(0, 0, 0); 
-    public List<Color> Pixels { get; init; } = new();
-    // What the frame is called!
-    public string Name { get; set; } = String.Empty;
+    public override string ToString() {
+        ColorConverter converter = new ColorConverter();
+        
+        return string.Join(", ", Pixels.Select(x => x.ToString()));
+    }
 }

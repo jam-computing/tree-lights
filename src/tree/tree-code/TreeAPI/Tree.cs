@@ -154,7 +154,7 @@ public class Tree : IDisposable
     // This is allows the statement to be used in a "using"
     public void Dispose()
     {
-        Console.WriteLine("Connection to tree terminated ( safe )");
+        Console.WriteLine("Connection to tree terminated (safe)");
         // Close the socket safely
         WebSocket?.Close();
         WebSocket = null;

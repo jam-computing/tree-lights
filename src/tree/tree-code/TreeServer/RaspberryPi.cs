@@ -14,7 +14,7 @@ internal static class RaspberryPi
 
     static RaspberryPi()
     {
-        RaspberryPi.Controller = RaspberryPi.Settings.AddController(LedCount, Pin.Gpio18, StripType.Unknown, ControllerType.PWM0);
-        RPi = new WS281x(RaspberryPi.Settings);
+        Controller = Settings.AddController(LedCount, Pin.Gpio18, StripType.Unknown, ControllerType.PWM0);
+        RPi = new WS281x(Settings);
     }
 }
