@@ -190,7 +190,6 @@ C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\ref\TreeGUI.dll
 C:\Users\elliot alderson\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.sourcelink.json
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.csproj.AssemblyReference.cache
-C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formMain.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formMaster.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSettings.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.Properties.Images.resources
@@ -254,3 +253,5 @@ C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\o
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSettings.resources
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSplash.resources
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formHome.resources
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formHome.resources
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSplash.resources
