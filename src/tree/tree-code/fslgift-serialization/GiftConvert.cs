@@ -1,49 +1,53 @@
-using System.Drawing.Drawing2D;
-using fslgift_serialization;
 using TreeAPI;
+using System.Text;
 namespace FslGift;
 
-public class GiftConvert
+public static class GiftConvert
 {
     public static string SerializeAnimation(Animation animation)
     {
-        string gift = String.Empty;
 
-        gift += $"Sender: \"{animation.Sender}\"\n";
-        gift += $"Name: \"{animation.Name}\"\n";
-        gift += $"Interval: \"unspecifed\"\n";
-        gift += $"IsLooping: \"{animation.IsLooping}\"\n";
-        gift += $"LedCount: \"{animation.Frames[0].Pixels.Count}\"\n";
-        gift += $"FrameCount: \"{animation.Frames.Count}\"\n\n";
+        StringBuilder stringBuilder = new();
 
-        gift += "---\n\n";
+        stringBuilder.Append($"Sender: \"{animation.Sender}\"\n");
+        stringBuilder.Append($"Name: \"{animation.Name}\"\n");
+        stringBuilder.Append($"Interval: \"unspecified\"\n");
+        stringBuilder.Append($"IsLooping: \"{animation.IsLooping}\"\n");
+        stringBuilder.Append($"LedCount: \"{animation.Frames[0].Pixels.Count}\"\n");
+        stringBuilder.Append($"FrameCount: \"{animation.Frames.Count}\"\n\n");
+
+        stringBuilder.Append("---\n\n");
 
         var index = 1;
 
         foreach (var frame in animation.Frames)
         {
 
-            gift += $"{index++}: ";
+            stringBuilder.Append($"{index++}: ");
             foreach (var pixel in frame.Pixels)
             {
-                gift += $"[{pixel.R},{pixel.G},{pixel.B}],";
+                stringBuilder.Append($"[{pixel.R},{pixel.G},{pixel.B}],");
             }
 
-            gift += "\n";
+            stringBuilder.Append($"\n");
 
         }
 
-        return gift;
+        stringBuilder.AppendLine();
+
+        return stringBuilder.ToString();
     }
 
-    public static Animation DeserializeAnimation(string[] str)
+    public static Animation DeserializeAnimation(params string[] str)
     {
+
         Animation animation = new()
         {
             Sender = str[0].Split("\"")[1],
             Name = str[1].Split("\"")[1],
             IsLooping = Convert.ToBoolean(str[3].Split("\"")[1])
         };
+
         int index = 0;
 
         // Find end of properties and start of data
@@ -56,7 +60,6 @@ public class GiftConvert
             }
             index++;
         }
-
 
         // List of tokens to parse
         List<Token> tokens = new();
@@ -71,11 +74,13 @@ public class GiftConvert
             index++;
         }
 
-        // Repeat while there isnt a number at the start of the line
-        while (int.TryParse(str[index].Split(":")[0], out int res));
+        // Repeat while there isn't a number at the start of the line
+        while (int.TryParse(str[index].Split(":")[0], out int _));
 
         // Dynamically update
-        return Parser.Parse(tokens, Convert.ToInt16(str[5].Split("\"")[1]), Convert.ToInt16(str[4].Split("\"")[1]), animation);
+        Parser.Parse(tokens, Convert.ToInt16(str[5].Split("\"")[1]), Convert.ToInt16(str[4].Split("\"")[1]), ref animation);
+
+        return animation;
     }
 
 }

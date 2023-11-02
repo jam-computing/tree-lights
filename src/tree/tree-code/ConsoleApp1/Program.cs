@@ -1,27 +1,28 @@
-﻿using System.Drawing;
-using TreeAPI;
-using TreeAPI.Types;
+﻿using TreeAPI;
 using FslGift;
-
-
-Animation ani = new()
+using TreeAPI.Types;
+using System.Drawing;
+/*
+Animation test = new()
 {
-    Frames = Enumerable.Range(0, 100).Select(x => new Frame(Enumerable.Range(0, 500)
-        .Select(y => Color.FromArgb(x, y / 2, 0)).ToList())).ToList(),
-    IsLooping = true,
-    Name = "Special Animation",
-    Sender = "Jules"
+    Frames = Enumerable.Range(0, 1000).Select(x => new Frame()
+    {
+        Pixels = Enumerable.Range(0, 500).Select(y => Color.FromArgb(0, x / 10, x / 20, y / 2)).ToList()
+    }).ToList(),
+    Sender = "Matthew",
+    Name = "ReallyCoolAnimation"
 };
 
-var str = GiftConvert.SerializeAnimation(ani);
+string str = GiftConvert.SerializeAnimation(test);
 
-using (StreamWriter sw = new StreamWriter("Test.fslgift"))
+
+using (StreamWriter sw = new("Example.fslgift"))
 {
-    sw.WriteLine(str);
+    sw.Write(str);
 }
+*/
+string[] file = File.ReadAllLines("Example.fslgift");
 
-var str1 = File.ReadAllLines("Test.fslgift");
-
-Animation animation = GiftConvert.DeserializeAnimation(str1);
+var animation = GiftConvert.DeserializeAnimation(file);
 
 Console.WriteLine(animation.Sender);

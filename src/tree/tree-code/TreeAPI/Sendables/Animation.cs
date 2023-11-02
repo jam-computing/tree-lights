@@ -5,13 +5,13 @@ namespace TreeAPI;
 // One of the cornerstone types that make up the API
 public class Animation : ISendable
 {
-    public Animation( List<Frame>? frames = null, string? sender = null)
+    public Animation(List<Frame>? frames = null, string? sender = null)
     {
         if (sender == null || frames == null) return;
 
         (Sender, Frames) = (sender, frames);
     }
-    
+
     // Indexer just returns the frame
     public Frame this[int i] => Frames[i];
     // Who is sending the data, Not as important in this than in other types

@@ -1,4 +1,4 @@
-﻿namespace fslgift_serialization;
+﻿namespace FslGift;
 
 internal class Token
 {
@@ -16,6 +16,5 @@ internal enum TokenType
 {
     RIGHT_BRACKET,
     LEFT_BRACKET,
-    COMMA,
     NUMBER
 }

@@ -1,13 +1,20 @@
-﻿using static fslgift_serialization.TokenType;
-namespace fslgift_serialization;
+﻿using static FslGift.TokenType;
+namespace FslGift;
 
+// This class handles turning the raw string to a list of tokens
 internal class Lexer
 {
-    internal static List<Token> Lex(string str)
+    internal static List<Token> Lex(string input)
     {
+
+        // Speed baby
+        ReadOnlySpan<char> str = input.AsSpan();
+
+        // Reset vals
         _current = 0;
         _tokens = new();
 
+        // Loop until the current pointer is invalid
         for (; _current < str.Length;)
         {
             switch (Current(str))
@@ -44,7 +51,9 @@ internal class Lexer
         return _tokens;
     }
 
+    // Holds the current index of the str ( char[] )
     private static int _current;
+    // List of tokens to return
     private static List<Token> _tokens = new();
 
     // Increment current without consuming token
@@ -56,9 +65,7 @@ internal class Lexer
         _current++;
     }
     // Look at the next token
-    static char Peek(string str) => str[_current + 1];
+    static char Peek(ReadOnlySpan<char> str) => str[_current + 1];
     // Look at the current token
-    static char Current(string str) => str[_current];
-    // Look at the previous token 
-    static char Previous(string str) => str[_current - 1];
+    static char Current(ReadOnlySpan<char> str) => str[_current];
 }

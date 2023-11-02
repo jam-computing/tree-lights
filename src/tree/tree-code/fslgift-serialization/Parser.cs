@@ -1,20 +1,27 @@
-﻿using static fslgift_serialization.TokenType;
+﻿using static FslGift.TokenType;
+
 using TreeAPI;
 using TreeAPI.Types;
-using System.Drawing;
-namespace fslgift_serialization;
 
+using System.Drawing;
+
+namespace FslGift;
 internal class Parser
 {
+    // Holds the current index of the Token List
     private static int _current;
     private static List<Token> _tokens = new();
-    internal static Animation Parse(List<Token> tokens, int FrameCount, int LedCount, Animation Original)
+
+    internal static void Parse(List<Token> tokens, int FrameCount, int LedCount, ref Animation Original)
     {
+        // Reset vals
         _current = 0;
         _tokens = tokens;
 
+        // Index of the current " frame " ( really just a set of x Leds ( LedCount ))
         int currentFrame = 0;
 
+        // Way easier to create a list of tuples and then transform into animation than trying to just do animation right away
         List<(int, int, int)> pixels = new();
 
         foreach (var token in _tokens)
@@ -22,40 +29,46 @@ internal class Parser
             switch (Current().Type)
             {
                 case NUMBER:
-                    if (Previous().Type == LEFT_BRACKET) // R
+                    if (Previous().Type == LEFT_BRACKET) // Must be a R value
                     {
                         pixels.Add(new());
                         pixels[currentFrame] = new(Convert.ToInt16(Current().Data), 0, 0);
                     }
-                    else if (Previous().Type == NUMBER && Peek().Type == NUMBER) // G
+                    else if (Previous().Type == NUMBER && Peek().Type == NUMBER) // Must be a G value
                     {
                         pixels[currentFrame] = new(pixels[currentFrame].Item1, Convert.ToInt16(Current().Data), pixels[currentFrame].Item3);
                     }
-                    else
-                    { // B
+                    else // Must be a B value
+                    {
                         pixels[currentFrame] = new(pixels[currentFrame].Item1, pixels[currentFrame].Item2, Convert.ToInt16(Current().Data));
                         currentFrame++;
                     }
                     break;
                 default: break;
             }
-
+            // Next token
             Next();
         }
 
-        var frames = Enumerable.Range(0, FrameCount).Select(x => pixels.Where(y => y.Item1 == x).ToList()).ToList();
+        // Frames is just a list of list of tuples
+        // Each frame holds a size of LedCount
+        List<List<(int, int, int)>> frames = new();
 
-        Animation animation = new Animation()
+        for (int i = 0; i < pixels.Count; i += LedCount)
         {
-            Frames = Enumerable.Range(0, FrameCount - 1).Select(x => new Frame(
-               Enumerable.Range(0, LedCount - 1).Select(y => Color.FromArgb(0, frames[x][y].Item1, frames[x][y].Item2, frames[x][y].Item3)).ToList()
-               )).ToList(),
-            Sender = Original.Sender,
-            IsLooping = Original.IsLooping,
-            Name = Original.Name
-        };
+            var list = pixels.GetRange(i, Math.Min(LedCount, pixels.Count - i));
+            frames.Add(list);
+        }
 
-        return animation;
+        // This will not work
+        // var frames = Enumerable.Range(0, FrameCount).Select(x => pixels.Where(y => y.Item1 == x).ToList()).ToList();
+
+
+        // Go through frames and turn them all into actual Frame Objects within the Animation object
+        Original.Frames = Enumerable.Range(0, FrameCount - 1).Select(x => new Frame(
+           Enumerable.Range(0, LedCount - 1).Select(y => Color.FromArgb(0, frames[x][y].Item1, frames[x][y].Item2, frames[x][y].Item3)).ToList()
+           )).ToList();
+
     }
 
 
