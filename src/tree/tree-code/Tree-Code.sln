@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsoleApp", "ConsoleAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeGUI", "FrameGUI\TreeGUI.csproj", "{16B32193-3B1C-4BE7-8DEA-E224CD0081EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fslgift-serialization", "fslgift-serialization\fslgift-serialization.csproj", "{45CE788C-B186-463A-9498-0608E09AEFC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{16B32193-3B1C-4BE7-8DEA-E224CD0081EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16B32193-3B1C-4BE7-8DEA-E224CD0081EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16B32193-3B1C-4BE7-8DEA-E224CD0081EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CE788C-B186-463A-9498-0608E09AEFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CE788C-B186-463A-9498-0608E09AEFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CE788C-B186-463A-9498-0608E09AEFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CE788C-B186-463A-9498-0608E09AEFC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

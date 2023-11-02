@@ -1,0 +1,15 @@
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.csproj.AssemblyReference.cache
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.AssemblyInfoInputs.cache
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.AssemblyInfo.cs
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.csproj.CoreCompileInputs.cache
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\bin\Debug\net7.0\fslgift-serialization.deps.json
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\bin\Debug\net7.0\fslgift-serialization.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\bin\Debug\net7.0\fslgift-serialization.pdb
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\bin\Debug\net7.0\TreeAPI.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\bin\Debug\net7.0\TreeAPI.pdb
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.csproj.CopyComplete
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\refint\fslgift-serialization.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\fslgift-serialization.pdb
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\fslgift-serialization\obj\Debug\net7.0\ref\fslgift-serialization.dll

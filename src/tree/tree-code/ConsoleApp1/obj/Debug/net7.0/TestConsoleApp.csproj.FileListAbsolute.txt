@@ -24,3 +24,31 @@ C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleA
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.pdb
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.genruntimeconfig.cache
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ref\TestConsoleApp.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\refint\TestConsoleApp.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.pdb
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TestConsoleApp.exe
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TestConsoleApp.deps.json
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TestConsoleApp.runtimeconfig.json
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TestConsoleApp.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TestConsoleApp.pdb
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\Emgu.CV.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\Emgu.CV.Bitmap.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\websocket-sharp.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\fslgift-serialization.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TreeAPI.dll
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\fslgift-serialization.pdb
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\bin\Debug\net7.0\TreeAPI.pdb
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.csproj.AssemblyReference.cache
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.AssemblyInfoInputs.cache
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.AssemblyInfo.cs
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.csproj.CopyComplete
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\TestConsoleApp.genruntimeconfig.cache
+C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\ConsoleApp1\obj\Debug\net7.0\ref\TestConsoleApp.dll

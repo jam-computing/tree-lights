@@ -10,7 +10,8 @@
         "dependencies": {
           "Emgu.CV.Bitmap": "4.8.0.5324",
           "System.Drawing.Common": "7.0.0",
-          "TreeAPI": "1.0.0"
+          "TreeAPI": "1.0.0",
+          "fslgift-serialization": "1.0.0"
         },
         "runtime": {
           "TestConsoleApp.dll": {}
@@ -223,6 +224,14 @@
           }
         }
       },
+      "fslgift-serialization/1.0.0": {
+        "dependencies": {
+          "TreeAPI": "1.0.0"
+        },
+        "runtime": {
+          "fslgift-serialization.dll": {}
+        }
+      },
       "TreeAPI/1.0.0": {
         "dependencies": {
           "Emgu.CV.Bitmap": "4.8.0.5324",
@@ -422,6 +431,11 @@
       "sha512": "sha512-knoinAv31vbdxXdypnzN2MPX5hyntVLWceq6OdWRXkr9zzqp/RWbxSuLFGbkW8De1061URgNAN43BUTlgMx1CA==",
       "path": "websocketsharp-netstandard/1.0.1",
       "hashPath": "websocketsharp-netstandard.1.0.1.nupkg.sha512"
+    },
+    "fslgift-serialization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "TreeAPI/1.0.0": {
       "type": "project",

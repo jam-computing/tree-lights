@@ -402,6 +402,19 @@
           }
         }
       },
+      "fslgift-serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TreeAPI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/fslgift-serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/fslgift-serialization.dll": {}
+        }
+      },
       "TreeAPI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1695,6 +1708,11 @@
         "websocketsharp-netstandard.nuspec"
       ]
     },
+    "fslgift-serialization/1.0.0": {
+      "type": "project",
+      "path": "../fslgift-serialization/fslgift-serialization.csproj",
+      "msbuildProject": "../fslgift-serialization/fslgift-serialization.csproj"
+    },
     "TreeAPI/1.0.0": {
       "type": "project",
       "path": "../TreeAPI/TreeAPI.csproj",
@@ -1705,7 +1723,8 @@
     "net7.0": [
       "Emgu.CV.Bitmap >= 4.8.0.5324",
       "System.Drawing.Common >= 7.0.0",
-      "TreeAPI >= 1.0.0"
+      "TreeAPI >= 1.0.0",
+      "fslgift-serialization >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1735,6 +1754,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\fslgift-serialization.csproj": {
+              "projectPath": "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\fslgift-serialization.csproj"
+            },
             "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
               "projectPath": "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj"
             }
