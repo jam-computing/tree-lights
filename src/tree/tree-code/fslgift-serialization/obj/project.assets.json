@@ -1707,24 +1707,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\i hate windows\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ayo mr white\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\fslgift-serialization.csproj",
+      "projectUniqueName": "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\fslgift-serialization.csproj",
       "projectName": "fslgift-serialization",
-      "projectPath": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\fslgift-serialization.csproj",
-      "packagesPath": "C:\\Users\\i hate windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\obj\\",
+      "projectPath": "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\fslgift-serialization.csproj",
+      "packagesPath": "C:\\Users\\ayo mr white\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\fslgift-serialization\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\i hate windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ayo mr white\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1738,8 +1733,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
-              "projectPath": "C:\\Users\\i hate windows\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj"
+            "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj": {
+              "projectPath": "C:\\Users\\ayo mr white\\Documents\\GitHub\\Tree-Lights\\src\\tree\\tree-code\\TreeAPI\\TreeAPI.csproj"
             }
           }
         }
@@ -1769,7 +1764,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

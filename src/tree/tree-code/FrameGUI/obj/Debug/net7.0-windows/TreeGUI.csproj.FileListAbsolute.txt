@@ -163,6 +163,7 @@ C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\bin\Debug\net7.0-windows\TreeAPI.dll
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\bin\Debug\net7.0-windows\TreeAPI.pdb
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.csproj.AssemblyReference.cache
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formMain.resources
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formMaster.resources
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSettings.resources
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.Properties.Images.resources
@@ -172,6 +173,9 @@ C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\Tree_Scanner.formTreePhoto.resources
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\Tree_Scanner.formWelcome.resources
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSendToTree.resources
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formViewAnimations.resources
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formViewFrames.resources
+C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.ViewAnimationCode.resources
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.ViewMinecraftImage.resources
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.csproj.GenerateResource.cache
 C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.GeneratedMSBuildEditorConfig.editorconfig
@@ -251,5 +255,3 @@ C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI
 C:\Users\mgrac\OneDrive\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formHome.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formHome.resources
 C:\Users\ayo mr white\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSplash.resources
-C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formHome.resources
-C:\Users\i hate windows\Documents\GitHub\Tree-Lights\src\tree\tree-code\FrameGUI\obj\Debug\net7.0-windows\TreeGUI.formSplash.resources
